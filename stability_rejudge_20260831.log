@@ -1,0 +1,2427 @@
+=== Re-judge with fixed panel: Mon Aug 31 06:06:50 PDT 2026 ===
+Judges: deepseek/deepseek-v4-flash-0731, z-ai/glm-5.3-flash, moonshotai/kimi-k3
+
+=== Judging opp115_experiment_stability_20260830 ===
+  Judge model: deepseek/deepseek-v4-flash-0731
+  Judge model: z-ai/glm-5.3-flash
+  Judge model: moonshotai/kimi-k3
+Loaded prompt template: judge_statement_prompt.md (2947 chars)
+
+Loading contradictions from: /Users/tbrack/Documents/Projects/Varitas/Varitas/varitas-foundation/research/privacy_washing/opp115_experiment_stability_20260830/statement_contradictions.json
+  NLI-flagged contradictions: 1177 / 5249 total pairs
+  Above similarity threshold (0.0): 1177
+
+============================================================
+Judging 1177 pairs with 3 LLM judges (concurrency=20)...
+============================================================
+  [11/1177] disinfo.com_024_s1_vs_disinfo.com_009_s1 sim=0.72 -> UNANIMOUS: NOT
+  [17/1177] minecraft.gamepedia.com_014_s2_vs_minecraft.gamepedia.com_010_s2 sim=0.70 -> UNANIMOUS: NOT
+  [16/1177] jibjab.com_039_s3_vs_jibjab.com_012_s1 sim=0.70 -> UNANIMOUS: NOT
+  [18/1177] jibjab.com_010_s1_vs_jibjab.com_020_s1 sim=0.70 -> UNANIMOUS: NOT
+  [8/1177] adweek.com_006_s1_vs_adweek.com_011_s2 sim=0.74 -> UNANIMOUS: NOT
+  [6/1177] barnesandnoble.com_092_s1_vs_barnesandnoble.com_049_s4 sim=0.75 -> UNANIMOUS: NOT
+  [4/1177] honda.com_005_s1_vs_honda.com_007_s1 sim=0.77 -> UNANIMOUS: NOT
+  [2/1177] kaleidahealth.org_027_s3_vs_kaleidahealth.org_049_s1 sim=0.79 -> UNANIMOUS: NOT
+  [9/1177] theatlantic.com_011_s6_vs_theatlantic.com_004_s1 sim=0.74 -> UNANIMOUS: NOT
+  [20/1177] lynda.com_017_s3_vs_lynda.com_003_s2 sim=0.69 -> UNANIMOUS: NOT
+  [15/1177] barnesandnoble.com_063_s2_vs_barnesandnoble.com_062_s1 sim=0.71 -> UNANIMOUS: NOT
+  [1/1177] kaleidahealth.org_027_s3_vs_kaleidahealth.org_010_s1 sim=0.79 -> UNANIMOUS: NOT
+  [13/1177] usa.gov_013_s2_vs_usa.gov_010_s1 sim=0.72 -> MAJORITY: CONTRA
+  [19/1177] playstation.com_019_s2_vs_playstation.com_009_s2 sim=0.70 -> UNANIMOUS: NOT
+  [12/1177] barnesandnoble.com_087_s3_vs_barnesandnoble.com_088_s1 sim=0.72 -> MAJORITY: CONTRA
+  [5/1177] abcnews.com_017_s1_vs_abcnews.com_031_s2 sim=0.75 -> UNANIMOUS: CONTRA
+  [14/1177] honda.com_004_s1_vs_honda.com_014_s1 sim=0.72 -> UNANIMOUS: NOT
+  [3/1177] kaleidahealth.org_027_s3_vs_kaleidahealth.org_026_s1 sim=0.77 -> MAJORITY: NOT
+  [10/1177] esquire.com_037_s1_vs_esquire.com_040_s1 sim=0.73 -> MAJORITY: CONTRA
+  [7/1177] rockstargames.com_029_s1_vs_rockstargames.com_013_s3 sim=0.74 -> UNANIMOUS: CONTRA
+  --- Batch 1: saved 20 results, 5 confirmed contradictions so far ---
+  [23/1177] disinfo.com_024_s1_vs_disinfo.com_005_s1 sim=0.69 -> UNANIMOUS: NOT
+  [33/1177] style.com_002_s1_vs_style.com_011_s1 sim=0.67 -> UNANIMOUS: NOT
+  [25/1177] reference.com_006_s4_vs_reference.com_009_s1 sim=0.68 -> UNANIMOUS: NOT
+  [24/1177] disinfo.com_024_s1_vs_disinfo.com_013_s1 sim=0.68 -> UNANIMOUS: NOT
+  [40/1177] tulsaworld.com_029_s3_vs_tulsaworld.com_013_s2 sim=0.66 -> UNANIMOUS: NOT
+  [21/1177] lynda.com_017_s3_vs_lynda.com_012_s1 sim=0.69 -> UNANIMOUS: NOT
+  [34/1177] jibjab.com_029_s3_vs_jibjab.com_030_s1 sim=0.67 -> UNANIMOUS: NOT
+  [38/1177] everydayhealth.com_017_s5_vs_everydayhealth.com_015_s3 sim=0.67 -> UNANIMOUS: NOT
+  [32/1177] randomhouse.com_041_s2_vs_randomhouse.com_019_s2 sim=0.67 -> UNANIMOUS: NOT
+  [26/1177] lynda.com_017_s3_vs_lynda.com_048_s1 sim=0.68 -> UNANIMOUS: NOT
+  [39/1177] sci-news.com_005_s1_vs_sci-news.com_002_s1 sim=0.67 -> UNANIMOUS: NOT
+  [36/1177] reddit.com_046_s1_vs_reddit.com_043_s1 sim=0.67 -> UNANIMOUS: NOT
+  [27/1177] imdb.com_020_s3_vs_imdb.com_018_s1 sim=0.68 -> UNANIMOUS: NOT
+  [30/1177] allstate.com_011_s2_vs_allstate.com_013_s1 sim=0.67 -> MAJORITY: NOT
+  [28/1177] jibjab.com_029_s3_vs_jibjab.com_015_s2 sim=0.68 -> UNANIMOUS: NOT
+  [37/1177] allstate.com_047_s1_vs_allstate.com_014_s1 sim=0.67 -> MAJORITY: NOT
+  [22/1177] voxmedia.com_008_s1_vs_voxmedia.com_009_s1 sim=0.69 -> UNANIMOUS: CONTRA
+  [31/1177] imdb.com_020_s3_vs_imdb.com_014_s2 sim=0.67 -> UNANIMOUS: NOT
+  [35/1177] internetbrands.com_100_s2_vs_internetbrands.com_040_s2 sim=0.67 -> UNANIMOUS: NOT
+  [29/1177] abcnews.com_017_s1_vs_abcnews.com_028_s1 sim=0.68 -> MAJORITY: NOT
+  --- Batch 2: saved 40 results, 6 confirmed contradictions so far ---
+  [59/1177] barnesandnoble.com_010_s1_vs_barnesandnoble.com_018_s1 sim=0.64 -> UNANIMOUS: NOT
+  [47/1177] ticketmaster.com_025_s5_vs_ticketmaster.com_024_s3 sim=0.65 -> UNANIMOUS: NOT
+  [54/1177] barnesandnoble.com_021_s1_vs_barnesandnoble.com_020_s1 sim=0.65 -> UNANIMOUS: NOT
+  [50/1177] si.edu_012_s1_vs_si.edu_007_s1 sim=0.65 -> UNANIMOUS: NOT
+  [53/1177] jibjab.com_039_s3_vs_jibjab.com_019_s1 sim=0.65 -> UNANIMOUS: NOT
+  [60/1177] allstate.com_011_s2_vs_allstate.com_006_s2 sim=0.64 -> UNANIMOUS: NOT
+  [45/1177] jibjab.com_029_s3_vs_jibjab.com_007_s1 sim=0.66 -> UNANIMOUS: NOT
+  [56/1177] reddit.com_014_s1_vs_reddit.com_005_s1 sim=0.64 -> UNANIMOUS: NOT
+  [48/1177] jibjab.com_040_s1_vs_jibjab.com_015_s2 sim=0.65 -> UNANIMOUS: NOT
+  [46/1177] abcnews.com_015_s2_vs_abcnews.com_018_s3 sim=0.66 -> UNANIMOUS: NOT
+  [49/1177] honda.com_005_s1_vs_honda.com_008_s1 sim=0.65 -> UNANIMOUS: NOT
+  [43/1177] instagram.com_018_s1_vs_instagram.com_020_s1 sim=0.66 -> UNANIMOUS: NOT
+  [51/1177] pbs.org_031_s4_vs_pbs.org_030_s1 sim=0.65 -> MAJORITY: NOT
+  [44/1177] latinpost.com_003_s5_vs_latinpost.com_070_s1 sim=0.66 -> UNANIMOUS: NOT
+  [55/1177] imdb.com_014_s1_vs_imdb.com_018_s1 sim=0.65 -> MAJORITY: NOT
+  [57/1177] jibjab.com_021_s3_vs_jibjab.com_017_s1 sim=0.64 -> MAJORITY: CONTRA
+  [42/1177] internetbrands.com_099_s1_vs_internetbrands.com_040_s2 sim=0.66 -> MAJORITY: NOT
+  [58/1177] theatlantic.com_011_s6_vs_theatlantic.com_021_s1 sim=0.64 -> UNANIMOUS: NOT
+  [41/1177] usa.gov_013_s2_vs_usa.gov_009_s1 sim=0.66 -> MAJORITY: CONTRA
+  [52/1177] style.com_002_s1_vs_style.com_013_s2 sim=0.65 -> MAJORITY: NOT
+  --- Batch 3: saved 60 results, 8 confirmed contradictions so far ---
+  [70/1177] lynda.com_017_s3_vs_lynda.com_022_s1 sim=0.63 -> UNANIMOUS: NOT
+  [79/1177] chasepaymentech.com_006_s2_vs_chasepaymentech.com_007_s1 sim=0.63 -> UNANIMOUS: NOT
+  [76/1177] kraftrecipes.com_020_s3_vs_kraftrecipes.com_010_s1 sim=0.63 -> UNANIMOUS: NOT
+  [64/1177] playstation.com_019_s2_vs_playstation.com_029_s1 sim=0.64 -> UNANIMOUS: NOT
+  [73/1177] pbs.org_005_s1_vs_pbs.org_012_s2 sim=0.63 -> UNANIMOUS: NOT
+  [67/1177] amazon.com_011_s1_vs_amazon.com_012_s1 sim=0.63 -> UNANIMOUS: NOT
+  [71/1177] honda.com_005_s1_vs_honda.com_051_s1 sim=0.63 -> UNANIMOUS: NOT
+  [78/1177] imdb.com_017_s2_vs_imdb.com_018_s1 sim=0.63 -> UNANIMOUS: NOT
+  [77/1177] esquire.com_031_s2_vs_esquire.com_024_s4 sim=0.63 -> UNANIMOUS: NOT
+  [62/1177] barnesandnoble.com_086_s1_vs_barnesandnoble.com_012_s2 sim=0.64 -> UNANIMOUS: NOT
+  [74/1177] kaleidahealth.org_027_s3_vs_kaleidahealth.org_043_s1 sim=0.63 -> UNANIMOUS: NOT
+  [66/1177] fool.com_021_s1_vs_fool.com_028_s1 sim=0.64 -> UNANIMOUS: NOT
+  [72/1177] disinfo.com_004_s1_vs_disinfo.com_007_s2 sim=0.63 -> UNANIMOUS: CONTRA
+  [68/1177] honda.com_035_s3_vs_honda.com_053_s1 sim=0.63 -> MAJORITY: CONTRA
+  [80/1177] sidearmsports.com_043_s2_vs_sidearmsports.com_042_s2 sim=0.63 -> MAJORITY: NOT
+  [69/1177] honda.com_035_s3_vs_honda.com_056_s1 sim=0.63 -> MAJORITY: CONTRA
+  [61/1177] fortune.com_022_s1_vs_fortune.com_017_s2 sim=0.64 -> UNANIMOUS: NOT
+  [75/1177] randomhouse.com_014_s2_vs_randomhouse.com_015_s1 sim=0.63 -> UNANIMOUS: NOT
+  [65/1177] fortune.com_022_s1_vs_fortune.com_009_s1 sim=0.64 -> UNANIMOUS: CONTRA
+  [63/1177] theatlantic.com_011_s6_vs_theatlantic.com_024_s1 sim=0.64 -> UNANIMOUS: CONTRA
+  --- Batch 4: saved 80 results, 13 confirmed contradictions so far ---
+  [92/1177] disinfo.com_010_s3_vs_disinfo.com_005_s1 sim=0.62 -> UNANIMOUS: NOT
+  [91/1177] sltrib.com_038_s2_vs_sltrib.com_025_s1 sim=0.62 -> UNANIMOUS: CONTRA
+  [97/1177] usa.gov_019_s1_vs_usa.gov_004_s2 sim=0.62 -> UNANIMOUS: NOT
+  [94/1177] kaleidahealth.org_011_s1_vs_kaleidahealth.org_049_s1 sim=0.62 -> UNANIMOUS: NOT
+  [81/1177] zacks.com_004_s2_vs_zacks.com_005_s3 sim=0.63 -> UNANIMOUS: NOT
+  [88/1177] nytimes.com_020_s2_vs_nytimes.com_017_s3 sim=0.62 -> UNANIMOUS: NOT
+  [93/1177] imdb.com_014_s1_vs_imdb.com_019_s1 sim=0.62 -> UNANIMOUS: NOT
+  [95/1177] tulsaworld.com_036_s3_vs_tulsaworld.com_013_s2 sim=0.62 -> UNANIMOUS: NOT
+  [84/1177] kraftrecipes.com_020_s3_vs_kraftrecipes.com_002_s3 sim=0.63 -> UNANIMOUS: NOT
+  [90/1177] honda.com_005_s1_vs_honda.com_035_s1 sim=0.62 -> UNANIMOUS: NOT
+  [96/1177] randomhouse.com_021_s2_vs_randomhouse.com_015_s1 sim=0.62 -> UNANIMOUS: NOT
+  [83/1177] imdb.com_017_s2_vs_imdb.com_019_s2 sim=0.63 -> UNANIMOUS: NOT
+  [85/1177] kaleidahealth.org_011_s1_vs_kaleidahealth.org_010_s1 sim=0.62 -> UNANIMOUS: NOT
+  [100/1177] nytimes.com_031_s3_vs_nytimes.com_025_s1 sim=0.61 -> UNANIMOUS: CONTRA
+  [82/1177] reddit.com_046_s1_vs_reddit.com_044_s1 sim=0.63 -> UNANIMOUS: NOT
+  [99/1177] freep.com_019_s1_vs_freep.com_005_s2 sim=0.61 -> UNANIMOUS: NOT
+  [98/1177] neworleansonline.com_020_s1_vs_neworleansonline.com_023_s1 sim=0.62 -> MAJORITY: NOT
+  [86/1177] kaleidahealth.org_027_s3_vs_kaleidahealth.org_028_s1 sim=0.62 -> UNANIMOUS: NOT
+  [87/1177] allstate.com_011_s2_vs_allstate.com_014_s1 sim=0.62 -> UNANIMOUS: NOT
+  [89/1177] imdb.com_017_s2_vs_imdb.com_014_s2 sim=0.62 -> UNANIMOUS: NOT
+  --- Batch 5: saved 100 results, 15 confirmed contradictions so far ---
+  [110/1177] foodallergy.org_014_s1_vs_foodallergy.org_022_s2 sim=0.61 -> UNANIMOUS: NOT
+  [105/1177] lynda.com_017_s3_vs_lynda.com_031_s2 sim=0.61 -> UNANIMOUS: NOT
+  [116/1177] reddit.com_033_s3_vs_reddit.com_004_s1 sim=0.60 -> UNANIMOUS: NOT
+  [111/1177] nytimes.com_020_s2_vs_nytimes.com_027_s1 sim=0.60 -> UNANIMOUS: NOT
+  [104/1177] honda.com_005_s1_vs_honda.com_021_s1 sim=0.61 -> UNANIMOUS: NOT
+  [119/1177] barnesandnoble.com_095_s1_vs_barnesandnoble.com_062_s1 sim=0.60 -> UNANIMOUS: NOT
+  [108/1177] esquire.com_043_s6_vs_esquire.com_032_s1 sim=0.61 -> UNANIMOUS: NOT
+  [101/1177] jibjab.com_029_s3_vs_jibjab.com_026_s2 sim=0.61 -> UNANIMOUS: NOT
+  [106/1177] archives.gov_014_s1_vs_archives.gov_009_s1 sim=0.61 -> UNANIMOUS: NOT
+  [103/1177] latinpost.com_058_s1_vs_latinpost.com_059_s1 sim=0.61 -> UNANIMOUS: CONTRA
+  [118/1177] zacks.com_011_s1_vs_zacks.com_003_s1 sim=0.60 -> UNANIMOUS: NOT
+  [109/1177] sidearmsports.com_030_s1_vs_sidearmsports.com_046_s2 sim=0.61 -> UNANIMOUS: NOT
+  [107/1177] zacks.com_005_s2_vs_zacks.com_011_s2 sim=0.61 -> UNANIMOUS: NOT
+  [102/1177] reddit.com_012_s2_vs_reddit.com_050_s2 sim=0.61 -> MAJORITY: NOT
+  [115/1177] amazon.com_011_s1_vs_amazon.com_008_s2 sim=0.60 -> UNANIMOUS: NOT
+  [117/1177] kaleidahealth.org_011_s1_vs_kaleidahealth.org_026_s1 sim=0.60 -> UNANIMOUS: NOT
+  [120/1177] honda.com_038_s2_vs_honda.com_052_s1 sim=0.60 -> UNANIMOUS: CONTRA
+  [113/1177] honda.com_054_s2_vs_honda.com_052_s2 sim=0.60 -> MAJORITY: CONTRA
+  [112/1177] honda.com_038_s2_vs_honda.com_052_s2 sim=0.60 -> UNANIMOUS: CONTRA
+  [114/1177] honda.com_057_s2_vs_honda.com_052_s2 sim=0.60 -> UNANIMOUS: CONTRA
+  --- Batch 6: saved 120 results, 20 confirmed contradictions so far ---
+  [137/1177] imdb.com_017_s2_vs_imdb.com_019_s1 sim=0.59 -> UNANIMOUS: NOT
+  [123/1177] theatlantic.com_011_s6_vs_theatlantic.com_006_s1 sim=0.60 -> UNANIMOUS: NOT
+  [130/1177] usa.gov_019_s1_vs_usa.gov_004_s3 sim=0.60 -> UNANIMOUS: NOT
+  [136/1177] nytimes.com_046_s2_vs_nytimes.com_021_s2 sim=0.60 -> UNANIMOUS: NOT
+  [125/1177] allstate.com_011_s3_vs_allstate.com_013_s1 sim=0.60 -> UNANIMOUS: NOT
+  [134/1177] neworleansonline.com_027_s1_vs_neworleansonline.com_026_s2 sim=0.60 -> UNANIMOUS: NOT
+  [140/1177] buffalowildwings.com_009_s5_vs_buffalowildwings.com_006_s3 sim=0.59 -> UNANIMOUS: NOT
+  [128/1177] rockstargames.com_044_s4_vs_rockstargames.com_046_s1 sim=0.60 -> UNANIMOUS: NOT
+  [129/1177] imdb.com_019_s3_vs_imdb.com_022_s1 sim=0.60 -> MAJORITY: CONTRA
+  [139/1177] barnesandnoble.com_038_s3_vs_barnesandnoble.com_049_s4 sim=0.59 -> UNANIMOUS: NOT
+  [135/1177] kaleidahealth.org_011_s1_vs_kaleidahealth.org_048_s1 sim=0.60 -> MAJORITY: NOT
+  [124/1177] rockstargames.com_023_s5_vs_rockstargames.com_037_s4 sim=0.60 -> UNANIMOUS: CONTRA
+  [132/1177] honda.com_012_s4_vs_honda.com_011_s6 sim=0.60 -> UNANIMOUS: NOT
+  [131/1177] rockstargames.com_030_s2_vs_rockstargames.com_013_s3 sim=0.60 -> UNANIMOUS: CONTRA
+  [121/1177] honda.com_054_s2_vs_honda.com_052_s1 sim=0.60 -> UNANIMOUS: CONTRA
+  [126/1177] www.loc.gov_011_s1_vs_www.loc.gov_009_s1 sim=0.60 -> UNANIMOUS: NOT
+  [133/1177] style.com_002_s1_vs_style.com_003_s1 sim=0.60 -> MAJORITY: CONTRA
+  [122/1177] honda.com_057_s2_vs_honda.com_052_s1 sim=0.60 -> UNANIMOUS: CONTRA
+  [138/1177] zacks.com_004_s2_vs_zacks.com_011_s2 sim=0.59 -> UNANIMOUS: NOT
+  [127/1177] sidearmsports.com_020_s4_vs_sidearmsports.com_014_s1 sim=0.60 -> UNANIMOUS: CONTRA
+  --- Batch 7: saved 140 results, 27 confirmed contradictions so far ---
+  [158/1177] cariboucoffee.com_013_s2_vs_cariboucoffee.com_014_s1 sim=0.58 -> UNANIMOUS: NOT
+  [151/1177] adweek.com_008_s1_vs_adweek.com_011_s2 sim=0.59 -> UNANIMOUS: NOT
+  [149/1177] disinfo.com_013_s3_vs_disinfo.com_005_s1 sim=0.59 -> UNANIMOUS: NOT
+  [160/1177] highgearmedia.com_021_s2_vs_highgearmedia.com_004_s3 sim=0.58 -> UNANIMOUS: NOT
+  [152/1177] honda.com_005_s1_vs_honda.com_013_s1 sim=0.59 -> UNANIMOUS: NOT
+  [159/1177] buffalowildwings.com_009_s1_vs_buffalowildwings.com_010_s1 sim=0.58 -> UNANIMOUS: NOT
+  [147/1177] randomhouse.com_041_s2_vs_randomhouse.com_025_s1 sim=0.59 -> UNANIMOUS: NOT
+  [157/1177] mlb.mlb.com_003_s1_vs_mlb.mlb.com_006_s1 sim=0.58 -> UNANIMOUS: NOT
+  [144/1177] reddit.com_020_s2_vs_reddit.com_050_s2 sim=0.59 -> UNANIMOUS: NOT
+  [143/1177] aol.com_028_s1_vs_aol.com_020_s1 sim=0.59 -> UNANIMOUS: NOT
+  [156/1177] barnesandnoble.com_053_s1_vs_barnesandnoble.com_062_s1 sim=0.58 -> UNANIMOUS: NOT
+  [146/1177] jibjab.com_029_s3_vs_jibjab.com_016_s1 sim=0.59 -> UNANIMOUS: NOT
+  [155/1177] randomhouse.com_033_s2_vs_randomhouse.com_032_s1 sim=0.59 -> UNANIMOUS: NOT
+  [153/1177] ocregister.com_013_s3_vs_ocregister.com_012_s1 sim=0.59 -> UNANIMOUS: NOT
+  [141/1177] imdb.com_019_s3_vs_imdb.com_018_s1 sim=0.59 -> MAJORITY: CONTRA
+  [145/1177] voxmedia.com_020_s2_vs_voxmedia.com_009_s1 sim=0.59 -> UNANIMOUS: NOT
+  [154/1177] si.edu_007_s3_vs_si.edu_011_s1 sim=0.59 -> UNANIMOUS: CONTRA
+  [148/1177] style.com_002_s1_vs_style.com_003_s3 sim=0.59 -> UNANIMOUS: NOT
+  [150/1177] barnesandnoble.com_053_s1_vs_barnesandnoble.com_057_s1 sim=0.59 -> UNANIMOUS: NOT
+  [142/1177] yahoo.com_013_s1_vs_yahoo.com_018_s1 sim=0.59 -> UNANIMOUS: NOT
+  --- Batch 8: saved 160 results, 29 confirmed contradictions so far ---
+  [176/1177] rockstargames.com_020_s2_vs_rockstargames.com_016_s1 sim=0.57 -> UNANIMOUS: CONTRA
+  [179/1177] sidearmsports.com_011_s3_vs_sidearmsports.com_019_s1 sim=0.57 -> UNANIMOUS: NOT
+  [173/1177] honda.com_012_s4_vs_honda.com_024_s4 sim=0.58 -> UNANIMOUS: NOT
+  [162/1177] mohegansun.com_001_s2_vs_mohegansun.com_003_s1 sim=0.58 -> UNANIMOUS: NOT
+  [175/1177] reddit.com_033_s3_vs_reddit.com_007_s2 sim=0.58 -> UNANIMOUS: NOT
+  [163/1177] kaleidahealth.org_027_s3_vs_kaleidahealth.org_019_s1 sim=0.58 -> UNANIMOUS: NOT
+  [177/1177] sheknows.com_002_s2_vs_sheknows.com_020_s1 sim=0.57 -> UNANIMOUS: NOT
+  [169/1177] steampowered.com_014_s4_vs_steampowered.com_003_s1 sim=0.58 -> UNANIMOUS: NOT
+  [180/1177] chasepaymentech.com_021_s1_vs_chasepaymentech.com_007_s1 sim=0.57 -> UNANIMOUS: NOT
+  [170/1177] kraftrecipes.com_002_s1_vs_kraftrecipes.com_012_s1 sim=0.58 -> UNANIMOUS: NOT
+  [178/1177] disinfo.com_004_s1_vs_disinfo.com_007_s1 sim=0.57 -> UNANIMOUS: CONTRA
+  [164/1177] esquire.com_037_s1_vs_esquire.com_029_s1 sim=0.58 -> UNANIMOUS: NOT
+  [161/1177] boardgamegeek.com_002_s1_vs_boardgamegeek.com_005_s1 sim=0.58 -> UNANIMOUS: NOT
+  [167/1177] kaleidahealth.org_027_s3_vs_kaleidahealth.org_047_s1 sim=0.58 -> UNANIMOUS: NOT
+  [172/1177] taylorswift.com_028_s1_vs_taylorswift.com_012_s1 sim=0.58 -> UNANIMOUS: NOT
+  [168/1177] reference.com_025_s2_vs_reference.com_024_s1 sim=0.58 -> MAJORITY: NOT
+  [165/1177] barnesandnoble.com_095_s1_vs_barnesandnoble.com_055_s1 sim=0.58 -> UNANIMOUS: NOT
+  [166/1177] kraftrecipes.com_020_s3_vs_kraftrecipes.com_018_s1 sim=0.58 -> MAJORITY: NOT
+  [174/1177] imdb.com_019_s3_vs_imdb.com_014_s2 sim=0.58 -> UNANIMOUS: CONTRA
+  [171/1177] esquire.com_037_s1_vs_esquire.com_035_s1 sim=0.58 -> UNANIMOUS: CONTRA
+  --- Batch 9: saved 180 results, 33 confirmed contradictions so far ---
+  [199/1177] buffalowildwings.com_009_s5_vs_buffalowildwings.com_008_s1 sim=0.57 -> UNANIMOUS: NOT
+  [189/1177] abcnews.com_013_s4_vs_abcnews.com_043_s1 sim=0.57 -> UNANIMOUS: NOT
+  [200/1177] military.com_037_s3_vs_military.com_040_s1 sim=0.57 -> UNANIMOUS: NOT
+  [195/1177] honda.com_005_s1_vs_honda.com_048_s1 sim=0.57 -> UNANIMOUS: NOT
+  [196/1177] honda.com_023_s2_vs_honda.com_066_s1 sim=0.57 -> UNANIMOUS: NOT
+  [187/1177] enthusiastnetwork.com_012_s3_vs_enthusiastnetwork.com_015_s1 sim=0.57 -> UNANIMOUS: NOT
+  [193/1177] rockstargames.com_044_s4_vs_rockstargames.com_009_s2 sim=0.57 -> UNANIMOUS: NOT
+  [192/1177] ironhorsevineyards.com_002_s5_vs_ironhorsevineyards.com_001_s3 sim=0.57 -> UNANIMOUS: NOT
+  [184/1177] pbs.org_031_s4_vs_pbs.org_004_s1 sim=0.57 -> UNANIMOUS: NOT
+  [191/1177] honda.com_034_s1_vs_honda.com_014_s1 sim=0.57 -> UNANIMOUS: NOT
+  [197/1177] reddit.com_004_s4_vs_reddit.com_023_s1 sim=0.57 -> UNANIMOUS: NOT
+  [190/1177] si.edu_002_s1_vs_si.edu_005_s4 sim=0.57 -> MAJORITY: NOT
+  [182/1177] jibjab.com_021_s3_vs_jibjab.com_018_s3 sim=0.57 -> UNANIMOUS: NOT
+  [186/1177] acbj.com_029_s1_vs_acbj.com_010_s3 sim=0.57 -> MAJORITY: NOT
+  [198/1177] wsmv.com_003_s1_vs_wsmv.com_025_s1 sim=0.57 -> UNANIMOUS: CONTRA
+  [185/1177] amazon.com_014_s2_vs_amazon.com_012_s1 sim=0.57 -> UNANIMOUS: NOT
+  [188/1177] lids.com_033_s2_vs_lids.com_037_s1 sim=0.57 -> UNANIMOUS: NOT
+  [183/1177] allstate.com_011_s2_vs_allstate.com_033_s1 sim=0.57 -> MAJORITY: NOT
+  [181/1177] imdb.com_014_s1_vs_imdb.com_022_s1 sim=0.57 -> MAJORITY: CONTRA
+  [194/1177] instagram.com_018_s1_vs_instagram.com_022_s1 sim=0.57 -> UNANIMOUS: NOT
+  --- Batch 10: saved 200 results, 35 confirmed contradictions so far ---
+  [201/1177] sciencemag.org_016_s1_vs_sciencemag.org_003_s1 sim=0.57 -> UNANIMOUS: NOT
+  [212/1177] kraftrecipes.com_019_s1_vs_kraftrecipes.com_012_s1 sim=0.56 -> UNANIMOUS: NOT
+  [206/1177] fool.com_022_s1_vs_fool.com_021_s5 sim=0.56 -> UNANIMOUS: NOT
+  [218/1177] military.com_006_s1_vs_military.com_009_s2 sim=0.56 -> UNANIMOUS: CONTRA
+  [204/1177] reddit.com_004_s4_vs_reddit.com_006_s1 sim=0.56 -> UNANIMOUS: NOT
+  [220/1177] jibjab.com_029_s3_vs_jibjab.com_006_s1 sim=0.56 -> UNANIMOUS: NOT
+  [216/1177] walmart.com_059_s1_vs_walmart.com_037_s1 sim=0.56 -> UNANIMOUS: NOT
+  [203/1177] honda.com_005_s1_vs_honda.com_026_s1 sim=0.57 -> UNANIMOUS: NOT
+  [205/1177] jibjab.com_010_s1_vs_jibjab.com_018_s1 sim=0.56 -> UNANIMOUS: NOT
+  [208/1177] military.com_023_s2_vs_military.com_021_s1 sim=0.56 -> UNANIMOUS: NOT
+  [202/1177] rockstargames.com_040_s2_vs_rockstargames.com_020_s4 sim=0.57 -> UNANIMOUS: NOT
+  [214/1177] steampowered.com_014_s4_vs_steampowered.com_005_s1 sim=0.56 -> UNANIMOUS: NOT
+  [217/1177] dailynews.com_028_s3_vs_dailynews.com_031_s1 sim=0.56 -> UNANIMOUS: CONTRA
+  [213/1177] honda.com_023_s2_vs_honda.com_013_s1 sim=0.56 -> UNANIMOUS: NOT
+  [207/1177] meredith.com_054_s2_vs_meredith.com_009_s3 sim=0.56 -> UNANIMOUS: NOT
+  [219/1177] minecraft.gamepedia.com_014_s2_vs_minecraft.gamepedia.com_010_s1 sim=0.56 -> UNANIMOUS: NOT
+  [211/1177] jibjab.com_021_s3_vs_jibjab.com_018_s1 sim=0.56 -> MAJORITY: CONTRA
+  [210/1177] honda.com_028_s2_vs_honda.com_052_s1 sim=0.56 -> UNANIMOUS: NOT
+  [209/1177] honda.com_022_s1_vs_honda.com_052_s1 sim=0.56 -> MAJORITY: NOT
+  [215/1177] reference.com_014_s1_vs_reference.com_012_s3 sim=0.56 -> MAJORITY: NOT
+  --- Batch 11: saved 220 results, 38 confirmed contradictions so far ---
+  [235/1177] washingtonpost.com_033_s2_vs_washingtonpost.com_004_s1 sim=0.55 -> UNANIMOUS: NOT
+  [222/1177] walmart.com_023_s1_vs_walmart.com_014_s1 sim=0.56 -> UNANIMOUS: NOT
+  [229/1177] honda.com_012_s4_vs_honda.com_013_s1 sim=0.56 -> UNANIMOUS: NOT
+  [234/1177] neworleansonline.com_020_s1_vs_neworleansonline.com_037_s2 sim=0.55 -> UNANIMOUS: CONTRA
+  [228/1177] lids.com_034_s2_vs_lids.com_017_s5 sim=0.56 -> UNANIMOUS: NOT
+  [238/1177] pbs.org_005_s1_vs_pbs.org_013_s1 sim=0.55 -> UNANIMOUS: NOT
+  [221/1177] military.com_021_s3_vs_military.com_014_s2 sim=0.56 -> UNANIMOUS: NOT
+  [239/1177] amazon.com_011_s1_vs_amazon.com_032_s2 sim=0.55 -> UNANIMOUS: NOT
+  [230/1177] washingtonian.com_017_s1_vs_washingtonian.com_001_s1 sim=0.56 -> UNANIMOUS: NOT
+  [224/1177] sheknows.com_002_s2_vs_sheknows.com_022_s1 sim=0.56 -> UNANIMOUS: NOT
+  [232/1177] allstate.com_011_s3_vs_allstate.com_014_s1 sim=0.56 -> UNANIMOUS: NOT
+  [227/1177] cincymuseum.org_009_s1_vs_cincymuseum.org_012_s1 sim=0.56 -> UNANIMOUS: CONTRA
+  [240/1177] allstate.com_047_s1_vs_allstate.com_022_s2 sim=0.55 -> UNANIMOUS: NOT
+  [233/1177] meredith.com_053_s4_vs_meredith.com_018_s5 sim=0.56 -> UNANIMOUS: NOT
+  [231/1177] kaleidahealth.org_027_s3_vs_kaleidahealth.org_024_s1 sim=0.56 -> UNANIMOUS: NOT
+  [226/1177] neworleansonline.com_027_s1_vs_neworleansonline.com_026_s1 sim=0.56 -> UNANIMOUS: NOT
+  [223/1177] barnesandnoble.com_060_s3_vs_barnesandnoble.com_015_s2 sim=0.56 -> UNANIMOUS: NOT
+  [225/1177] imdb.com_014_s1_vs_imdb.com_019_s2 sim=0.56 -> UNANIMOUS: NOT
+  [237/1177] archives.gov_014_s1_vs_archives.gov_007_s2 sim=0.55 -> MAJORITY: NOT
+  [236/1177] pbs.org_017_s1_vs_pbs.org_026_s2 sim=0.55 -> UNANIMOUS: NOT
+  --- Batch 12: saved 240 results, 40 confirmed contradictions so far ---
+  [252/1177] honda.com_012_s4_vs_honda.com_008_s1 sim=0.55 -> UNANIMOUS: NOT
+  [251/1177] rockstargames.com_044_s4_vs_rockstargames.com_015_s1 sim=0.55 -> UNANIMOUS: NOT
+  [260/1177] reddit.com_010_s3_vs_reddit.com_004_s1 sim=0.54 -> UNANIMOUS: NOT
+  [246/1177] barnesandnoble.com_087_s2_vs_barnesandnoble.com_050_s1 sim=0.55 -> UNANIMOUS: NOT
+  [250/1177] sheknows.com_029_s1_vs_sheknows.com_005_s1 sim=0.55 -> UNANIMOUS: NOT
+  [256/1177] acbj.com_029_s1_vs_acbj.com_011_s1 sim=0.55 -> UNANIMOUS: NOT
+  [248/1177] disinfo.com_024_s1_vs_disinfo.com_006_s1 sim=0.55 -> UNANIMOUS: NOT
+  [254/1177] reference.com_014_s1_vs_reference.com_005_s1 sim=0.55 -> UNANIMOUS: NOT
+  [249/1177] dailynews.com_007_s3_vs_dailynews.com_006_s1 sim=0.55 -> UNANIMOUS: NOT
+  [241/1177] barnesandnoble.com_086_s1_vs_barnesandnoble.com_018_s1 sim=0.55 -> UNANIMOUS: NOT
+  [259/1177] voxmedia.com_009_s2_vs_voxmedia.com_007_s2 sim=0.54 -> UNANIMOUS: NOT
+  [242/1177] sheknows.com_002_s2_vs_sheknows.com_018_s1 sim=0.55 -> UNANIMOUS: NOT
+  [245/1177] fool.com_026_s2_vs_fool.com_050_s2 sim=0.55 -> UNANIMOUS: NOT
+  [258/1177] barnesandnoble.com_002_s1_vs_barnesandnoble.com_020_s1 sim=0.55 -> UNANIMOUS: NOT
+  [247/1177] abcnews.com_024_s1_vs_abcnews.com_043_s1 sim=0.55 -> UNANIMOUS: NOT
+  [244/1177] playstation.com_023_s1_vs_playstation.com_010_s4 sim=0.55 -> MAJORITY: NOT
+  [255/1177] lynda.com_029_s3_vs_lynda.com_031_s2 sim=0.55 -> UNANIMOUS: CONTRA
+  [253/1177] bankofamerica.com_075_s1_vs_bankofamerica.com_037_s3 sim=0.55 -> MAJORITY: NOT
+  [243/1177] rockstargames.com_040_s2_vs_rockstargames.com_027_s2 sim=0.55 -> UNANIMOUS: CONTRA
+  [257/1177] voxmedia.com_008_s1_vs_voxmedia.com_012_s2 sim=0.55 -> UNANIMOUS: NOT
+  --- Batch 13: saved 260 results, 42 confirmed contradictions so far ---
+  [280/1177] lynda.com_067_s1_vs_lynda.com_031_s2 sim=0.54 -> UNANIMOUS: NOT
+  [261/1177] barnesandnoble.com_010_s1_vs_barnesandnoble.com_052_s1 sim=0.54 -> UNANIMOUS: NOT
+  [277/1177] randomhouse.com_012_s1_vs_randomhouse.com_005_s1 sim=0.54 -> UNANIMOUS: NOT
+  [271/1177] barnesandnoble.com_010_s1_vs_barnesandnoble.com_012_s2 sim=0.54 -> UNANIMOUS: NOT
+  [262/1177] jibjab.com_021_s3_vs_jibjab.com_007_s1 sim=0.54 -> UNANIMOUS: NOT
+  [268/1177] ocregister.com_011_s4_vs_ocregister.com_006_s1 sim=0.54 -> UNANIMOUS: NOT
+  [264/1177] rockstargames.com_023_s5_vs_rockstargames.com_016_s3 sim=0.54 -> UNANIMOUS: NOT
+  [269/1177] enthusiastnetwork.com_012_s3_vs_enthusiastnetwork.com_019_s2 sim=0.54 -> UNANIMOUS: NOT
+  [270/1177] nytimes.com_051_s3_vs_nytimes.com_063_s1 sim=0.54 -> UNANIMOUS: NOT
+  [273/1177] randomhouse.com_033_s2_vs_randomhouse.com_030_s1 sim=0.54 -> UNANIMOUS: NOT
+  [263/1177] uptodate.com_003_s1_vs_uptodate.com_005_s1 sim=0.54 -> UNANIMOUS: NOT
+  [278/1177] dailynews.com_029_s1_vs_dailynews.com_031_s1 sim=0.54 -> UNANIMOUS: NOT
+  [279/1177] military.com_006_s1_vs_military.com_025_s1 sim=0.54 -> MAJORITY: NOT
+  [265/1177] amazon.com_011_s1_vs_amazon.com_016_s2 sim=0.54 -> UNANIMOUS: NOT
+  [275/1177] kaleidahealth.org_011_s1_vs_kaleidahealth.org_033_s1 sim=0.54 -> MAJORITY: CONTRA
+  [276/1177] style.com_026_s1_vs_style.com_007_s2 sim=0.54 -> UNANIMOUS: CONTRA
+  [267/1177] sheknows.com_029_s1_vs_sheknows.com_022_s2 sim=0.54 -> UNANIMOUS: NOT
+  [272/1177] barnesandnoble.com_060_s3_vs_barnesandnoble.com_067_s1 sim=0.54 -> UNANIMOUS: CONTRA
+  [274/1177] sheknows.com_008_s2_vs_sheknows.com_015_s1 sim=0.54 -> MAJORITY: CONTRA
+  [266/1177] playstation.com_023_s2_vs_playstation.com_010_s4 sim=0.54 -> MAJORITY: NOT
+  --- Batch 14: saved 280 results, 46 confirmed contradictions so far ---
+  [295/1177] esquire.com_037_s1_vs_esquire.com_007_s1 sim=0.53 -> UNANIMOUS: NOT
+  [285/1177] fool.com_012_s2_vs_fool.com_046_s2 sim=0.53 -> UNANIMOUS: NOT
+  [281/1177] bankofamerica.com_045_s1_vs_bankofamerica.com_005_s1 sim=0.54 -> UNANIMOUS: NOT
+  [292/1177] barnesandnoble.com_053_s1_vs_barnesandnoble.com_012_s2 sim=0.53 -> UNANIMOUS: NOT
+  [289/1177] honda.com_012_s4_vs_honda.com_036_s3 sim=0.53 -> UNANIMOUS: NOT
+  [291/1177] meredith.com_037_s2_vs_meredith.com_008_s1 sim=0.53 -> UNANIMOUS: NOT
+  [286/1177] reddit.com_046_s1_vs_reddit.com_004_s1 sim=0.53 -> UNANIMOUS: NOT
+  [299/1177] rockstargames.com_023_s5_vs_rockstargames.com_020_s1 sim=0.53 -> UNANIMOUS: NOT
+  [287/1177] adweek.com_005_s1_vs_adweek.com_011_s2 sim=0.53 -> UNANIMOUS: NOT
+  [282/1177] esquire.com_035_s4_vs_esquire.com_019_s6 sim=0.54 -> UNANIMOUS: NOT
+  [300/1177] theatlantic.com_012_s4_vs_theatlantic.com_014_s10 sim=0.53 -> UNANIMOUS: NOT
+  [284/1177] playstation.com_019_s2_vs_playstation.com_015_s2 sim=0.54 -> UNANIMOUS: NOT
+  [298/1177] honda.com_005_s1_vs_honda.com_047_s1 sim=0.53 -> UNANIMOUS: NOT
+  [288/1177] barnesandnoble.com_066_s3_vs_barnesandnoble.com_020_s1 sim=0.53 -> UNANIMOUS: NOT
+  [296/1177] taylorswift.com_027_s2_vs_taylorswift.com_016_s1 sim=0.53 -> UNANIMOUS: NOT
+  [294/1177] dailynews.com_008_s2_vs_dailynews.com_029_s2 sim=0.53 -> UNANIMOUS: NOT
+  [290/1177] rockstargames.com_023_s5_vs_rockstargames.com_016_s1 sim=0.53 -> UNANIMOUS: NOT
+  [293/1177] sheknows.com_023_s1_vs_sheknows.com_022_s2 sim=0.53 -> UNANIMOUS: NOT
+  [297/1177] coffeereview.com_004_s1_vs_coffeereview.com_003_s1 sim=0.53 -> UNANIMOUS: NOT
+  [283/1177] reddit.com_046_s1_vs_reddit.com_045_s1 sim=0.54 -> UNANIMOUS: NOT
+  --- Batch 15: saved 300 results, 46 confirmed contradictions so far ---
+  [311/1177] style.com_026_s1_vs_style.com_008_s1 sim=0.53 -> UNANIMOUS: NOT
+  [320/1177] acbj.com_029_s1_vs_acbj.com_008_s1 sim=0.53 -> UNANIMOUS: NOT
+  [310/1177] imdb.com_022_s2_vs_imdb.com_019_s1 sim=0.53 -> UNANIMOUS: NOT
+  [319/1177] randomhouse.com_019_s3_vs_randomhouse.com_044_s3 sim=0.53 -> UNANIMOUS: NOT
+  [301/1177] nytimes.com_051_s3_vs_nytimes.com_054_s1 sim=0.53 -> UNANIMOUS: NOT
+  [302/1177] barnesandnoble.com_086_s1_vs_barnesandnoble.com_082_s3 sim=0.53 -> UNANIMOUS: NOT
+  [305/1177] gamestop.com_021_s2_vs_gamestop.com_005_s1 sim=0.53 -> UNANIMOUS: NOT
+  [303/1177] jibjab.com_029_s3_vs_jibjab.com_023_s1 sim=0.53 -> UNANIMOUS: NOT
+  [312/1177] fool.com_021_s1_vs_fool.com_020_s1 sim=0.53 -> UNANIMOUS: NOT
+  [309/1177] honda.com_005_s1_vs_honda.com_041_s1 sim=0.53 -> UNANIMOUS: NOT
+  [314/1177] randomhouse.com_014_s2_vs_randomhouse.com_008_s1 sim=0.53 -> UNANIMOUS: NOT
+  [318/1177] disinfo.com_013_s2_vs_disinfo.com_022_s2 sim=0.53 -> UNANIMOUS: NOT
+  [315/1177] jibjab.com_029_s3_vs_jibjab.com_018_s1 sim=0.53 -> UNANIMOUS: NOT
+  [317/1177] rockstargames.com_030_s2_vs_rockstargames.com_029_s2 sim=0.53 -> MAJORITY: NOT
+  [304/1177] bankofamerica.com_075_s1_vs_bankofamerica.com_041_s1 sim=0.53 -> MAJORITY: NOT
+  [316/1177] nytimes.com_046_s2_vs_nytimes.com_050_s1 sim=0.53 -> UNANIMOUS: NOT
+  [313/1177] military.com_038_s6_vs_military.com_009_s1 sim=0.53 -> SPLIT
+  [308/1177] reddit.com_026_s3_vs_reddit.com_007_s2 sim=0.53 -> MAJORITY: NOT
+  [307/1177] voxmedia.com_008_s1_vs_voxmedia.com_012_s1 sim=0.53 -> MAJORITY: NOT
+  [306/1177] zacks.com_004_s6_vs_zacks.com_011_s2 sim=0.53 -> UNANIMOUS: CONTRA
+  --- Batch 16: saved 320 results, 47 confirmed contradictions so far ---
+  [328/1177] thefreedictionary.com_003_s3_vs_thefreedictionary.com_013_s1 sim=0.52 -> UNANIMOUS: NOT
+  [332/1177] barnesandnoble.com_053_s1_vs_barnesandnoble.com_052_s1 sim=0.52 -> UNANIMOUS: NOT
+  [336/1177] freep.com_027_s1_vs_freep.com_008_s1 sim=0.52 -> UNANIMOUS: NOT
+  [334/1177] honda.com_005_s1_vs_honda.com_051_s3 sim=0.52 -> UNANIMOUS: NOT
+  [337/1177] honda.com_012_s4_vs_honda.com_021_s1 sim=0.52 -> UNANIMOUS: NOT
+  [324/1177] nbcuniversal.com_011_s2_vs_nbcuniversal.com_021_s1 sim=0.52 -> UNANIMOUS: NOT
+  [338/1177] sheknows.com_023_s1_vs_sheknows.com_026_s2 sim=0.52 -> UNANIMOUS: NOT
+  [327/1177] pbs.org_010_s3_vs_pbs.org_013_s1 sim=0.52 -> UNANIMOUS: NOT
+  [335/1177] pbs.org_005_s1_vs_pbs.org_015_s1 sim=0.52 -> UNANIMOUS: NOT
+  [325/1177] rockstargames.com_040_s2_vs_rockstargames.com_021_s2 sim=0.52 -> UNANIMOUS: NOT
+  [322/1177] nytimes.com_044_s1_vs_nytimes.com_063_s1 sim=0.53 -> UNANIMOUS: NOT
+  [321/1177] sheknows.com_002_s2_vs_sheknows.com_022_s2 sim=0.53 -> UNANIMOUS: NOT
+  [339/1177] latinpost.com_003_s5_vs_latinpost.com_059_s1 sim=0.52 -> UNANIMOUS: NOT
+  [323/1177] ocregister.com_018_s2_vs_ocregister.com_012_s1 sim=0.52 -> UNANIMOUS: NOT
+  [330/1177] honda.com_061_s1_vs_honda.com_067_s2 sim=0.52 -> UNANIMOUS: CONTRA
+  [329/1177] dailynews.com_030_s3_vs_dailynews.com_031_s1 sim=0.52 -> UNANIMOUS: NOT
+  [333/1177] archives.gov_008_s1_vs_archives.gov_009_s1 sim=0.52 -> UNANIMOUS: NOT
+  [326/1177] military.com_037_s3_vs_military.com_015_s1 sim=0.52 -> UNANIMOUS: NOT
+  [331/1177] honda.com_012_s4_vs_honda.com_052_s3 sim=0.52 -> MAJORITY: CONTRA
+  [340/1177] pbs.org_010_s3_vs_pbs.org_011_s1 sim=0.52 -> UNANIMOUS: NOT
+  --- Batch 17: saved 340 results, 49 confirmed contradictions so far ---
+  [347/1177] honda.com_023_s2_vs_honda.com_051_s1 sim=0.52 -> UNANIMOUS: NOT
+  [359/1177] esquire.com_043_s6_vs_esquire.com_020_s1 sim=0.51 -> UNANIMOUS: NOT
+  [357/1177] barnesandnoble.com_021_s1_vs_barnesandnoble.com_049_s4 sim=0.52 -> UNANIMOUS: NOT
+  [349/1177] abcnews.com_018_s2_vs_abcnews.com_043_s1 sim=0.52 -> UNANIMOUS: NOT
+  [353/1177] enthusiastnetwork.com_011_s1_vs_enthusiastnetwork.com_003_s1 sim=0.52 -> UNANIMOUS: NOT
+  [350/1177] timeinc.com_029_s2_vs_timeinc.com_040_s1 sim=0.52 -> UNANIMOUS: NOT
+  [345/1177] randomhouse.com_041_s2_vs_randomhouse.com_024_s1 sim=0.52 -> UNANIMOUS: NOT
+  [354/1177] instagram.com_035_s1_vs_instagram.com_009_s1 sim=0.52 -> UNANIMOUS: NOT
+  [355/1177] honda.com_023_s2_vs_honda.com_021_s1 sim=0.52 -> UNANIMOUS: NOT
+  [346/1177] dailynews.com_008_s2_vs_dailynews.com_003_s1 sim=0.52 -> UNANIMOUS: NOT
+  [348/1177] taylorswift.com_028_s1_vs_taylorswift.com_022_s1 sim=0.52 -> UNANIMOUS: NOT
+  [343/1177] thefreedictionary.com_004_s1_vs_thefreedictionary.com_005_s1 sim=0.52 -> UNANIMOUS: NOT
+  [351/1177] rockstargames.com_023_s5_vs_rockstargames.com_009_s2 sim=0.52 -> UNANIMOUS: NOT
+  [352/1177] internetbrands.com_096_s2_vs_internetbrands.com_040_s2 sim=0.52 -> UNANIMOUS: NOT
+  [358/1177] google.com_031_s1_vs_google.com_017_s2 sim=0.52 -> MAJORITY: NOT
+  [344/1177] rockstargames.com_023_s5_vs_rockstargames.com_037_s3 sim=0.52 -> UNANIMOUS: NOT
+  [341/1177] adweek.com_008_s1_vs_adweek.com_010_s1 sim=0.52 -> MAJORITY: CONTRA
+  [360/1177] tulsaworld.com_024_s2_vs_tulsaworld.com_013_s2 sim=0.51 -> MAJORITY: CONTRA
+  [356/1177] rockstargames.com_023_s5_vs_rockstargames.com_011_s1 sim=0.52 -> MAJORITY: NOT
+  [342/1177] reddit.com_033_s3_vs_reddit.com_026_s2 sim=0.52 -> UNANIMOUS: CONTRA
+  --- Batch 18: saved 360 results, 52 confirmed contradictions so far ---
+  [369/1177] lynda.com_067_s1_vs_lynda.com_020_s1 sim=0.51 -> UNANIMOUS: NOT
+  [379/1177] randomhouse.com_019_s1_vs_randomhouse.com_015_s1 sim=0.51 -> UNANIMOUS: NOT
+  [367/1177] dailynews.com_007_s3_vs_dailynews.com_003_s1 sim=0.51 -> UNANIMOUS: NOT
+  [365/1177] theatlantic.com_011_s6_vs_theatlantic.com_015_s1 sim=0.51 -> UNANIMOUS: NOT
+  [374/1177] honda.com_016_s1_vs_honda.com_007_s1 sim=0.51 -> UNANIMOUS: NOT
+  [376/1177] esquire.com_043_s6_vs_esquire.com_014_s2 sim=0.51 -> UNANIMOUS: NOT
+  [370/1177] ticketmaster.com_011_s3_vs_ticketmaster.com_016_s2 sim=0.51 -> UNANIMOUS: NOT
+  [361/1177] pbs.org_031_s5_vs_pbs.org_004_s1 sim=0.51 -> UNANIMOUS: NOT
+  [373/1177] sidearmsports.com_031_s2_vs_sidearmsports.com_041_s3 sim=0.51 -> UNANIMOUS: NOT
+  [372/1177] reddit.com_010_s3_vs_reddit.com_004_s2 sim=0.51 -> UNANIMOUS: NOT
+  [362/1177] msn.com_030_s2_vs_msn.com_012_s2 sim=0.51 -> UNANIMOUS: NOT
+  [368/1177] yahoo.com_013_s1_vs_yahoo.com_004_s1 sim=0.51 -> UNANIMOUS: NOT
+  [380/1177] military.com_006_s1_vs_military.com_024_s1 sim=0.51 -> UNANIMOUS: NOT
+  [377/1177] fortune.com_028_s2_vs_fortune.com_009_s1 sim=0.51 -> UNANIMOUS: NOT
+  [366/1177] sheknows.com_002_s2_vs_sheknows.com_017_s3 sim=0.51 -> UNANIMOUS: NOT
+  [378/1177] timeinc.com_029_s2_vs_timeinc.com_010_s1 sim=0.51 -> UNANIMOUS: NOT
+  [371/1177] amazon.com_016_s3_vs_amazon.com_012_s1 sim=0.51 -> UNANIMOUS: NOT
+  [363/1177] reddit.com_026_s3_vs_reddit.com_050_s2 sim=0.51 -> MAJORITY: CONTRA
+  [375/1177] timeinc.com_023_s1_vs_timeinc.com_010_s1 sim=0.51 -> MAJORITY: CONTRA
+  [364/1177] fool.com_012_s2_vs_fool.com_029_s2 sim=0.51 -> MAJORITY: CONTRA
+  --- Batch 19: saved 380 results, 55 confirmed contradictions so far ---
+  [391/1177] randomhouse.com_014_s2_vs_randomhouse.com_005_s1 sim=0.51 -> UNANIMOUS: NOT
+  [392/1177] style.com_026_s1_vs_style.com_005_s1 sim=0.51 -> UNANIMOUS: NOT
+  [382/1177] yahoo.com_013_s1_vs_yahoo.com_008_s2 sim=0.51 -> UNANIMOUS: NOT
+  [397/1177] lynda.com_067_s1_vs_lynda.com_030_s1 sim=0.51 -> UNANIMOUS: NOT
+  [400/1177] jibjab.com_010_s1_vs_jibjab.com_020_s2 sim=0.51 -> UNANIMOUS: NOT
+  [388/1177] newsbusters.org_017_s2_vs_newsbusters.org_015_s1 sim=0.51 -> UNANIMOUS: NOT
+  [398/1177] rockstargames.com_020_s2_vs_rockstargames.com_015_s1 sim=0.51 -> UNANIMOUS: CONTRA
+  [385/1177] fredericknewspost.com_003_s1_vs_fredericknewspost.com_004_s2 sim=0.51 -> UNANIMOUS: NOT
+  [390/1177] adweek.com_005_s1_vs_adweek.com_006_s5 sim=0.51 -> UNANIMOUS: NOT
+  [384/1177] taylorswift.com_027_s2_vs_taylorswift.com_011_s1 sim=0.51 -> UNANIMOUS: NOT
+  [396/1177] military.com_019_s3_vs_military.com_005_s2 sim=0.51 -> UNANIMOUS: NOT
+  [393/1177] rockstargames.com_023_s5_vs_rockstargames.com_037_s2 sim=0.51 -> UNANIMOUS: CONTRA
+  [395/1177] allstate.com_011_s3_vs_allstate.com_033_s1 sim=0.51 -> UNANIMOUS: NOT
+  [389/1177] reddit.com_012_s2_vs_reddit.com_007_s2 sim=0.51 -> MAJORITY: NOT
+  [381/1177] uptodate.com_008_s2_vs_uptodate.com_005_s1 sim=0.51 -> UNANIMOUS: NOT
+  [394/1177] meredith.com_037_s2_vs_meredith.com_017_s1 sim=0.51 -> UNANIMOUS: NOT
+  [399/1177] rockstargames.com_044_s4_vs_rockstargames.com_011_s2 sim=0.51 -> UNANIMOUS: NOT
+  [383/1177] honda.com_012_s4_vs_honda.com_036_s2 sim=0.51 -> MAJORITY: NOT
+  [387/1177] honda.com_028_s2_vs_honda.com_052_s2 sim=0.51 -> MAJORITY: CONTRA
+  [386/1177] honda.com_022_s1_vs_honda.com_052_s2 sim=0.51 -> MAJORITY: NOT
+  --- Batch 20: saved 400 results, 58 confirmed contradictions so far ---
+  [416/1177] steampowered.com_003_s2_vs_steampowered.com_014_s1 sim=0.50 -> UNANIMOUS: NOT
+  [417/1177] honda.com_012_s4_vs_honda.com_051_s1 sim=0.50 -> UNANIMOUS: NOT
+  [410/1177] walmart.com_029_s2_vs_walmart.com_022_s2 sim=0.50 -> UNANIMOUS: NOT
+  [405/1177] amazon.com_016_s3_vs_amazon.com_004_s1 sim=0.51 -> UNANIMOUS: NOT
+  [412/1177] randomhouse.com_013_s2_vs_randomhouse.com_017_s10 sim=0.50 -> UNANIMOUS: NOT
+  [420/1177] abita.com_010_s1_vs_abita.com_003_s1 sim=0.50 -> UNANIMOUS: NOT
+  [414/1177] reddit.com_020_s2_vs_reddit.com_044_s1 sim=0.50 -> UNANIMOUS: NOT
+  [403/1177] walmart.com_024_s1_vs_walmart.com_022_s2 sim=0.51 -> UNANIMOUS: NOT
+  [413/1177] earthkam.org_006_s2_vs_earthkam.org_009_s2 sim=0.50 -> UNANIMOUS: NOT
+  [408/1177] geocaching.com_010_s4_vs_geocaching.com_009_s2 sim=0.51 -> UNANIMOUS: NOT
+  [415/1177] aol.com_028_s1_vs_aol.com_015_s4 sim=0.50 -> UNANIMOUS: NOT
+  [406/1177] kraftrecipes.com_028_s1_vs_kraftrecipes.com_002_s4 sim=0.51 -> UNANIMOUS: NOT
+  [407/1177] honda.com_005_s1_vs_honda.com_045_s1 sim=0.51 -> UNANIMOUS: NOT
+  [418/1177] reddit.com_010_s3_vs_reddit.com_050_s2 sim=0.50 -> UNANIMOUS: NOT
+  [402/1177] sheknows.com_040_s2_vs_sheknows.com_013_s1 sim=0.51 -> UNANIMOUS: NOT
+  [409/1177] abcnews.com_013_s4_vs_abcnews.com_028_s1 sim=0.51 -> UNANIMOUS: NOT
+  [411/1177] reddit.com_046_s1_vs_reddit.com_026_s2 sim=0.50 -> UNANIMOUS: NOT
+  [404/1177] honda.com_023_s2_vs_honda.com_008_s1 sim=0.51 -> UNANIMOUS: NOT
+  [419/1177] pbs.org_005_s1_vs_pbs.org_031_s1 sim=0.50 -> MAJORITY: NOT
+  [401/1177] meredith.com_053_s4_vs_meredith.com_054_s1 sim=0.51 -> UNANIMOUS: NOT
+  --- Batch 21: saved 420 results, 58 confirmed contradictions so far ---
+  [432/1177] imdb.com_022_s2_vs_imdb.com_018_s1 sim=0.49 -> UNANIMOUS: NOT
+  [431/1177] pbs.org_030_s3_vs_pbs.org_004_s1 sim=0.50 -> UNANIMOUS: NOT
+  [422/1177] randomhouse.com_012_s1_vs_randomhouse.com_004_s1 sim=0.50 -> UNANIMOUS: NOT
+  [439/1177] nbcuniversal.com_011_s2_vs_nbcuniversal.com_016_s1 sim=0.49 -> UNANIMOUS: NOT
+  [436/1177] imdb.com_022_s2_vs_imdb.com_014_s2 sim=0.49 -> UNANIMOUS: NOT
+  [434/1177] geocaching.com_010_s4_vs_geocaching.com_021_s4 sim=0.49 -> UNANIMOUS: NOT
+  [425/1177] washingtonian.com_009_s1_vs_washingtonian.com_006_s3 sim=0.50 -> UNANIMOUS: NOT
+  [437/1177] disinfo.com_004_s1_vs_disinfo.com_006_s1 sim=0.49 -> UNANIMOUS: NOT
+  [424/1177] aol.com_012_s2_vs_aol.com_007_s3 sim=0.50 -> UNANIMOUS: NOT
+  [426/1177] military.com_036_s2_vs_military.com_041_s3 sim=0.50 -> UNANIMOUS: NOT
+  [440/1177] mlb.mlb.com_003_s1_vs_mlb.mlb.com_012_s1 sim=0.49 -> UNANIMOUS: NOT
+  [421/1177] rockstargames.com_029_s1_vs_rockstargames.com_016_s1 sim=0.50 -> UNANIMOUS: NOT
+  [435/1177] gamestop.com_024_s1_vs_gamestop.com_010_s2 sim=0.49 -> UNANIMOUS: NOT
+  [430/1177] internetbrands.com_099_s1_vs_internetbrands.com_052_s3 sim=0.50 -> UNANIMOUS: CONTRA
+  [427/1177] reddit.com_004_s4_vs_reddit.com_013_s1 sim=0.50 -> UNANIMOUS: NOT
+  [433/1177] pbs.org_030_s3_vs_pbs.org_031_s1 sim=0.49 -> MAJORITY: CONTRA
+  [438/1177] rockstargames.com_040_s2_vs_rockstargames.com_011_s2 sim=0.49 -> UNANIMOUS: NOT
+  [429/1177] dailynews.com_028_s3_vs_dailynews.com_003_s1 sim=0.50 -> MAJORITY: NOT
+  [428/1177] sltrib.com_035_s1_vs_sltrib.com_003_s1 sim=0.50 -> UNANIMOUS: NOT
+  [423/1177] esquire.com_037_s1_vs_esquire.com_022_s1 sim=0.50 -> UNANIMOUS: NOT
+  --- Batch 22: saved 440 results, 60 confirmed contradictions so far ---
+  [451/1177] acbj.com_029_s1_vs_acbj.com_007_s1 sim=0.48 -> UNANIMOUS: NOT
+  [459/1177] archives.gov_018_s1_vs_archives.gov_023_s2 sim=0.48 -> UNANIMOUS: NOT
+  [457/1177] barnesandnoble.com_086_s1_vs_barnesandnoble.com_048_s1 sim=0.48 -> UNANIMOUS: NOT
+  [442/1177] meredith.com_037_s2_vs_meredith.com_019_s1 sim=0.49 -> UNANIMOUS: NOT
+  [460/1177] fortune.com_038_s2_vs_fortune.com_014_s1 sim=0.48 -> UNANIMOUS: NOT
+  [456/1177] honda.com_035_s3_vs_honda.com_033_s1 sim=0.48 -> UNANIMOUS: NOT
+  [441/1177] barnesandnoble.com_020_s2_vs_barnesandnoble.com_057_s3 sim=0.49 -> UNANIMOUS: NOT
+  [452/1177] ocregister.com_009_s1_vs_ocregister.com_015_s1 sim=0.48 -> UNANIMOUS: NOT
+  [455/1177] meredith.com_016_s1_vs_meredith.com_006_s1 sim=0.48 -> UNANIMOUS: NOT
+  [448/1177] vikings.com_014_s3_vs_vikings.com_011_s3 sim=0.48 -> UNANIMOUS: NOT
+  [445/1177] disinfo.com_016_s1_vs_disinfo.com_005_s1 sim=0.49 -> UNANIMOUS: NOT
+  [453/1177] internetbrands.com_099_s1_vs_internetbrands.com_048_s1 sim=0.48 -> UNANIMOUS: NOT
+  [458/1177] reddit.com_044_s5_vs_reddit.com_011_s1 sim=0.48 -> UNANIMOUS: NOT
+  [444/1177] jibjab.com_021_s3_vs_jibjab.com_015_s2 sim=0.49 -> UNANIMOUS: NOT
+  [447/1177] acbj.com_029_s1_vs_acbj.com_009_s1 sim=0.48 -> UNANIMOUS: NOT
+  [443/1177] abcnews.com_018_s2_vs_abcnews.com_031_s2 sim=0.49 -> UNANIMOUS: NOT
+  [446/1177] meredith.com_005_s1_vs_meredith.com_006_s1 sim=0.49 -> UNANIMOUS: NOT
+  [454/1177] internetbrands.com_099_s1_vs_internetbrands.com_038_s4 sim=0.48 -> MAJORITY: NOT
+  [449/1177] honda.com_061_s1_vs_honda.com_067_s1 sim=0.48 -> UNANIMOUS: CONTRA
+  [450/1177] fool.com_041_s2_vs_fool.com_031_s2 sim=0.48 -> UNANIMOUS: NOT
+  --- Batch 23: saved 460 results, 61 confirmed contradictions so far ---
+  [473/1177] washingtonian.com_005_s3_vs_washingtonian.com_007_s1 sim=0.48 -> UNANIMOUS: NOT
+  [472/1177] www.loc.gov_013_s2_vs_www.loc.gov_006_s1 sim=0.48 -> UNANIMOUS: NOT
+  [462/1177] si.edu_004_s4_vs_si.edu_007_s4 sim=0.48 -> UNANIMOUS: NOT
+  [475/1177] imdb.com_022_s2_vs_imdb.com_019_s2 sim=0.48 -> UNANIMOUS: NOT
+  [477/1177] military.com_037_s3_vs_military.com_041_s3 sim=0.47 -> UNANIMOUS: NOT
+  [461/1177] sltrib.com_010_s2_vs_sltrib.com_003_s1 sim=0.48 -> UNANIMOUS: NOT
+  [466/1177] rockstargames.com_044_s4_vs_rockstargames.com_021_s2 sim=0.48 -> UNANIMOUS: NOT
+  [476/1177] ocregister.com_014_s3_vs_ocregister.com_015_s1 sim=0.48 -> UNANIMOUS: NOT
+  [464/1177] barnesandnoble.com_020_s2_vs_barnesandnoble.com_064_s2 sim=0.48 -> UNANIMOUS: NOT
+  [478/1177] randomhouse.com_033_s2_vs_randomhouse.com_031_s1 sim=0.47 -> UNANIMOUS: NOT
+  [469/1177] voxmedia.com_010_s2_vs_voxmedia.com_012_s2 sim=0.48 -> UNANIMOUS: NOT
+  [471/1177] reddit.com_004_s4_vs_reddit.com_012_s1 sim=0.48 -> UNANIMOUS: NOT
+  [465/1177] randomhouse.com_013_s2_vs_randomhouse.com_019_s2 sim=0.48 -> UNANIMOUS: NOT
+  [467/1177] dailynews.com_007_s3_vs_dailynews.com_031_s1 sim=0.48 -> UNANIMOUS: NOT
+  [479/1177] rockstargames.com_044_s4_vs_rockstargames.com_045_s2 sim=0.47 -> UNANIMOUS: NOT
+  [470/1177] imdb.com_021_s4_vs_imdb.com_028_s1 sim=0.48 -> UNANIMOUS: NOT
+  [468/1177] stlouisfed.org_016_s1_vs_stlouisfed.org_028_s1 sim=0.48 -> UNANIMOUS: CONTRA
+  [474/1177] honda.com_005_s1_vs_honda.com_006_s2 sim=0.48 -> MAJORITY: NOT
+  [480/1177] nytimes.com_031_s3_vs_nytimes.com_028_s2 sim=0.47 -> UNANIMOUS: CONTRA
+  [463/1177] barnesandnoble.com_060_s3_vs_barnesandnoble.com_056_s1 sim=0.48 -> MAJORITY: CONTRA
+  --- Batch 24: saved 480 results, 64 confirmed contradictions so far ---
+  [498/1177] acbj.com_029_s1_vs_acbj.com_010_s2 sim=0.46 -> UNANIMOUS: NOT
+  [489/1177] rockstargames.com_040_s2_vs_rockstargames.com_009_s2 sim=0.47 -> UNANIMOUS: NOT
+  [491/1177] amazon.com_014_s2_vs_amazon.com_016_s2 sim=0.47 -> UNANIMOUS: NOT
+  [483/1177] honda.com_005_s1_vs_honda.com_046_s1 sim=0.47 -> UNANIMOUS: NOT
+  [486/1177] sidearmsports.com_040_s2_vs_sidearmsports.com_006_s2 sim=0.47 -> UNANIMOUS: NOT
+  [488/1177] nbcuniversal.com_011_s2_vs_nbcuniversal.com_023_s1 sim=0.47 -> UNANIMOUS: NOT
+  [481/1177] lynda.com_015_s1_vs_lynda.com_020_s1 sim=0.47 -> UNANIMOUS: NOT
+  [499/1177] latinpost.com_058_s1_vs_latinpost.com_066_s1 sim=0.46 -> UNANIMOUS: CONTRA
+  [494/1177] miaminewtimes.com_010_s1_vs_miaminewtimes.com_021_s1 sim=0.47 -> UNANIMOUS: CONTRA
+  [493/1177] rockstargames.com_044_s4_vs_rockstargames.com_011_s1 sim=0.47 -> UNANIMOUS: NOT
+  [500/1177] reddit.com_046_s1_vs_reddit.com_023_s1 sim=0.46 -> UNANIMOUS: NOT
+  [485/1177] rockstargames.com_023_s5_vs_rockstargames.com_015_s2 sim=0.47 -> UNANIMOUS: NOT
+  [492/1177] rockstargames.com_023_s5_vs_rockstargames.com_020_s4 sim=0.47 -> UNANIMOUS: NOT
+  [482/1177] abita.com_011_s4_vs_abita.com_004_s3 sim=0.47 -> UNANIMOUS: NOT
+  [497/1177] aol.com_012_s2_vs_aol.com_009_s1 sim=0.47 -> UNANIMOUS: NOT
+  [484/1177] ironhorsevineyards.com_002_s5_vs_ironhorsevineyards.com_006_s2 sim=0.47 -> UNANIMOUS: NOT
+  [496/1177] nytimes.com_048_s2_vs_nytimes.com_045_s1 sim=0.47 -> UNANIMOUS: NOT
+  [490/1177] barnesandnoble.com_038_s3_vs_barnesandnoble.com_067_s1 sim=0.47 -> UNANIMOUS: CONTRA
+  [495/1177] thehill.com_011_s2_vs_thehill.com_007_s1 sim=0.47 -> UNANIMOUS: NOT
+  [487/1177] rockstargames.com_023_s5_vs_rockstargames.com_037_s6 sim=0.47 -> MAJORITY: CONTRA
+  --- Batch 25: saved 500 results, 68 confirmed contradictions so far ---
+  [509/1177] allstate.com_004_s2_vs_allstate.com_033_s1 sim=0.46 -> UNANIMOUS: NOT
+  [504/1177] honda.com_023_s2_vs_honda.com_024_s1 sim=0.46 -> UNANIMOUS: NOT
+  [511/1177] walmart.com_011_s3_vs_walmart.com_022_s1 sim=0.46 -> UNANIMOUS: NOT
+  [503/1177] freep.com_019_s1_vs_freep.com_024_s2 sim=0.46 -> UNANIMOUS: NOT
+  [508/1177] rockstargames.com_055_s1_vs_rockstargames.com_015_s1 sim=0.46 -> UNANIMOUS: NOT
+  [515/1177] barnesandnoble.com_038_s3_vs_barnesandnoble.com_060_s1 sim=0.46 -> UNANIMOUS: NOT
+  [514/1177] taylorswift.com_027_s2_vs_taylorswift.com_019_s1 sim=0.46 -> UNANIMOUS: NOT
+  [519/1177] rockstargames.com_020_s2_vs_rockstargames.com_023_s1 sim=0.46 -> UNANIMOUS: CONTRA
+  [510/1177] ticketmaster.com_011_s3_vs_ticketmaster.com_010_s1 sim=0.46 -> UNANIMOUS: NOT
+  [502/1177] honda.com_023_s2_vs_honda.com_007_s1 sim=0.46 -> UNANIMOUS: NOT
+  [517/1177] dailynews.com_030_s3_vs_dailynews.com_003_s1 sim=0.46 -> UNANIMOUS: NOT
+  [505/1177] nytimes.com_044_s1_vs_nytimes.com_050_s1 sim=0.46 -> UNANIMOUS: NOT
+  [513/1177] reddit.com_025_s2_vs_reddit.com_006_s3 sim=0.46 -> UNANIMOUS: NOT
+  [518/1177] randomhouse.com_041_s2_vs_randomhouse.com_021_s1 sim=0.46 -> UNANIMOUS: NOT
+  [516/1177] pbs.org_014_s3_vs_pbs.org_026_s2 sim=0.46 -> UNANIMOUS: CONTRA
+  [520/1177] pbs.org_005_s1_vs_pbs.org_018_s2 sim=0.46 -> UNANIMOUS: NOT
+  [501/1177] esquire.com_037_s1_vs_esquire.com_040_s2 sim=0.46 -> MAJORITY: NOT
+  [512/1177] sheknows.com_029_s1_vs_sheknows.com_017_s4 sim=0.46 -> MAJORITY: CONTRA
+  [506/1177] fool.com_005_s3_vs_fool.com_046_s2 sim=0.46 -> MAJORITY: CONTRA
+  [507/1177] miaminewtimes.com_010_s1_vs_miaminewtimes.com_019_s3 sim=0.46 -> MAJORITY: NOT
+  --- Batch 26: saved 520 results, 72 confirmed contradictions so far ---
+  [537/1177] reference.com_014_s1_vs_reference.com_016_s1 sim=0.45 -> UNANIMOUS: NOT
+  [536/1177] honda.com_035_s3_vs_honda.com_070_s1 sim=0.45 -> UNANIMOUS: NOT
+  [538/1177] voxmedia.com_009_s2_vs_voxmedia.com_012_s1 sim=0.45 -> UNANIMOUS: NOT
+  [524/1177] www.loc.gov_013_s2_vs_www.loc.gov_005_s5 sim=0.46 -> UNANIMOUS: NOT
+  [522/1177] si.edu_004_s4_vs_si.edu_007_s1 sim=0.46 -> UNANIMOUS: NOT
+  [534/1177] archives.gov_018_s1_vs_archives.gov_023_s3 sim=0.45 -> UNANIMOUS: NOT
+  [531/1177] www.loc.gov_010_s1_vs_www.loc.gov_011_s2 sim=0.45 -> UNANIMOUS: NOT
+  [527/1177] miaminewtimes.com_010_s1_vs_miaminewtimes.com_005_s1 sim=0.45 -> UNANIMOUS: NOT
+  [526/1177] dailynews.com_007_s2_vs_dailynews.com_005_s1 sim=0.45 -> UNANIMOUS: NOT
+  [521/1177] geocaching.com_010_s4_vs_geocaching.com_009_s3 sim=0.46 -> UNANIMOUS: NOT
+  [532/1177] reddit.com_046_s1_vs_reddit.com_025_s1 sim=0.45 -> UNANIMOUS: NOT
+  [523/1177] internetbrands.com_099_s1_vs_internetbrands.com_039_s1 sim=0.46 -> UNANIMOUS: NOT
+  [533/1177] rockstargames.com_029_s1_vs_rockstargames.com_015_s3 sim=0.45 -> UNANIMOUS: NOT
+  [539/1177] nytimes.com_053_s2_vs_nytimes.com_050_s1 sim=0.45 -> UNANIMOUS: NOT
+  [525/1177] freep.com_019_s1_vs_freep.com_007_s8 sim=0.46 -> UNANIMOUS: NOT
+  [540/1177] sidearmsports.com_047_s1_vs_sidearmsports.com_048_s1 sim=0.45 -> UNANIMOUS: CONTRA
+  [529/1177] ticketmaster.com_011_s3_vs_ticketmaster.com_015_s2 sim=0.45 -> MAJORITY: NOT
+  [528/1177] ocregister.com_013_s3_vs_ocregister.com_015_s1 sim=0.45 -> UNANIMOUS: NOT
+  [535/1177] archives.gov_011_s1_vs_archives.gov_007_s3 sim=0.45 -> UNANIMOUS: CONTRA
+  [530/1177] military.com_038_s6_vs_military.com_036_s4 sim=0.45 -> MAJORITY: NOT
+  --- Batch 27: saved 540 results, 74 confirmed contradictions so far ---
+  [553/1177] disinfo.com_016_s1_vs_disinfo.com_008_s1 sim=0.45 -> UNANIMOUS: NOT
+  [543/1177] archives.gov_004_s5_vs_archives.gov_023_s2 sim=0.45 -> UNANIMOUS: NOT
+  [550/1177] usa.gov_013_s2_vs_usa.gov_004_s1 sim=0.45 -> UNANIMOUS: NOT
+  [541/1177] walmart.com_011_s3_vs_walmart.com_021_s1 sim=0.45 -> UNANIMOUS: NOT
+  [555/1177] lynda.com_062_s3_vs_lynda.com_030_s1 sim=0.45 -> UNANIMOUS: NOT
+  [544/1177] latinpost.com_003_s2_vs_latinpost.com_028_s1 sim=0.45 -> UNANIMOUS: NOT
+  [542/1177] honda.com_013_s2_vs_honda.com_035_s1 sim=0.45 -> UNANIMOUS: NOT
+  [556/1177] rockstargames.com_040_s2_vs_rockstargames.com_046_s1 sim=0.45 -> UNANIMOUS: NOT
+  [549/1177] voxmedia.com_009_s2_vs_voxmedia.com_012_s2 sim=0.45 -> UNANIMOUS: NOT
+  [551/1177] sltrib.com_036_s1_vs_sltrib.com_003_s1 sim=0.45 -> UNANIMOUS: NOT
+  [559/1177] internetbrands.com_096_s2_vs_internetbrands.com_052_s3 sim=0.44 -> UNANIMOUS: NOT
+  [557/1177] sheknows.com_008_s2_vs_sheknows.com_015_s2 sim=0.44 -> MAJORITY: NOT
+  [552/1177] dailynews.com_029_s1_vs_dailynews.com_003_s1 sim=0.45 -> MAJORITY: NOT
+  [545/1177] randomhouse.com_009_s3_vs_randomhouse.com_007_s1 sim=0.45 -> UNANIMOUS: CONTRA
+  [554/1177] tgifridays.com_010_s1_vs_tgifridays.com_011_s2 sim=0.45 -> UNANIMOUS: NOT
+  [546/1177] reddit.com_004_s4_vs_reddit.com_006_s3 sim=0.45 -> UNANIMOUS: CONTRA
+  [558/1177] latinpost.com_058_s1_vs_latinpost.com_016_s1 sim=0.44 -> MAJORITY: CONTRA
+  [560/1177] latinpost.com_057_s2_vs_latinpost.com_059_s1 sim=0.44 -> UNANIMOUS: CONTRA
+  [548/1177] disinfo.com_004_s1_vs_disinfo.com_014_s1 sim=0.45 -> UNANIMOUS: CONTRA
+  [547/1177] sidearmsports.com_028_s2_vs_sidearmsports.com_007_s1 sim=0.45 -> MAJORITY: CONTRA
+  --- Batch 28: saved 560 results, 80 confirmed contradictions so far ---
+  [562/1177] reddit.com_014_s1_vs_reddit.com_044_s3 sim=0.44 -> UNANIMOUS: CONTRA
+  [570/1177] playstation.com_019_s2_vs_playstation.com_010_s2 sim=0.44 -> UNANIMOUS: NOT
+  [569/1177] thehill.com_002_s3_vs_thehill.com_006_s1 sim=0.44 -> UNANIMOUS: NOT
+  [561/1177] rockstargames.com_009_s4_vs_rockstargames.com_044_s2 sim=0.44 -> UNANIMOUS: NOT
+  [574/1177] si.edu_004_s5_vs_si.edu_007_s1 sim=0.44 -> UNANIMOUS: NOT
+  [579/1177] barnesandnoble.com_020_s2_vs_barnesandnoble.com_057_s2 sim=0.43 -> UNANIMOUS: NOT
+  [575/1177] style.com_026_s1_vs_style.com_007_s1 sim=0.44 -> UNANIMOUS: NOT
+  [571/1177] rockstargames.com_055_s1_vs_rockstargames.com_016_s1 sim=0.44 -> UNANIMOUS: NOT
+  [563/1177] dailynews.com_008_s2_vs_dailynews.com_031_s1 sim=0.44 -> UNANIMOUS: NOT
+  [573/1177] kraftrecipes.com_002_s1_vs_kraftrecipes.com_003_s1 sim=0.44 -> UNANIMOUS: NOT
+  [572/1177] rockstargames.com_011_s3_vs_rockstargames.com_044_s2 sim=0.44 -> UNANIMOUS: NOT
+  [565/1177] ocregister.com_009_s1_vs_ocregister.com_012_s1 sim=0.44 -> UNANIMOUS: NOT
+  [567/1177] reddit.com_012_s2_vs_reddit.com_010_s1 sim=0.44 -> UNANIMOUS: NOT
+  [568/1177] nytimes.com_049_s2_vs_nytimes.com_050_s1 sim=0.44 -> MAJORITY: NOT
+  [576/1177] rockstargames.com_023_s5_vs_rockstargames.com_027_s2 sim=0.44 -> UNANIMOUS: NOT
+  [564/1177] pbs.org_010_s3_vs_pbs.org_021_s3 sim=0.44 -> MAJORITY: NOT
+  [577/1177] nytimes.com_044_s1_vs_nytimes.com_045_s1 sim=0.43 -> MAJORITY: NOT
+  [580/1177] sheknows.com_029_s1_vs_sheknows.com_024_s1 sim=0.43 -> UNANIMOUS: NOT
+  [578/1177] miaminewtimes.com_010_s1_vs_miaminewtimes.com_011_s1 sim=0.43 -> MAJORITY: NOT
+  [566/1177] barnesandnoble.com_063_s2_vs_barnesandnoble.com_020_s1 sim=0.44 -> MAJORITY: CONTRA
+  --- Batch 29: saved 580 results, 82 confirmed contradictions so far ---
+  [599/1177] meredith.com_053_s4_vs_meredith.com_008_s1 sim=0.43 -> UNANIMOUS: NOT
+  [598/1177] honda.com_023_s2_vs_honda.com_035_s1 sim=0.43 -> UNANIMOUS: NOT
+  [591/1177] post-gazette.com_003_s2_vs_post-gazette.com_027_s3 sim=0.43 -> UNANIMOUS: NOT
+  [583/1177] reddit.com_010_s3_vs_reddit.com_005_s1 sim=0.43 -> UNANIMOUS: NOT
+  [589/1177] rockstargames.com_029_s1_vs_rockstargames.com_023_s1 sim=0.43 -> UNANIMOUS: NOT
+  [586/1177] thehill.com_002_s3_vs_thehill.com_004_s1 sim=0.43 -> UNANIMOUS: NOT
+  [594/1177] theatlantic.com_019_s3_vs_theatlantic.com_021_s1 sim=0.43 -> UNANIMOUS: NOT
+  [584/1177] honda.com_005_s1_vs_honda.com_027_s1 sim=0.43 -> UNANIMOUS: NOT
+  [590/1177] reddit.com_004_s4_vs_reddit.com_026_s2 sim=0.43 -> UNANIMOUS: NOT
+  [593/1177] style.com_002_s1_vs_style.com_003_s2 sim=0.43 -> UNANIMOUS: NOT
+  [592/1177] honda.com_005_s1_vs_honda.com_022_s2 sim=0.43 -> UNANIMOUS: NOT
+  [582/1177] tulsaworld.com_029_s3_vs_tulsaworld.com_032_s1 sim=0.43 -> MAJORITY: NOT
+  [585/1177] ocregister.com_009_s1_vs_ocregister.com_011_s3 sim=0.43 -> UNANIMOUS: NOT
+  [581/1177] reddit.com_046_s1_vs_reddit.com_011_s2 sim=0.43 -> MAJORITY: NOT
+  [587/1177] www.loc.gov_015_s1_vs_www.loc.gov_016_s1 sim=0.43 -> UNANIMOUS: NOT
+  [596/1177] esquire.com_037_s1_vs_esquire.com_026_s1 sim=0.43 -> UNANIMOUS: NOT
+  [597/1177] fool.com_041_s2_vs_fool.com_024_s1 sim=0.43 -> UNANIMOUS: CONTRA
+  [588/1177] pbs.org_010_s3_vs_pbs.org_021_s2 sim=0.43 -> MAJORITY: NOT
+  [600/1177] ticketmaster.com_011_s3_vs_ticketmaster.com_015_s1 sim=0.43 -> MAJORITY: NOT
+  [595/1177] reddit.com_026_s3_vs_reddit.com_010_s1 sim=0.43 -> SPLIT
+  --- Batch 30: saved 600 results, 83 confirmed contradictions so far ---
+  [617/1177] rockstargames.com_020_s2_vs_rockstargames.com_037_s6 sim=0.43 -> UNANIMOUS: CONTRA
+  [605/1177] taylorswift.com_023_s1_vs_taylorswift.com_019_s1 sim=0.43 -> UNANIMOUS: NOT
+  [619/1177] aol.com_012_s2_vs_aol.com_010_s1 sim=0.43 -> UNANIMOUS: NOT
+  [620/1177] meredith.com_037_s2_vs_meredith.com_018_s2 sim=0.43 -> UNANIMOUS: NOT
+  [608/1177] nbcuniversal.com_011_s2_vs_nbcuniversal.com_020_s1 sim=0.43 -> UNANIMOUS: NOT
+  [616/1177] latinpost.com_012_s10_vs_latinpost.com_020_s1 sim=0.43 -> UNANIMOUS: NOT
+  [607/1177] www.loc.gov_021_s5_vs_www.loc.gov_003_s1 sim=0.43 -> UNANIMOUS: NOT
+  [618/1177] washingtonian.com_005_s3_vs_washingtonian.com_002_s5 sim=0.43 -> UNANIMOUS: NOT
+  [613/1177] nbcuniversal.com_042_s1_vs_nbcuniversal.com_007_s1 sim=0.43 -> UNANIMOUS: NOT
+  [601/1177] freep.com_019_s1_vs_freep.com_010_s2 sim=0.43 -> UNANIMOUS: NOT
+  [603/1177] meredith.com_037_s2_vs_meredith.com_018_s3 sim=0.43 -> UNANIMOUS: NOT
+  [614/1177] bankofamerica.com_042_s1_vs_bankofamerica.com_041_s1 sim=0.43 -> UNANIMOUS: NOT
+  [602/1177] randomhouse.com_031_s2_vs_randomhouse.com_030_s1 sim=0.43 -> UNANIMOUS: NOT
+  [610/1177] nytimes.com_020_s3_vs_nytimes.com_050_s1 sim=0.43 -> UNANIMOUS: NOT
+  [606/1177] fool.com_032_s1_vs_fool.com_050_s1 sim=0.43 -> UNANIMOUS: NOT
+  [609/1177] reference.com_014_s1_vs_reference.com_010_s1 sim=0.43 -> UNANIMOUS: NOT
+  [612/1177] archives.gov_010_s2_vs_archives.gov_007_s2 sim=0.43 -> UNANIMOUS: CONTRA
+  [611/1177] latinpost.com_012_s10_vs_latinpost.com_027_s1 sim=0.43 -> UNANIMOUS: NOT
+  [615/1177] bankofamerica.com_076_s1_vs_bankofamerica.com_041_s1 sim=0.43 -> MAJORITY: NOT
+  [604/1177] fool.com_041_s2_vs_fool.com_031_s1 sim=0.43 -> UNANIMOUS: NOT
+  --- Batch 31: saved 620 results, 85 confirmed contradictions so far ---
+  [627/1177] reddit.com_010_s3_vs_reddit.com_044_s1 sim=0.42 -> UNANIMOUS: NOT
+  [626/1177] dailynews.com_007_s3_vs_dailynews.com_015_s1 sim=0.42 -> UNANIMOUS: NOT
+  [638/1177] reddit.com_010_s3_vs_reddit.com_014_s2 sim=0.42 -> UNANIMOUS: NOT
+  [628/1177] lodgemfg.com_020_s1_vs_lodgemfg.com_003_s1 sim=0.42 -> UNANIMOUS: NOT
+  [639/1177] sltrib.com_010_s2_vs_sltrib.com_039_s1 sim=0.42 -> UNANIMOUS: NOT
+  [623/1177] pbs.org_005_s1_vs_pbs.org_018_s1 sim=0.42 -> UNANIMOUS: NOT
+  [633/1177] bankofamerica.com_075_s1_vs_bankofamerica.com_010_s1 sim=0.42 -> UNANIMOUS: NOT
+  [630/1177] pbs.org_014_s3_vs_pbs.org_018_s1 sim=0.42 -> UNANIMOUS: CONTRA
+  [635/1177] pbs.org_031_s4_vs_pbs.org_008_s1 sim=0.42 -> UNANIMOUS: NOT
+  [621/1177] rockstargames.com_031_s2_vs_rockstargames.com_020_s4 sim=0.42 -> UNANIMOUS: NOT
+  [631/1177] tulsaworld.com_024_s2_vs_tulsaworld.com_025_s1 sim=0.42 -> MAJORITY: NOT
+  [629/1177] barnesandnoble.com_095_s1_vs_barnesandnoble.com_020_s1 sim=0.42 -> UNANIMOUS: NOT
+  [640/1177] barnesandnoble.com_060_s3_vs_barnesandnoble.com_062_s1 sim=0.42 -> MAJORITY: NOT
+  [622/1177] buffalowildwings.com_008_s2_vs_buffalowildwings.com_015_s2 sim=0.42 -> UNANIMOUS: CONTRA
+  [637/1177] bankofamerica.com_029_s3_vs_bankofamerica.com_037_s3 sim=0.42 -> UNANIMOUS: NOT
+  [636/1177] nytimes.com_049_s2_vs_nytimes.com_027_s1 sim=0.42 -> MAJORITY: NOT
+  [624/1177] fool.com_021_s1_vs_fool.com_050_s1 sim=0.42 -> UNANIMOUS: NOT
+  [634/1177] taylorswift.com_023_s1_vs_taylorswift.com_022_s1 sim=0.42 -> MAJORITY: NOT
+  [625/1177] fool.com_041_s2_vs_fool.com_029_s2 sim=0.42 -> UNANIMOUS: CONTRA
+  [632/1177] sheknows.com_008_s2_vs_sheknows.com_022_s2 sim=0.42 -> UNANIMOUS: NOT
+  --- Batch 32: saved 640 results, 88 confirmed contradictions so far ---
+  [660/1177] everydayhealth.com_017_s5_vs_everydayhealth.com_009_s2 sim=0.41 -> UNANIMOUS: NOT
+  [641/1177] latinpost.com_047_s2_vs_latinpost.com_010_s1 sim=0.42 -> UNANIMOUS: NOT
+  [649/1177] nbcuniversal.com_011_s2_vs_nbcuniversal.com_018_s1 sim=0.42 -> UNANIMOUS: NOT
+  [655/1177] honda.com_023_s2_vs_honda.com_045_s1 sim=0.42 -> UNANIMOUS: NOT
+  [645/1177] honda.com_023_s2_vs_honda.com_047_s1 sim=0.42 -> UNANIMOUS: NOT
+  [651/1177] honda.com_054_s2_vs_honda.com_036_s1 sim=0.42 -> UNANIMOUS: NOT
+  [644/1177] honda.com_028_s2_vs_honda.com_006_s2 sim=0.42 -> UNANIMOUS: NOT
+  [643/1177] honda.com_022_s1_vs_honda.com_006_s2 sim=0.42 -> UNANIMOUS: NOT
+  [652/1177] honda.com_057_s2_vs_honda.com_036_s1 sim=0.42 -> UNANIMOUS: NOT
+  [646/1177] esquire.com_037_s1_vs_esquire.com_027_s1 sim=0.42 -> UNANIMOUS: NOT
+  [658/1177] esquire.com_037_s1_vs_esquire.com_033_s1 sim=0.41 -> UNANIMOUS: NOT
+  [648/1177] sheknows.com_040_s2_vs_sheknows.com_026_s2 sim=0.42 -> UNANIMOUS: NOT
+  [647/1177] reddit.com_046_s1_vs_reddit.com_044_s3 sim=0.42 -> UNANIMOUS: NOT
+  [654/1177] miaminewtimes.com_010_s1_vs_miaminewtimes.com_022_s1 sim=0.42 -> UNANIMOUS: NOT
+  [650/1177] honda.com_038_s2_vs_honda.com_036_s1 sim=0.42 -> UNANIMOUS: NOT
+  [656/1177] taylorswift.com_027_s2_vs_taylorswift.com_022_s1 sim=0.42 -> UNANIMOUS: NOT
+  [659/1177] sciencemag.org_032_s2_vs_sciencemag.org_003_s1 sim=0.41 -> MAJORITY: NOT
+  [653/1177] imdb.com_021_s3_vs_imdb.com_028_s1 sim=0.42 -> MAJORITY: NOT
+  [657/1177] randomhouse.com_014_s2_vs_randomhouse.com_013_s1 sim=0.42 -> UNANIMOUS: CONTRA
+  [642/1177] nytimes.com_042_s2_vs_nytimes.com_017_s3 sim=0.42 -> MAJORITY: NOT
+  --- Batch 33: saved 660 results, 89 confirmed contradictions so far ---
+  [668/1177] allstate.com_024_s2_vs_allstate.com_018_s1 sim=0.41 -> UNANIMOUS: NOT
+  [676/1177] adweek.com_013_s4_vs_adweek.com_002_s2 sim=0.41 -> UNANIMOUS: NOT
+  [674/1177] honda.com_035_s3_vs_honda.com_048_s1 sim=0.41 -> UNANIMOUS: NOT
+  [671/1177] barnesandnoble.com_026_s2_vs_barnesandnoble.com_067_s1 sim=0.41 -> UNANIMOUS: NOT
+  [667/1177] honda.com_023_s2_vs_honda.com_051_s3 sim=0.41 -> UNANIMOUS: NOT
+  [677/1177] honda.com_013_s2_vs_honda.com_028_s1 sim=0.41 -> UNANIMOUS: NOT
+  [669/1177] military.com_037_s3_vs_military.com_012_s2 sim=0.41 -> UNANIMOUS: NOT
+  [663/1177] bankofamerica.com_075_s1_vs_bankofamerica.com_015_s1 sim=0.41 -> UNANIMOUS: NOT
+  [678/1177] ocregister.com_014_s3_vs_ocregister.com_012_s1 sim=0.41 -> UNANIMOUS: NOT
+  [670/1177] acbj.com_029_s1_vs_acbj.com_010_s4 sim=0.41 -> UNANIMOUS: CONTRA
+  [672/1177] stlouisfed.org_029_s3_vs_stlouisfed.org_002_s3 sim=0.41 -> UNANIMOUS: NOT
+  [666/1177] randomhouse.com_012_s1_vs_randomhouse.com_018_s2 sim=0.41 -> UNANIMOUS: NOT
+  [679/1177] abcnews.com_013_s4_vs_abcnews.com_018_s3 sim=0.41 -> UNANIMOUS: NOT
+  [661/1177] reddit.com_004_s4_vs_reddit.com_022_s1 sim=0.41 -> UNANIMOUS: NOT
+  [662/1177] taylorswift.com_023_s1_vs_taylorswift.com_016_s1 sim=0.41 -> UNANIMOUS: NOT
+  [680/1177] esquire.com_024_s2_vs_esquire.com_033_s1 sim=0.41 -> UNANIMOUS: NOT
+  [675/1177] bankofamerica.com_075_s1_vs_bankofamerica.com_012_s1 sim=0.41 -> MAJORITY: NOT
+  [664/1177] archives.gov_011_s1_vs_archives.gov_009_s1 sim=0.41 -> UNANIMOUS: CONTRA
+  [665/1177] kraftrecipes.com_022_s2_vs_kraftrecipes.com_021_s1 sim=0.41 -> MAJORITY: NOT
+  [673/1177] sidearmsports.com_040_s2_vs_sidearmsports.com_035_s1 sim=0.41 -> MAJORITY: CONTRA
+  --- Batch 34: saved 680 results, 92 confirmed contradictions so far ---
+  [699/1177] reddit.com_017_s1_vs_reddit.com_045_s3 sim=0.40 -> UNANIMOUS: CONTRA
+  [690/1177] fool.com_005_s3_vs_fool.com_009_s1 sim=0.40 -> UNANIMOUS: NOT
+  [688/1177] mlb.mlb.com_015_s2_vs_mlb.mlb.com_003_s3 sim=0.40 -> UNANIMOUS: CONTRA
+  [694/1177] google.com_031_s1_vs_google.com_034_s1 sim=0.40 -> UNANIMOUS: CONTRA
+  [686/1177] lynda.com_062_s3_vs_lynda.com_031_s2 sim=0.41 -> UNANIMOUS: NOT
+  [684/1177] nytimes.com_031_s3_vs_nytimes.com_026_s2 sim=0.41 -> UNANIMOUS: NOT
+  [685/1177] pbs.org_031_s4_vs_pbs.org_021_s3 sim=0.41 -> UNANIMOUS: NOT
+  [692/1177] lynda.com_039_s1_vs_lynda.com_044_s2 sim=0.40 -> UNANIMOUS: NOT
+  [689/1177] kraftrecipes.com_011_s2_vs_kraftrecipes.com_007_s2 sim=0.40 -> UNANIMOUS: NOT
+  [697/1177] ocregister.com_011_s5_vs_ocregister.com_015_s1 sim=0.40 -> UNANIMOUS: NOT
+  [682/1177] wsmv.com_023_s2_vs_wsmv.com_007_s3 sim=0.41 -> UNANIMOUS: NOT
+  [681/1177] rockstargames.com_040_s2_vs_rockstargames.com_021_s3 sim=0.41 -> UNANIMOUS: NOT
+  [698/1177] internetbrands.com_099_s1_vs_internetbrands.com_038_s6 sim=0.40 -> UNANIMOUS: NOT
+  [683/1177] foodallergy.org_017_s2_vs_foodallergy.org_022_s1 sim=0.41 -> UNANIMOUS: CONTRA
+  [696/1177] fool.com_041_s2_vs_fool.com_032_s2 sim=0.40 -> UNANIMOUS: NOT
+  [695/1177] randomhouse.com_041_s2_vs_randomhouse.com_023_s1 sim=0.40 -> UNANIMOUS: NOT
+  [687/1177] kraftrecipes.com_011_s2_vs_kraftrecipes.com_004_s2 sim=0.40 -> MAJORITY: NOT
+  [700/1177] randomhouse.com_014_s2_vs_randomhouse.com_034_s2 sim=0.40 -> UNANIMOUS: NOT
+  [693/1177] freep.com_019_s1_vs_freep.com_007_s5 sim=0.40 -> UNANIMOUS: NOT
+  [691/1177] reddit.com_012_s2_vs_reddit.com_008_s3 sim=0.40 -> UNANIMOUS: CONTRA
+  --- Batch 35: saved 700 results, 97 confirmed contradictions so far ---
+  [705/1177] latinpost.com_047_s2_vs_latinpost.com_029_s5 sim=0.40 -> UNANIMOUS: NOT
+  [712/1177] zacks.com_002_s2_vs_zacks.com_006_s3 sim=0.40 -> UNANIMOUS: NOT
+  [715/1177] rockstargames.com_031_s2_vs_rockstargames.com_015_s1 sim=0.40 -> UNANIMOUS: NOT
+  [714/1177] www.loc.gov_016_s3_vs_www.loc.gov_012_s2 sim=0.40 -> UNANIMOUS: NOT
+  [713/1177] latinpost.com_047_s2_vs_latinpost.com_021_s1 sim=0.40 -> UNANIMOUS: NOT
+  [719/1177] disinfo.com_016_s1_vs_disinfo.com_006_s1 sim=0.40 -> UNANIMOUS: NOT
+  [703/1177] reddit.com_044_s4_vs_reddit.com_008_s3 sim=0.40 -> UNANIMOUS: NOT
+  [704/1177] nytimes.com_020_s2_vs_nytimes.com_050_s1 sim=0.40 -> UNANIMOUS: NOT
+  [710/1177] esquire.com_019_s4_vs_esquire.com_040_s2 sim=0.40 -> UNANIMOUS: NOT
+  [708/1177] lynda.com_017_s3_vs_lynda.com_064_s1 sim=0.40 -> UNANIMOUS: NOT
+  [706/1177] nytimes.com_031_s3_vs_nytimes.com_026_s1 sim=0.40 -> UNANIMOUS: NOT
+  [720/1177] wsmv.com_011_s1_vs_wsmv.com_008_s1 sim=0.39 -> UNANIMOUS: NOT
+  [711/1177] enthusiastnetwork.com_011_s1_vs_enthusiastnetwork.com_013_s1 sim=0.40 -> UNANIMOUS: NOT
+  [716/1177] archives.gov_004_s5_vs_archives.gov_012_s1 sim=0.40 -> UNANIMOUS: NOT
+  [701/1177] zacks.com_005_s5_vs_zacks.com_011_s2 sim=0.40 -> UNANIMOUS: NOT
+  [718/1177] esquire.com_037_s1_vs_esquire.com_034_s1 sim=0.40 -> UNANIMOUS: NOT
+  [702/1177] latinpost.com_057_s2_vs_latinpost.com_066_s1 sim=0.40 -> MAJORITY: CONTRA
+  [717/1177] lids.com_010_s2_vs_lids.com_007_s1 sim=0.40 -> UNANIMOUS: NOT
+  [707/1177] sidearmsports.com_034_s2_vs_sidearmsports.com_035_s1 sim=0.40 -> SPLIT
+  [709/1177] www.loc.gov_015_s1_vs_www.loc.gov_006_s1 sim=0.40 -> UNANIMOUS: NOT
+  --- Batch 36: saved 720 results, 98 confirmed contradictions so far ---
+  [737/1177] reddit.com_007_s3_vs_reddit.com_006_s3 sim=0.39 -> UNANIMOUS: NOT
+  [728/1177] honda.com_013_s2_vs_honda.com_054_s1 sim=0.39 -> UNANIMOUS: NOT
+  [727/1177] honda.com_013_s2_vs_honda.com_038_s1 sim=0.39 -> UNANIMOUS: NOT
+  [724/1177] kraftrecipes.com_002_s1_vs_kraftrecipes.com_009_s1 sim=0.39 -> UNANIMOUS: NOT
+  [730/1177] rockstargames.com_031_s2_vs_rockstargames.com_016_s1 sim=0.39 -> UNANIMOUS: NOT
+  [739/1177] honda.com_004_s1_vs_honda.com_049_s1 sim=0.39 -> UNANIMOUS: NOT
+  [732/1177] enthusiastnetwork.com_031_s1_vs_enthusiastnetwork.com_002_s1 sim=0.39 -> UNANIMOUS: NOT
+  [731/1177] nbcuniversal.com_011_s2_vs_nbcuniversal.com_007_s1 sim=0.39 -> UNANIMOUS: NOT
+  [723/1177] military.com_036_s2_vs_military.com_033_s3 sim=0.39 -> UNANIMOUS: CONTRA
+  [735/1177] pbs.org_031_s5_vs_pbs.org_021_s3 sim=0.39 -> UNANIMOUS: NOT
+  [738/1177] acbj.com_029_s1_vs_acbj.com_017_s5 sim=0.39 -> UNANIMOUS: NOT
+  [740/1177] cariboucoffee.com_021_s1_vs_cariboucoffee.com_011_s1 sim=0.39 -> UNANIMOUS: CONTRA
+  [734/1177] esquire.com_019_s4_vs_esquire.com_040_s1 sim=0.39 -> UNANIMOUS: NOT
+  [733/1177] reddit.com_020_s2_vs_reddit.com_045_s3 sim=0.39 -> UNANIMOUS: CONTRA
+  [729/1177] honda.com_013_s2_vs_honda.com_057_s1 sim=0.39 -> UNANIMOUS: NOT
+  [736/1177] internetbrands.com_099_s1_vs_internetbrands.com_052_s2 sim=0.39 -> UNANIMOUS: NOT
+  [726/1177] kraftrecipes.com_019_s1_vs_kraftrecipes.com_020_s1 sim=0.39 -> UNANIMOUS: CONTRA
+  [721/1177] reference.com_014_s1_vs_reference.com_002_s3 sim=0.39 -> UNANIMOUS: NOT
+  [722/1177] randomhouse.com_029_s1_vs_randomhouse.com_033_s1 sim=0.39 -> MAJORITY: CONTRA
+  [725/1177] fool.com_020_s2_vs_fool.com_007_s1 sim=0.39 -> MAJORITY: CONTRA
+  --- Batch 37: saved 740 results, 104 confirmed contradictions so far ---
+  [753/1177] archives.gov_018_s1_vs_archives.gov_007_s2 sim=0.39 -> UNANIMOUS: NOT
+  [745/1177] tulsaworld.com_008_s1_vs_tulsaworld.com_027_s4 sim=0.39 -> UNANIMOUS: NOT
+  [754/1177] theatlantic.com_011_s6_vs_theatlantic.com_018_s1 sim=0.39 -> UNANIMOUS: NOT
+  [759/1177] lynda.com_062_s3_vs_lynda.com_032_s1 sim=0.38 -> UNANIMOUS: NOT
+  [750/1177] honda.com_023_s2_vs_honda.com_046_s1 sim=0.39 -> UNANIMOUS: NOT
+  [747/1177] playstation.com_025_s3_vs_playstation.com_010_s3 sim=0.39 -> UNANIMOUS: NOT
+  [741/1177] abita.com_011_s4_vs_abita.com_004_s2 sim=0.39 -> UNANIMOUS: NOT
+  [748/1177] enthusiastnetwork.com_005_s8_vs_enthusiastnetwork.com_002_s1 sim=0.39 -> UNANIMOUS: NOT
+  [746/1177] randomhouse.com_019_s1_vs_randomhouse.com_023_s1 sim=0.39 -> UNANIMOUS: NOT
+  [756/1177] kraftrecipes.com_002_s1_vs_kraftrecipes.com_007_s2 sim=0.39 -> UNANIMOUS: NOT
+  [751/1177] miaminewtimes.com_010_s1_vs_miaminewtimes.com_019_s2 sim=0.39 -> UNANIMOUS: NOT
+  [758/1177] www.loc.gov_015_s1_vs_www.loc.gov_016_s4 sim=0.39 -> UNANIMOUS: NOT
+  [760/1177] ocregister.com_011_s4_vs_ocregister.com_012_s1 sim=0.38 -> UNANIMOUS: NOT
+  [742/1177] enthusiastnetwork.com_011_s1_vs_enthusiastnetwork.com_015_s1 sim=0.39 -> UNANIMOUS: NOT
+  [757/1177] pbs.org_014_s3_vs_pbs.org_011_s1 sim=0.39 -> MAJORITY: NOT
+  [755/1177] walmart.com_011_s3_vs_walmart.com_022_s2 sim=0.39 -> MAJORITY: NOT
+  [744/1177] reddit.com_004_s4_vs_reddit.com_019_s3 sim=0.39 -> MAJORITY: NOT
+  [752/1177] randomhouse.com_012_s1_vs_randomhouse.com_007_s1 sim=0.39 -> MAJORITY: NOT
+  [749/1177] fool.com_032_s1_vs_fool.com_031_s1 sim=0.39 -> UNANIMOUS: NOT
+  [743/1177] honda.com_023_s2_vs_honda.com_026_s1 sim=0.39 -> UNANIMOUS: NOT
+  --- Batch 38: saved 760 results, 104 confirmed contradictions so far ---
+  [773/1177] reddit.com_039_s1_vs_reddit.com_007_s1 sim=0.38 -> UNANIMOUS: NOT
+  [777/1177] dailynews.com_007_s3_vs_dailynews.com_005_s1 sim=0.38 -> UNANIMOUS: NOT
+  [772/1177] playstation.com_019_s2_vs_playstation.com_016_s2 sim=0.38 -> UNANIMOUS: NOT
+  [775/1177] fool.com_048_s2_vs_fool.com_020_s1 sim=0.38 -> UNANIMOUS: NOT
+  [779/1177] rockstargames.com_031_s2_vs_rockstargames.com_027_s2 sim=0.38 -> UNANIMOUS: NOT
+  [766/1177] honda.com_029_s1_vs_honda.com_054_s1 sim=0.38 -> UNANIMOUS: NOT
+  [765/1177] honda.com_029_s1_vs_honda.com_038_s1 sim=0.38 -> UNANIMOUS: NOT
+  [762/1177] honda.com_023_s1_vs_honda.com_038_s1 sim=0.38 -> UNANIMOUS: NOT
+  [771/1177] theatlantic.com_005_s1_vs_theatlantic.com_028_s1 sim=0.38 -> UNANIMOUS: NOT
+  [770/1177] sidearmsports.com_043_s2_vs_sidearmsports.com_004_s1 sim=0.38 -> UNANIMOUS: NOT
+  [767/1177] honda.com_029_s1_vs_honda.com_057_s1 sim=0.38 -> UNANIMOUS: NOT
+  [764/1177] honda.com_023_s1_vs_honda.com_057_s1 sim=0.38 -> UNANIMOUS: NOT
+  [776/1177] mlb.mlb.com_003_s1_vs_mlb.mlb.com_016_s3 sim=0.38 -> UNANIMOUS: NOT
+  [780/1177] nytimes.com_044_s1_vs_nytimes.com_063_s3 sim=0.38 -> UNANIMOUS: NOT
+  [768/1177] military.com_038_s6_vs_military.com_037_s2 sim=0.38 -> MAJORITY: NOT
+  [769/1177] abcnews.com_017_s1_vs_abcnews.com_043_s1 sim=0.38 -> MAJORITY: NOT
+  [761/1177] barnesandnoble.com_021_s1_vs_barnesandnoble.com_067_s1 sim=0.38 -> UNANIMOUS: NOT
+  [778/1177] reddit.com_044_s5_vs_reddit.com_019_s1 sim=0.38 -> MAJORITY: NOT
+  [774/1177] bankofamerica.com_075_s1_vs_bankofamerica.com_018_s2 sim=0.38 -> UNANIMOUS: NOT
+  [763/1177] honda.com_023_s1_vs_honda.com_054_s1 sim=0.38 -> UNANIMOUS: NOT
+  --- Batch 39: saved 780 results, 104 confirmed contradictions so far ---
+  [785/1177] rockstargames.com_020_s2_vs_rockstargames.com_015_s3 sim=0.38 -> UNANIMOUS: CONTRA
+  [790/1177] honda.com_057_s2_vs_honda.com_036_s3 sim=0.38 -> UNANIMOUS: NOT
+  [797/1177] rockstargames.com_031_s2_vs_rockstargames.com_015_s3 sim=0.38 -> UNANIMOUS: NOT
+  [787/1177] reddit.com_044_s5_vs_reddit.com_006_s1 sim=0.38 -> UNANIMOUS: NOT
+  [786/1177] gawker.com_008_s2_vs_gawker.com_009_s1 sim=0.38 -> UNANIMOUS: NOT
+  [788/1177] honda.com_038_s2_vs_honda.com_036_s3 sim=0.38 -> UNANIMOUS: NOT
+  [798/1177] reddit.com_033_s2_vs_reddit.com_045_s3 sim=0.38 -> UNANIMOUS: NOT
+  [793/1177] pbs.org_031_s2_vs_pbs.org_016_s1 sim=0.38 -> UNANIMOUS: NOT
+  [796/1177] dailynews.com_031_s3_vs_dailynews.com_007_s1 sim=0.38 -> UNANIMOUS: NOT
+  [799/1177] honda.com_023_s2_vs_honda.com_028_s1 sim=0.38 -> UNANIMOUS: NOT
+  [791/1177] fortune.com_028_s2_vs_fortune.com_003_s2 sim=0.38 -> UNANIMOUS: NOT
+  [795/1177] randomhouse.com_021_s2_vs_randomhouse.com_023_s1 sim=0.38 -> UNANIMOUS: NOT
+  [784/1177] www.loc.gov_011_s1_vs_www.loc.gov_003_s1 sim=0.38 -> UNANIMOUS: NOT
+  [789/1177] honda.com_054_s2_vs_honda.com_036_s3 sim=0.38 -> UNANIMOUS: NOT
+  [782/1177] honda.com_023_s1_vs_honda.com_028_s1 sim=0.38 -> UNANIMOUS: NOT
+  [783/1177] honda.com_029_s1_vs_honda.com_028_s1 sim=0.38 -> UNANIMOUS: NOT
+  [792/1177] reference.com_025_s2_vs_reference.com_009_s1 sim=0.38 -> UNANIMOUS: NOT
+  [781/1177] www.loc.gov_001_s1_vs_www.loc.gov_003_s1 sim=0.38 -> UNANIMOUS: CONTRA
+  [800/1177] google.com_031_s1_vs_google.com_018_s1 sim=0.38 -> MAJORITY: CONTRA
+  [794/1177] esquire.com_019_s4_vs_esquire.com_033_s1 sim=0.38 -> UNANIMOUS: NOT
+  --- Batch 40: saved 800 results, 107 confirmed contradictions so far ---
+  [814/1177] reference.com_006_s4_vs_reference.com_004_s1 sim=0.37 -> UNANIMOUS: NOT
+  [803/1177] reddit.com_010_s3_vs_reddit.com_044_s2 sim=0.37 -> UNANIMOUS: NOT
+  [808/1177] nytimes.com_044_s1_vs_nytimes.com_063_s2 sim=0.37 -> UNANIMOUS: NOT
+  [820/1177] honda.com_042_s2_vs_honda.com_009_s1 sim=0.37 -> UNANIMOUS: NOT
+  [811/1177] bankofamerica.com_075_s1_vs_bankofamerica.com_009_s1 sim=0.37 -> UNANIMOUS: NOT
+  [806/1177] reddit.com_004_s4_vs_reddit.com_013_s2 sim=0.37 -> UNANIMOUS: NOT
+  [801/1177] walmart.com_011_s3_vs_walmart.com_037_s1 sim=0.38 -> UNANIMOUS: NOT
+  [812/1177] nytimes.com_044_s1_vs_nytimes.com_047_s1 sim=0.37 -> UNANIMOUS: NOT
+  [807/1177] honda.com_023_s2_vs_honda.com_032_s1 sim=0.37 -> UNANIMOUS: NOT
+  [810/1177] theatlantic.com_010_s3_vs_theatlantic.com_018_s1 sim=0.37 -> UNANIMOUS: NOT
+  [815/1177] honda.com_038_s2_vs_honda.com_009_s1 sim=0.37 -> UNANIMOUS: NOT
+  [805/1177] sidearmsports.com_047_s1_vs_sidearmsports.com_006_s3 sim=0.37 -> UNANIMOUS: NOT
+  [813/1177] barnesandnoble.com_015_s1_vs_barnesandnoble.com_084_s2 sim=0.37 -> UNANIMOUS: NOT
+  [817/1177] honda.com_057_s2_vs_honda.com_009_s1 sim=0.37 -> UNANIMOUS: NOT
+  [816/1177] honda.com_054_s2_vs_honda.com_009_s1 sim=0.37 -> UNANIMOUS: NOT
+  [804/1177] miaminewtimes.com_031_s1_vs_miaminewtimes.com_005_s1 sim=0.37 -> UNANIMOUS: NOT
+  [802/1177] esquire.com_019_s4_vs_esquire.com_035_s1 sim=0.38 -> UNANIMOUS: NOT
+  [818/1177] kraftrecipes.com_011_s2_vs_kraftrecipes.com_007_s3 sim=0.37 -> UNANIMOUS: NOT
+  [819/1177] reddit.com_011_s3_vs_reddit.com_008_s3 sim=0.37 -> UNANIMOUS: NOT
+  [809/1177] mlb.mlb.com_003_s1_vs_mlb.mlb.com_006_s2 sim=0.37 -> UNANIMOUS: NOT
+  --- Batch 41: saved 820 results, 107 confirmed contradictions so far ---
+  [830/1177] honda.com_009_s2_vs_honda.com_006_s2 sim=0.37 -> UNANIMOUS: NOT
+  [828/1177] sheknows.com_029_s1_vs_sheknows.com_017_s2 sim=0.37 -> UNANIMOUS: NOT
+  [824/1177] fortune.com_022_s1_vs_fortune.com_003_s2 sim=0.37 -> UNANIMOUS: NOT
+  [840/1177] mlb.mlb.com_003_s1_vs_mlb.mlb.com_031_s4 sim=0.37 -> UNANIMOUS: NOT
+  [833/1177] honda.com_028_s2_vs_honda.com_036_s1 sim=0.37 -> UNANIMOUS: NOT
+  [832/1177] honda.com_022_s1_vs_honda.com_036_s1 sim=0.37 -> UNANIMOUS: NOT
+  [835/1177] lodgemfg.com_020_s1_vs_lodgemfg.com_005_s1 sim=0.37 -> UNANIMOUS: NOT
+  [837/1177] reddit.com_046_s1_vs_reddit.com_019_s3 sim=0.37 -> UNANIMOUS: NOT
+  [827/1177] reddit.com_044_s5_vs_reddit.com_036_s1 sim=0.37 -> UNANIMOUS: NOT
+  [839/1177] www.loc.gov_013_s2_vs_www.loc.gov_016_s1 sim=0.37 -> UNANIMOUS: NOT
+  [823/1177] internetbrands.com_096_s2_vs_internetbrands.com_048_s1 sim=0.37 -> UNANIMOUS: NOT
+  [831/1177] barnesandnoble.com_060_s3_vs_barnesandnoble.com_020_s1 sim=0.37 -> UNANIMOUS: NOT
+  [834/1177] barnesandnoble.com_021_s1_vs_barnesandnoble.com_065_s1 sim=0.37 -> UNANIMOUS: NOT
+  [821/1177] latinpost.com_057_s2_vs_latinpost.com_016_s1 sim=0.37 -> UNANIMOUS: NOT
+  [838/1177] nbcuniversal.com_042_s1_vs_nbcuniversal.com_009_s2 sim=0.37 -> MAJORITY: NOT
+  [826/1177] uh.edu_004_s1_vs_uh.edu_005_s1 sim=0.37 -> MAJORITY: NOT
+  [836/1177] rockstargames.com_040_s2_vs_rockstargames.com_041_s2 sim=0.37 -> UNANIMOUS: NOT
+  [822/1177] esquire.com_037_s1_vs_esquire.com_024_s1 sim=0.37 -> UNANIMOUS: CONTRA
+  [829/1177] meredith.com_037_s2_vs_meredith.com_007_s3 sim=0.37 -> MAJORITY: CONTRA
+  [825/1177] archives.gov_039_s2_vs_archives.gov_012_s1 sim=0.37 -> MAJORITY: CONTRA
+  --- Batch 42: saved 840 results, 110 confirmed contradictions so far ---
+  [847/1177] latinpost.com_012_s10_vs_latinpost.com_009_s2 sim=0.36 -> UNANIMOUS: NOT
+  [859/1177] lynda.com_042_s2_vs_lynda.com_044_s2 sim=0.36 -> UNANIMOUS: NOT
+  [854/1177] playstation.com_009_s1_vs_playstation.com_036_s2 sim=0.36 -> UNANIMOUS: NOT
+  [843/1177] reddit.com_004_s4_vs_reddit.com_005_s1 sim=0.36 -> UNANIMOUS: NOT
+  [851/1177] honda.com_023_s2_vs_honda.com_057_s1 sim=0.36 -> UNANIMOUS: NOT
+  [855/1177] taylorswift.com_022_s2_vs_taylorswift.com_006_s1 sim=0.36 -> UNANIMOUS: NOT
+  [846/1177] amazon.com_011_s1_vs_amazon.com_035_s2 sim=0.36 -> UNANIMOUS: NOT
+  [844/1177] archives.gov_003_s1_vs_archives.gov_012_s1 sim=0.36 -> UNANIMOUS: NOT
+  [842/1177] playstation.com_009_s1_vs_playstation.com_021_s3 sim=0.36 -> UNANIMOUS: NOT
+  [860/1177] mlb.mlb.com_031_s1_vs_mlb.mlb.com_005_s1 sim=0.36 -> UNANIMOUS: NOT
+  [850/1177] honda.com_023_s2_vs_honda.com_054_s1 sim=0.36 -> UNANIMOUS: NOT
+  [856/1177] archives.gov_010_s2_vs_archives.gov_021_s2 sim=0.36 -> UNANIMOUS: NOT
+  [845/1177] military.com_023_s2_vs_military.com_035_s1 sim=0.36 -> UNANIMOUS: NOT
+  [849/1177] honda.com_023_s2_vs_honda.com_038_s1 sim=0.36 -> UNANIMOUS: NOT
+  [857/1177] honda.com_042_s2_vs_honda.com_025_s1 sim=0.36 -> MAJORITY: NOT
+  [841/1177] pbs.org_014_s3_vs_pbs.org_021_s2 sim=0.37 -> UNANIMOUS: CONTRA
+  [848/1177] mlb.mlb.com_003_s1_vs_mlb.mlb.com_011_s1 sim=0.36 -> UNANIMOUS: NOT
+  [853/1177] honda.com_035_s3_vs_honda.com_026_s1 sim=0.36 -> UNANIMOUS: NOT
+  [852/1177] barnesandnoble.com_038_s3_vs_barnesandnoble.com_093_s1 sim=0.36 -> MAJORITY: CONTRA
+  [858/1177] reddit.com_033_s3_vs_reddit.com_045_s3 sim=0.36 -> MAJORITY: NOT
+  --- Batch 43: saved 860 results, 112 confirmed contradictions so far ---
+  [874/1177] bankofamerica.com_031_s2_vs_bankofamerica.com_014_s1 sim=0.36 -> UNANIMOUS: NOT
+  [877/1177] esquire.com_043_s6_vs_esquire.com_017_s2 sim=0.36 -> UNANIMOUS: NOT
+  [880/1177] military.com_029_s1_vs_military.com_037_s1 sim=0.36 -> UNANIMOUS: NOT
+  [873/1177] internetbrands.com_097_s1_vs_internetbrands.com_016_s2 sim=0.36 -> UNANIMOUS: NOT
+  [875/1177] bankofamerica.com_075_s1_vs_bankofamerica.com_026_s3 sim=0.36 -> UNANIMOUS: NOT
+  [864/1177] honda.com_035_s3_vs_honda.com_046_s1 sim=0.36 -> UNANIMOUS: NOT
+  [865/1177] nytimes.com_064_s1_vs_nytimes.com_016_s3 sim=0.36 -> UNANIMOUS: NOT
+  [872/1177] usa.gov_013_s2_vs_usa.gov_004_s3 sim=0.36 -> UNANIMOUS: NOT
+  [878/1177] military.com_021_s3_vs_military.com_009_s2 sim=0.36 -> UNANIMOUS: NOT
+  [862/1177] honda.com_029_s1_vs_honda.com_052_s2 sim=0.36 -> UNANIMOUS: NOT
+  [869/1177] barnesandnoble.com_092_s1_vs_barnesandnoble.com_082_s4 sim=0.36 -> UNANIMOUS: NOT
+  [870/1177] barnesandnoble.com_021_s1_vs_barnesandnoble.com_060_s1 sim=0.36 -> UNANIMOUS: NOT
+  [861/1177] honda.com_023_s1_vs_honda.com_052_s2 sim=0.36 -> UNANIMOUS: NOT
+  [871/1177] honda.com_042_s2_vs_honda.com_006_s2 sim=0.36 -> UNANIMOUS: NOT
+  [876/1177] vikings.com_014_s3_vs_vikings.com_021_s2 sim=0.36 -> MAJORITY: NOT
+  [868/1177] redorbit.com_013_s2_vs_redorbit.com_006_s1 sim=0.36 -> MAJORITY: CONTRA
+  [867/1177] bankofamerica.com_075_s1_vs_bankofamerica.com_035_s1 sim=0.36 -> MAJORITY: NOT
+  [863/1177] esquire.com_024_s2_vs_esquire.com_040_s1 sim=0.36 -> UNANIMOUS: CONTRA
+  [866/1177] usa.gov_007_s1_vs_usa.gov_010_s1 sim=0.36 -> UNANIMOUS: CONTRA
+  [879/1177] dailynews.com_007_s3_vs_dailynews.com_016_s1 sim=0.36 -> MAJORITY: CONTRA
+  --- Batch 44: saved 880 results, 116 confirmed contradictions so far ---
+  [888/1177] coffeereview.com_004_s1_vs_coffeereview.com_006_s1 sim=0.36 -> UNANIMOUS: NOT
+  [898/1177] mlb.mlb.com_015_s2_vs_mlb.mlb.com_031_s4 sim=0.35 -> UNANIMOUS: NOT
+  [897/1177] fool.com_048_s3_vs_fool.com_020_s1 sim=0.35 -> UNANIMOUS: NOT
+  [900/1177] everydayhealth.com_035_s2_vs_everydayhealth.com_009_s2 sim=0.35 -> UNANIMOUS: NOT
+  [883/1177] fool.com_041_s2_vs_fool.com_021_s5 sim=0.36 -> UNANIMOUS: NOT
+  [899/1177] military.com_036_s2_vs_military.com_031_s1 sim=0.35 -> UNANIMOUS: NOT
+  [894/1177] ocregister.com_011_s4_vs_ocregister.com_015_s1 sim=0.35 -> UNANIMOUS: NOT
+  [892/1177] honda.com_005_s1_vs_honda.com_028_s1 sim=0.35 -> UNANIMOUS: NOT
+  [881/1177] ocregister.com_019_s1_vs_ocregister.com_010_s2 sim=0.36 -> UNANIMOUS: NOT
+  [891/1177] steampowered.com_010_s1_vs_steampowered.com_014_s1 sim=0.35 -> UNANIMOUS: NOT
+  [895/1177] highgearmedia.com_028_s1_vs_highgearmedia.com_003_s3 sim=0.35 -> UNANIMOUS: NOT
+  [885/1177] honda.com_023_s2_vs_honda.com_052_s2 sim=0.36 -> UNANIMOUS: NOT
+  [890/1177] rockstargames.com_020_s2_vs_rockstargames.com_015_s4 sim=0.36 -> UNANIMOUS: CONTRA
+  [886/1177] nbcuniversal.com_042_s1_vs_nbcuniversal.com_009_s4 sim=0.36 -> UNANIMOUS: NOT
+  [893/1177] fool.com_020_s3_vs_fool.com_008_s2 sim=0.35 -> UNANIMOUS: NOT
+  [896/1177] stlouisfed.org_029_s3_vs_stlouisfed.org_027_s2 sim=0.35 -> UNANIMOUS: NOT
+  [884/1177] geocaching.com_010_s4_vs_geocaching.com_021_s1 sim=0.36 -> UNANIMOUS: NOT
+  [889/1177] randomhouse.com_028_s2_vs_randomhouse.com_033_s1 sim=0.36 -> MAJORITY: CONTRA
+  [882/1177] washingtonian.com_017_s1_vs_washingtonian.com_007_s2 sim=0.36 -> UNANIMOUS: NOT
+  [887/1177] www.loc.gov_016_s2_vs_www.loc.gov_006_s2 sim=0.36 -> MAJORITY: CONTRA
+  --- Batch 45: saved 900 results, 119 confirmed contradictions so far ---
+  [919/1177] fool.com_012_s2_vs_fool.com_004_s2 sim=0.35 -> UNANIMOUS: NOT
+  [903/1177] abita.com_011_s4_vs_abita.com_003_s1 sim=0.35 -> UNANIMOUS: NOT
+  [918/1177] nbcuniversal.com_042_s1_vs_nbcuniversal.com_018_s1 sim=0.35 -> UNANIMOUS: NOT
+  [901/1177] honda.com_009_s2_vs_honda.com_028_s1 sim=0.35 -> UNANIMOUS: NOT
+  [902/1177] tulsaworld.com_037_s1_vs_tulsaworld.com_010_s1 sim=0.35 -> UNANIMOUS: NOT
+  [906/1177] mlb.mlb.com_003_s1_vs_mlb.mlb.com_031_s3 sim=0.35 -> UNANIMOUS: NOT
+  [908/1177] pbs.org_005_s1_vs_pbs.org_011_s1 sim=0.35 -> UNANIMOUS: NOT
+  [911/1177] fool.com_041_s2_vs_fool.com_016_s1 sim=0.35 -> UNANIMOUS: NOT
+  [905/1177] miaminewtimes.com_010_s1_vs_miaminewtimes.com_020_s1 sim=0.35 -> UNANIMOUS: NOT
+  [913/1177] barnesandnoble.com_021_s1_vs_barnesandnoble.com_066_s2 sim=0.35 -> UNANIMOUS: NOT
+  [912/1177] voxmedia.com_019_s3_vs_voxmedia.com_013_s3 sim=0.35 -> UNANIMOUS: NOT
+  [904/1177] amazon.com_014_s2_vs_amazon.com_035_s2 sim=0.35 -> UNANIMOUS: NOT
+  [917/1177] esquire.com_037_s1_vs_esquire.com_032_s2 sim=0.35 -> UNANIMOUS: NOT
+  [920/1177] esquire.com_037_s1_vs_esquire.com_036_s1 sim=0.35 -> UNANIMOUS: NOT
+  [916/1177] archives.gov_010_s2_vs_archives.gov_021_s3 sim=0.35 -> MAJORITY: NOT
+  [907/1177] sheknows.com_004_s2_vs_sheknows.com_022_s2 sim=0.35 -> UNANIMOUS: CONTRA
+  [910/1177] post-gazette.com_016_s1_vs_post-gazette.com_013_s2 sim=0.35 -> UNANIMOUS: CONTRA
+  [915/1177] fool.com_021_s1_vs_fool.com_029_s2 sim=0.35 -> MAJORITY: NOT
+  [909/1177] barnesandnoble.com_038_s3_vs_barnesandnoble.com_065_s1 sim=0.35 -> MAJORITY: NOT
+  [914/1177] usa.gov_011_s1_vs_usa.gov_004_s1 sim=0.35 -> MAJORITY: NOT
+  --- Batch 46: saved 920 results, 121 confirmed contradictions so far ---
+  [924/1177] randomhouse.com_009_s3_vs_randomhouse.com_044_s3 sim=0.35 -> UNANIMOUS: NOT
+  [928/1177] fool.com_004_s3_vs_fool.com_020_s1 sim=0.35 -> UNANIMOUS: NOT
+  [923/1177] playstation.com_025_s3_vs_playstation.com_010_s1 sim=0.35 -> UNANIMOUS: NOT
+  [925/1177] honda.com_038_s2_vs_honda.com_033_s2 sim=0.35 -> UNANIMOUS: CONTRA
+  [927/1177] honda.com_057_s2_vs_honda.com_033_s2 sim=0.35 -> UNANIMOUS: CONTRA
+  [934/1177] rockstargames.com_031_s2_vs_rockstargames.com_023_s1 sim=0.35 -> UNANIMOUS: NOT
+  [926/1177] honda.com_054_s2_vs_honda.com_033_s2 sim=0.35 -> UNANIMOUS: CONTRA
+  [932/1177] miaminewtimes.com_010_s1_vs_miaminewtimes.com_027_s1 sim=0.35 -> UNANIMOUS: NOT
+  [922/1177] honda.com_035_s3_vs_honda.com_045_s1 sim=0.35 -> UNANIMOUS: NOT
+  [930/1177] rockstargames.com_023_s5_vs_rockstargames.com_033_s1 sim=0.35 -> MAJORITY: NOT
+  [929/1177] newsbusters.org_038_s1_vs_newsbusters.org_006_s2 sim=0.35 -> UNANIMOUS: NOT
+  [939/1177] honda.com_034_s1_vs_honda.com_049_s1 sim=0.35 -> UNANIMOUS: NOT
+  [931/1177] geocaching.com_013_s2_vs_geocaching.com_021_s4 sim=0.35 -> MAJORITY: NOT
+  [940/1177] gawker.com_008_s2_vs_gawker.com_005_s3 sim=0.35 -> UNANIMOUS: NOT
+  [921/1177] bankofamerica.com_075_s1_vs_bankofamerica.com_035_s5 sim=0.35 -> UNANIMOUS: NOT
+  [933/1177] voxmedia.com_020_s2_vs_voxmedia.com_015_s1 sim=0.35 -> UNANIMOUS: NOT
+  [937/1177] redorbit.com_013_s2_vs_redorbit.com_006_s3 sim=0.35 -> UNANIMOUS: CONTRA
+  [936/1177] wsmv.com_013_s2_vs_wsmv.com_010_s3 sim=0.35 -> UNANIMOUS: NOT
+  [935/1177] instagram.com_010_s2_vs_instagram.com_023_s2 sim=0.35 -> UNANIMOUS: NOT
+  [938/1177] imdb.com_020_s1_vs_imdb.com_018_s1 sim=0.35 -> UNANIMOUS: NOT
+  --- Batch 47: saved 940 results, 125 confirmed contradictions so far ---
+  [944/1177] walmart.com_011_s3_vs_walmart.com_037_s2 sim=0.35 -> UNANIMOUS: NOT
+  [959/1177] washingtonian.com_005_s3_vs_washingtonian.com_002_s3 sim=0.34 -> UNANIMOUS: NOT
+  [941/1177] msn.com_030_s2_vs_msn.com_021_s1 sim=0.35 -> UNANIMOUS: NOT
+  [945/1177] www.loc.gov_013_s2_vs_www.loc.gov_016_s4 sim=0.34 -> UNANIMOUS: NOT
+  [957/1177] www.loc.gov_021_s5_vs_www.loc.gov_005_s5 sim=0.34 -> UNANIMOUS: NOT
+  [942/1177] honda.com_035_s3_vs_honda.com_037_s1 sim=0.35 -> UNANIMOUS: NOT
+  [956/1177] pbs.org_014_s3_vs_pbs.org_018_s2 sim=0.34 -> UNANIMOUS: CONTRA
+  [950/1177] sltrib.com_035_s1_vs_sltrib.com_010_s1 sim=0.34 -> UNANIMOUS: NOT
+  [955/1177] kraftrecipes.com_028_s1_vs_kraftrecipes.com_013_s1 sim=0.34 -> UNANIMOUS: NOT
+  [951/1177] abita.com_011_s4_vs_abita.com_004_s4 sim=0.34 -> UNANIMOUS: NOT
+  [960/1177] fool.com_041_s2_vs_fool.com_028_s4 sim=0.34 -> UNANIMOUS: NOT
+  [953/1177] nytimes.com_044_s1_vs_nytimes.com_027_s1 sim=0.34 -> UNANIMOUS: NOT
+  [954/1177] sheknows.com_004_s2_vs_sheknows.com_015_s1 sim=0.34 -> MAJORITY: NOT
+  [943/1177] ocregister.com_013_s3_vs_ocregister.com_011_s3 sim=0.35 -> UNANIMOUS: NOT
+  [949/1177] wsmv.com_013_s2_vs_wsmv.com_006_s2 sim=0.34 -> UNANIMOUS: NOT
+  [952/1177] esquire.com_024_s2_vs_esquire.com_025_s1 sim=0.34 -> UNANIMOUS: NOT
+  [946/1177] randomhouse.com_029_s1_vs_randomhouse.com_031_s1 sim=0.34 -> MAJORITY: NOT
+  [947/1177] rockstargames.com_044_s4_vs_rockstargames.com_021_s3 sim=0.34 -> UNANIMOUS: NOT
+  [958/1177] rockstargames.com_020_s2_vs_rockstargames.com_037_s4 sim=0.34 -> UNANIMOUS: CONTRA
+  [948/1177] voxmedia.com_020_s2_vs_voxmedia.com_022_s2 sim=0.34 -> UNANIMOUS: NOT
+  --- Batch 48: saved 960 results, 127 confirmed contradictions so far ---
+  [970/1177] fool.com_012_s2_vs_fool.com_020_s1 sim=0.34 -> UNANIMOUS: NOT
+  [966/1177] nbcuniversal.com_011_s2_vs_nbcuniversal.com_009_s1 sim=0.34 -> UNANIMOUS: NOT
+  [976/1177] honda.com_058_s2_vs_honda.com_043_s1 sim=0.34 -> UNANIMOUS: NOT
+  [975/1177] honda.com_055_s2_vs_honda.com_043_s1 sim=0.34 -> UNANIMOUS: NOT
+  [961/1177] latinpost.com_051_s2_vs_latinpost.com_052_s1 sim=0.34 -> UNANIMOUS: NOT
+  [963/1177] honda.com_005_s1_vs_honda.com_071_s1 sim=0.34 -> UNANIMOUS: NOT
+  [962/1177] reddit.com_008_s1_vs_reddit.com_007_s1 sim=0.34 -> MAJORITY: NOT
+  [973/1177] honda.com_013_s2_vs_honda.com_052_s2 sim=0.34 -> UNANIMOUS: NOT
+  [977/1177] lynda.com_064_s3_vs_lynda.com_020_s1 sim=0.34 -> UNANIMOUS: NOT
+  [979/1177] honda.com_023_s1_vs_honda.com_022_s2 sim=0.34 -> UNANIMOUS: NOT
+  [980/1177] honda.com_029_s1_vs_honda.com_022_s2 sim=0.34 -> UNANIMOUS: NOT
+  [964/1177] www.loc.gov_013_s2_vs_www.loc.gov_005_s1 sim=0.34 -> UNANIMOUS: NOT
+  [965/1177] bankofamerica.com_075_s1_vs_bankofamerica.com_036_s1 sim=0.34 -> UNANIMOUS: NOT
+  [968/1177] pbs.org_014_s3_vs_pbs.org_012_s1 sim=0.34 -> MAJORITY: NOT
+  [974/1177] randomhouse.com_019_s1_vs_randomhouse.com_021_s1 sim=0.34 -> MAJORITY: NOT
+  [978/1177] bankofamerica.com_075_s1_vs_bankofamerica.com_077_s1 sim=0.34 -> UNANIMOUS: NOT
+  [967/1177] steampowered.com_003_s2_vs_steampowered.com_015_s3 sim=0.34 -> UNANIMOUS: NOT
+  [971/1177] kraftrecipes.com_022_s2_vs_kraftrecipes.com_023_s1 sim=0.34 -> UNANIMOUS: NOT
+  [972/1177] steampowered.com_006_s2_vs_steampowered.com_015_s3 sim=0.34 -> UNANIMOUS: NOT
+  [969/1177] kraftrecipes.com_020_s3_vs_kraftrecipes.com_022_s1 sim=0.34 -> MAJORITY: CONTRA
+  --- Batch 49: saved 980 results, 128 confirmed contradictions so far ---
+  [987/1177] tulsaworld.com_029_s3_vs_tulsaworld.com_027_s4 sim=0.34 -> UNANIMOUS: NOT
+  [984/1177] amazon.com_011_s1_vs_amazon.com_035_s1 sim=0.34 -> UNANIMOUS: NOT
+  [985/1177] washingtonian.com_002_s2_vs_washingtonian.com_007_s1 sim=0.34 -> UNANIMOUS: NOT
+  [996/1177] highgearmedia.com_028_s1_vs_highgearmedia.com_006_s5 sim=0.34 -> UNANIMOUS: NOT
+  [999/1177] honda.com_009_s2_vs_honda.com_054_s1 sim=0.33 -> UNANIMOUS: NOT
+  [988/1177] meredith.com_037_s2_vs_meredith.com_033_s2 sim=0.34 -> UNANIMOUS: NOT
+  [982/1177] barnesandnoble.com_060_s3_vs_barnesandnoble.com_059_s3 sim=0.34 -> UNANIMOUS: NOT
+  [1000/1177] honda.com_009_s2_vs_honda.com_057_s1 sim=0.33 -> UNANIMOUS: NOT
+  [994/1177] honda.com_042_s2_vs_honda.com_070_s1 sim=0.34 -> UNANIMOUS: NOT
+  [998/1177] honda.com_009_s2_vs_honda.com_038_s1 sim=0.33 -> UNANIMOUS: NOT
+  [990/1177] honda.com_028_s2_vs_honda.com_036_s3 sim=0.34 -> UNANIMOUS: NOT
+  [983/1177] archives.gov_012_s2_vs_archives.gov_021_s2 sim=0.34 -> UNANIMOUS: NOT
+  [993/1177] latinpost.com_047_s2_vs_latinpost.com_076_s2 sim=0.34 -> UNANIMOUS: NOT
+  [989/1177] honda.com_022_s1_vs_honda.com_036_s3 sim=0.34 -> UNANIMOUS: NOT
+  [992/1177] wsmv.com_013_s2_vs_wsmv.com_005_s1 sim=0.34 -> UNANIMOUS: NOT
+  [981/1177] vikings.com_034_s1_vs_vikings.com_024_s1 sim=0.34 -> UNANIMOUS: NOT
+  [997/1177] bankofamerica.com_029_s3_vs_bankofamerica.com_035_s1 sim=0.33 -> UNANIMOUS: NOT
+  [986/1177] enthusiastnetwork.com_003_s3_vs_enthusiastnetwork.com_005_s1 sim=0.34 -> UNANIMOUS: NOT
+  [995/1177] allstate.com_004_s2_vs_allstate.com_014_s1 sim=0.34 -> UNANIMOUS: NOT
+  [991/1177] pbs.org_031_s4_vs_pbs.org_014_s1 sim=0.34 -> MAJORITY: NOT
+  --- Batch 50: saved 1000 results, 128 confirmed contradictions so far ---
+  [1003/1177] ted.com_016_s2_vs_ted.com_015_s2 sim=0.33 -> UNANIMOUS: NOT
+  [1011/1177] honda.com_029_s1_vs_honda.com_028_s4 sim=0.33 -> UNANIMOUS: NOT
+  [1017/1177] amazon.com_011_s1_vs_amazon.com_035_s4 sim=0.33 -> UNANIMOUS: NOT
+  [1002/1177] meredith.com_053_s4_vs_meredith.com_060_s1 sim=0.33 -> UNANIMOUS: NOT
+  [1014/1177] enthusiastnetwork.com_017_s2_vs_enthusiastnetwork.com_002_s1 sim=0.33 -> UNANIMOUS: NOT
+  [1013/1177] esquire.com_019_s4_vs_esquire.com_034_s1 sim=0.33 -> UNANIMOUS: NOT
+  [1008/1177] sheknows.com_008_s2_vs_sheknows.com_013_s3 sim=0.33 -> UNANIMOUS: NOT
+  [1004/1177] reference.com_006_s4_vs_reference.com_004_s10 sim=0.33 -> UNANIMOUS: NOT
+  [1019/1177] fortune.com_022_s1_vs_fortune.com_035_s2 sim=0.33 -> UNANIMOUS: NOT
+  [1020/1177] reddit.com_004_s4_vs_reddit.com_044_s1 sim=0.33 -> UNANIMOUS: NOT
+  [1006/1177] washingtonian.com_005_s3_vs_washingtonian.com_003_s1 sim=0.33 -> UNANIMOUS: NOT
+  [1010/1177] honda.com_023_s1_vs_honda.com_028_s4 sim=0.33 -> MAJORITY: NOT
+  [1005/1177] timeinc.com_029_s2_vs_timeinc.com_007_s2 sim=0.33 -> UNANIMOUS: NOT
+  [1009/1177] pbs.org_014_s3_vs_pbs.org_007_s1 sim=0.33 -> UNANIMOUS: CONTRA
+  [1001/1177] rockstargames.com_020_s2_vs_rockstargames.com_037_s3 sim=0.33 -> UNANIMOUS: CONTRA
+  [1007/1177] foodallergy.org_017_s2_vs_foodallergy.org_006_s2 sim=0.33 -> UNANIMOUS: NOT
+  [1015/1177] www.loc.gov_001_s1_vs_www.loc.gov_005_s5 sim=0.33 -> MAJORITY: NOT
+  [1018/1177] gawker.com_009_s2_vs_gawker.com_005_s3 sim=0.33 -> MAJORITY: NOT
+  [1012/1177] sltrib.com_008_s2_vs_sltrib.com_009_s2 sim=0.33 -> UNANIMOUS: NOT
+  [1016/1177] archives.gov_008_s2_vs_archives.gov_020_s1 sim=0.33 -> MAJORITY: CONTRA
+  --- Batch 51: saved 1020 results, 131 confirmed contradictions so far ---
+  [1027/1177] reference.com_033_s3_vs_reference.com_006_s2 sim=0.33 -> UNANIMOUS: NOT
+  [1022/1177] lynda.com_026_s1_vs_lynda.com_058_s1 sim=0.33 -> UNANIMOUS: NOT
+  [1039/1177] www.loc.gov_003_s2_vs_www.loc.gov_006_s1 sim=0.33 -> UNANIMOUS: NOT
+  [1024/1177] rockstargames.com_023_s5_vs_rockstargames.com_030_s1 sim=0.33 -> UNANIMOUS: NOT
+  [1036/1177] voxmedia.com_019_s4_vs_voxmedia.com_013_s3 sim=0.33 -> UNANIMOUS: NOT
+  [1028/1177] stlouisfed.org_019_s3_vs_stlouisfed.org_020_s2 sim=0.33 -> UNANIMOUS: NOT
+  [1034/1177] nbcuniversal.com_011_s2_vs_nbcuniversal.com_016_s3 sim=0.33 -> UNANIMOUS: NOT
+  [1026/1177] nytimes.com_020_s3_vs_nytimes.com_021_s2 sim=0.33 -> UNANIMOUS: NOT
+  [1037/1177] reddit.com_025_s2_vs_reddit.com_013_s1 sim=0.33 -> UNANIMOUS: NOT
+  [1030/1177] honda.com_035_s3_vs_honda.com_033_s2 sim=0.33 -> UNANIMOUS: NOT
+  [1025/1177] jibjab.com_028_s2_vs_jibjab.com_039_s1 sim=0.33 -> UNANIMOUS: NOT
+  [1029/1177] si.edu_002_s1_vs_si.edu_004_s3 sim=0.33 -> UNANIMOUS: NOT
+  [1023/1177] honda.com_023_s2_vs_honda.com_027_s1 sim=0.33 -> UNANIMOUS: NOT
+  [1040/1177] www.loc.gov_021_s5_vs_www.loc.gov_016_s4 sim=0.33 -> UNANIMOUS: NOT
+  [1038/1177] cincymuseum.org_010_s2_vs_cincymuseum.org_013_s3 sim=0.33 -> UNANIMOUS: NOT
+  [1021/1177] barnesandnoble.com_026_s2_vs_barnesandnoble.com_056_s1 sim=0.33 -> UNANIMOUS: NOT
+  [1032/1177] honda.com_042_s2_vs_honda.com_056_s1 sim=0.33 -> MAJORITY: NOT
+  [1031/1177] honda.com_042_s2_vs_honda.com_053_s1 sim=0.33 -> MAJORITY: NOT
+  [1033/1177] latinpost.com_057_s2_vs_latinpost.com_061_s1 sim=0.33 -> UNANIMOUS: CONTRA
+  [1035/1177] reddit.com_044_s5_vs_reddit.com_006_s3 sim=0.33 -> MAJORITY: CONTRA
+  --- Batch 52: saved 1040 results, 133 confirmed contradictions so far ---
+  [1058/1177] stlouisfed.org_016_s1_vs_stlouisfed.org_005_s4 sim=0.32 -> UNANIMOUS: NOT
+  [1047/1177] honda.com_035_s3_vs_honda.com_047_s1 sim=0.33 -> UNANIMOUS: NOT
+  [1060/1177] vikings.com_014_s3_vs_vikings.com_018_s1 sim=0.32 -> UNANIMOUS: NOT
+  [1042/1177] allstate.com_025_s2_vs_allstate.com_006_s1 sim=0.33 -> UNANIMOUS: NOT
+  [1049/1177] washingtonian.com_005_s3_vs_washingtonian.com_002_s4 sim=0.33 -> UNANIMOUS: NOT
+  [1056/1177] highgearmedia.com_003_s1_vs_highgearmedia.com_008_s5 sim=0.32 -> UNANIMOUS: NOT
+  [1050/1177] archives.gov_007_s1_vs_archives.gov_021_s3 sim=0.33 -> UNANIMOUS: NOT
+  [1051/1177] honda.com_023_s1_vs_honda.com_052_s1 sim=0.33 -> UNANIMOUS: NOT
+  [1057/1177] pbs.org_031_s4_vs_pbs.org_011_s1 sim=0.32 -> UNANIMOUS: NOT
+  [1053/1177] reddit.com_026_s3_vs_reddit.com_008_s3 sim=0.32 -> UNANIMOUS: CONTRA
+  [1048/1177] washingtonian.com_002_s2_vs_washingtonian.com_001_s1 sim=0.33 -> UNANIMOUS: NOT
+  [1052/1177] honda.com_029_s1_vs_honda.com_052_s1 sim=0.33 -> UNANIMOUS: NOT
+  [1046/1177] usa.gov_013_s2_vs_usa.gov_009_s3 sim=0.33 -> UNANIMOUS: NOT
+  [1059/1177] playstation.com_033_s1_vs_playstation.com_009_s3 sim=0.32 -> UNANIMOUS: NOT
+  [1043/1177] internetbrands.com_097_s1_vs_internetbrands.com_029_s1 sim=0.33 -> UNANIMOUS: NOT
+  [1045/1177] honda.com_061_s1_vs_honda.com_052_s3 sim=0.33 -> UNANIMOUS: CONTRA
+  [1044/1177] acbj.com_010_s6_vs_acbj.com_009_s1 sim=0.33 -> UNANIMOUS: CONTRA
+  [1055/1177] barnesandnoble.com_021_s1_vs_barnesandnoble.com_093_s1 sim=0.32 -> UNANIMOUS: NOT
+  [1054/1177] dailynews.com_007_s2_vs_dailynews.com_018_s1 sim=0.32 -> UNANIMOUS: CONTRA
+  [1041/1177] meredith.com_053_s4_vs_meredith.com_052_s1 sim=0.33 -> UNANIMOUS: NOT
+  --- Batch 53: saved 1060 results, 137 confirmed contradictions so far ---
+  [1069/1177] nytimes.com_051_s2_vs_nytimes.com_054_s1 sim=0.32 -> UNANIMOUS: NOT
+  [1061/1177] rockstargames.com_029_s1_vs_rockstargames.com_015_s2 sim=0.32 -> UNANIMOUS: NOT
+  [1078/1177] nytimes.com_044_s1_vs_nytimes.com_016_s2 sim=0.32 -> UNANIMOUS: NOT
+  [1074/1177] reddit.com_017_s1_vs_reddit.com_045_s2 sim=0.32 -> UNANIMOUS: CONTRA
+  [1070/1177] aol.com_004_s3_vs_aol.com_016_s3 sim=0.32 -> UNANIMOUS: NOT
+  [1077/1177] enthusiastnetwork.com_011_s1_vs_enthusiastnetwork.com_002_s4 sim=0.32 -> UNANIMOUS: NOT
+  [1065/1177] redorbit.com_013_s2_vs_redorbit.com_007_s1 sim=0.32 -> UNANIMOUS: NOT
+  [1066/1177] fool.com_012_s2_vs_fool.com_005_s2 sim=0.32 -> UNANIMOUS: NOT
+  [1075/1177] geocaching.com_013_s2_vs_geocaching.com_009_s2 sim=0.32 -> UNANIMOUS: NOT
+  [1067/1177] playstation.com_025_s3_vs_playstation.com_009_s2 sim=0.32 -> UNANIMOUS: NOT
+  [1062/1177] latinpost.com_012_s10_vs_latinpost.com_026_s1 sim=0.32 -> UNANIMOUS: CONTRA
+  [1073/1177] thehill.com_002_s3_vs_thehill.com_005_s1 sim=0.32 -> UNANIMOUS: NOT
+  [1071/1177] barnesandnoble.com_086_s1_vs_barnesandnoble.com_026_s1 sim=0.32 -> UNANIMOUS: NOT
+  [1076/1177] nytimes.com_049_s2_vs_nytimes.com_045_s1 sim=0.32 -> UNANIMOUS: NOT
+  [1063/1177] nytimes.com_021_s3_vs_nytimes.com_050_s1 sim=0.32 -> UNANIMOUS: NOT
+  [1080/1177] fortune.com_028_s2_vs_fortune.com_003_s1 sim=0.32 -> UNANIMOUS: NOT
+  [1068/1177] internetbrands.com_097_s1_vs_internetbrands.com_004_s1 sim=0.32 -> UNANIMOUS: NOT
+  [1079/1177] reddit.com_010_s3_vs_reddit.com_036_s1 sim=0.32 -> UNANIMOUS: NOT
+  [1064/1177] honda.com_005_s1_vs_honda.com_028_s3 sim=0.32 -> UNANIMOUS: NOT
+  [1072/1177] esquire.com_024_s2_vs_esquire.com_040_s2 sim=0.32 -> UNANIMOUS: CONTRA
+  --- Batch 54: saved 1080 results, 140 confirmed contradictions so far ---
+  [1085/1177] fool.com_005_s3_vs_fool.com_006_s1 sim=0.32 -> UNANIMOUS: NOT
+  [1094/1177] nbcuniversal.com_011_s2_vs_nbcuniversal.com_009_s3 sim=0.32 -> UNANIMOUS: NOT
+  [1098/1177] pbs.org_014_s2_vs_pbs.org_004_s1 sim=0.32 -> UNANIMOUS: CONTRA
+  [1097/1177] archives.gov_003_s1_vs_archives.gov_021_s2 sim=0.32 -> UNANIMOUS: NOT
+  [1081/1177] rockstargames.com_029_s1_vs_rockstargames.com_024_s1 sim=0.32 -> UNANIMOUS: NOT
+  [1100/1177] meredith.com_037_s2_vs_meredith.com_036_s4 sim=0.32 -> UNANIMOUS: NOT
+  [1093/1177] honda.com_028_s2_vs_honda.com_051_s1 sim=0.32 -> UNANIMOUS: NOT
+  [1086/1177] reddit.com_046_s1_vs_reddit.com_005_s1 sim=0.32 -> UNANIMOUS: NOT
+  [1092/1177] honda.com_022_s1_vs_honda.com_051_s1 sim=0.32 -> UNANIMOUS: NOT
+  [1087/1177] lynda.com_070_s2_vs_lynda.com_058_s1 sim=0.32 -> UNANIMOUS: NOT
+  [1084/1177] sheknows.com_004_s2_vs_sheknows.com_022_s1 sim=0.32 -> UNANIMOUS: NOT
+  [1095/1177] playstation.com_025_s3_vs_playstation.com_021_s3 sim=0.32 -> UNANIMOUS: NOT
+  [1088/1177] archives.gov_039_s2_vs_archives.gov_021_s2 sim=0.32 -> UNANIMOUS: NOT
+  [1091/1177] nytimes.com_053_s2_vs_nytimes.com_023_s2 sim=0.32 -> UNANIMOUS: NOT
+  [1083/1177] nbcuniversal.com_042_s1_vs_nbcuniversal.com_020_s1 sim=0.32 -> UNANIMOUS: NOT
+  [1090/1177] randomhouse.com_012_s1_vs_randomhouse.com_029_s2 sim=0.32 -> UNANIMOUS: NOT
+  [1096/1177] usa.gov_018_s1_vs_usa.gov_009_s1 sim=0.32 -> MAJORITY: NOT
+  [1089/1177] reddit.com_014_s1_vs_reddit.com_036_s1 sim=0.32 -> UNANIMOUS: NOT
+  [1099/1177] reference.com_025_s2_vs_reference.com_006_s3 sim=0.32 -> MAJORITY: NOT
+  [1082/1177] rockstargames.com_023_s5_vs_rockstargames.com_033_s2 sim=0.32 -> MAJORITY: NOT
+  --- Batch 55: saved 1100 results, 141 confirmed contradictions so far ---
+  [1119/1177] enthusiastnetwork.com_003_s3_vs_enthusiastnetwork.com_035_s2 sim=0.31 -> UNANIMOUS: NOT
+  [1110/1177] buffalowildwings.com_003_s3_vs_buffalowildwings.com_006_s2 sim=0.31 -> UNANIMOUS: NOT
+  [1108/1177] rockstargames.com_031_s2_vs_rockstargames.com_015_s4 sim=0.32 -> UNANIMOUS: NOT
+  [1117/1177] kaleidahealth.org_011_s2_vs_kaleidahealth.org_048_s1 sim=0.31 -> UNANIMOUS: NOT
+  [1114/1177] meredith.com_037_s2_vs_meredith.com_021_s1 sim=0.31 -> UNANIMOUS: NOT
+  [1116/1177] acbj.com_010_s6_vs_acbj.com_014_s1 sim=0.31 -> UNANIMOUS: NOT
+  [1112/1177] reference.com_006_s4_vs_reference.com_017_s1 sim=0.31 -> UNANIMOUS: NOT
+  [1115/1177] sports-reference.com_012_s2_vs_sports-reference.com_004_s1 sim=0.31 -> UNANIMOUS: NOT
+  [1113/1177] rockstargames.com_020_s2_vs_rockstargames.com_015_s2 sim=0.31 -> UNANIMOUS: CONTRA
+  [1120/1177] meredith.com_037_s2_vs_meredith.com_025_s2 sim=0.31 -> UNANIMOUS: NOT
+  [1109/1177] everydayhealth.com_034_s2_vs_everydayhealth.com_032_s2 sim=0.31 -> UNANIMOUS: NOT
+  [1104/1177] honda.com_054_s2_vs_honda.com_053_s1 sim=0.32 -> MAJORITY: CONTRA
+  [1101/1177] bankofamerica.com_075_s1_vs_bankofamerica.com_030_s2 sim=0.32 -> UNANIMOUS: NOT
+  [1105/1177] honda.com_054_s2_vs_honda.com_056_s1 sim=0.32 -> MAJORITY: CONTRA
+  [1111/1177] fool.com_005_s3_vs_fool.com_019_s3 sim=0.31 -> UNANIMOUS: CONTRA
+  [1106/1177] honda.com_057_s2_vs_honda.com_053_s1 sim=0.32 -> MAJORITY: NOT
+  [1118/1177] honda.com_061_s1_vs_honda.com_024_s2 sim=0.31 -> MAJORITY: CONTRA
+  [1103/1177] honda.com_038_s2_vs_honda.com_056_s1 sim=0.32 -> MAJORITY: CONTRA
+  [1107/1177] honda.com_057_s2_vs_honda.com_056_s1 sim=0.32 -> MAJORITY: CONTRA
+  [1102/1177] honda.com_038_s2_vs_honda.com_053_s1 sim=0.32 -> UNANIMOUS: NOT
+  --- Batch 56: saved 1120 results, 148 confirmed contradictions so far ---
+  [1137/1177] randomhouse.com_012_s1_vs_randomhouse.com_017_s3 sim=0.31 -> UNANIMOUS: NOT
+  [1122/1177] fool.com_004_s3_vs_fool.com_005_s1 sim=0.31 -> UNANIMOUS: NOT
+  [1139/1177] meredith.com_037_s2_vs_meredith.com_029_s1 sim=0.31 -> UNANIMOUS: NOT
+  [1132/1177] reference.com_033_s3_vs_reference.com_009_s1 sim=0.31 -> UNANIMOUS: NOT
+  [1131/1177] aol.com_017_s3_vs_aol.com_007_s4 sim=0.31 -> UNANIMOUS: NOT
+  [1121/1177] dailynews.com_008_s2_vs_dailynews.com_012_s1 sim=0.31 -> UNANIMOUS: NOT
+  [1135/1177] enthusiastnetwork.com_031_s1_vs_enthusiastnetwork.com_003_s2 sim=0.31 -> UNANIMOUS: NOT
+  [1130/1177] nytimes.com_020_s3_vs_nytimes.com_027_s1 sim=0.31 -> UNANIMOUS: NOT
+  [1138/1177] sidearmsports.com_020_s4_vs_sidearmsports.com_015_s2 sim=0.31 -> UNANIMOUS: NOT
+  [1125/1177] sltrib.com_036_s1_vs_sltrib.com_010_s1 sim=0.31 -> UNANIMOUS: NOT
+  [1127/1177] internetbrands.com_096_s2_vs_internetbrands.com_038_s6 sim=0.31 -> UNANIMOUS: NOT
+  [1134/1177] thefreedictionary.com_007_s1_vs_thefreedictionary.com_005_s1 sim=0.31 -> UNANIMOUS: NOT
+  [1140/1177] mlb.mlb.com_014_s2_vs_mlb.mlb.com_006_s2 sim=0.31 -> UNANIMOUS: NOT
+  [1124/1177] barnesandnoble.com_038_s3_vs_barnesandnoble.com_062_s1 sim=0.31 -> UNANIMOUS: NOT
+  [1129/1177] reference.com_006_s4_vs_reference.com_004_s9 sim=0.31 -> UNANIMOUS: NOT
+  [1126/1177] reddit.com_048_s1_vs_reddit.com_036_s1 sim=0.31 -> UNANIMOUS: NOT
+  [1136/1177] barnesandnoble.com_038_s3_vs_barnesandnoble.com_066_s2 sim=0.31 -> UNANIMOUS: NOT
+  [1123/1177] zacks.com_002_s2_vs_zacks.com_003_s1 sim=0.31 -> UNANIMOUS: NOT
+  [1133/1177] sheknows.com_035_s1_vs_sheknows.com_003_s3 sim=0.31 -> UNANIMOUS: NOT
+  [1128/1177] military.com_036_s2_vs_military.com_009_s1 sim=0.31 -> MAJORITY: NOT
+  --- Batch 57: saved 1140 results, 148 confirmed contradictions so far ---
+  [1142/1177] fool.com_041_s2_vs_fool.com_010_s3 sim=0.31 -> UNANIMOUS: NOT
+  [1149/1177] honda.com_023_s1_vs_honda.com_028_s3 sim=0.31 -> UNANIMOUS: NOT
+  [1153/1177] austincc.edu_014_s3_vs_austincc.edu_013_s1 sim=0.31 -> UNANIMOUS: NOT
+  [1154/1177] redorbit.com_013_s2_vs_redorbit.com_005_s1 sim=0.30 -> UNANIMOUS: NOT
+  [1141/1177] lynda.com_062_s3_vs_lynda.com_030_s3 sim=0.31 -> UNANIMOUS: NOT
+  [1147/1177] latinpost.com_003_s5_vs_latinpost.com_018_s2 sim=0.31 -> UNANIMOUS: NOT
+  [1150/1177] honda.com_029_s1_vs_honda.com_028_s3 sim=0.31 -> UNANIMOUS: NOT
+  [1148/1177] archives.gov_004_s5_vs_archives.gov_021_s2 sim=0.31 -> UNANIMOUS: NOT
+  [1152/1177] minecraft.gamepedia.com_002_s1_vs_minecraft.gamepedia.com_003_s1 sim=0.31 -> UNANIMOUS: NOT
+  [1159/1177] randomhouse.com_031_s2_vs_randomhouse.com_033_s1 sim=0.30 -> UNANIMOUS: NOT
+  [1146/1177] honda.com_042_s2_vs_honda.com_046_s1 sim=0.31 -> UNANIMOUS: NOT
+  [1145/1177] minecraft.gamepedia.com_002_s1_vs_minecraft.gamepedia.com_005_s2 sim=0.31 -> UNANIMOUS: NOT
+  [1151/1177] adweek.com_006_s1_vs_adweek.com_002_s1 sim=0.31 -> UNANIMOUS: NOT
+  [1158/1177] nytimes.com_053_s2_vs_nytimes.com_030_s1 sim=0.30 -> UNANIMOUS: NOT
+  [1160/1177] kraftrecipes.com_019_s1_vs_kraftrecipes.com_023_s1 sim=0.30 -> UNANIMOUS: CONTRA
+  [1157/1177] sciencemag.org_032_s2_vs_sciencemag.org_005_s3 sim=0.30 -> UNANIMOUS: NOT
+  [1144/1177] barnesandnoble.com_060_s3_vs_barnesandnoble.com_044_s1 sim=0.31 -> MAJORITY: CONTRA
+  [1155/1177] miaminewtimes.com_031_s1_vs_miaminewtimes.com_020_s2 sim=0.30 -> MAJORITY: NOT
+  [1156/1177] bankofamerica.com_075_s1_vs_bankofamerica.com_011_s1 sim=0.30 -> UNANIMOUS: NOT
+  [1143/1177] playstation.com_025_s3_vs_playstation.com_019_s1 sim=0.31 -> MAJORITY: NOT
+  --- Batch 58: saved 1160 results, 150 confirmed contradictions so far ---
+  [1166/1177] latinpost.com_012_s10_vs_latinpost.com_009_s1 sim=0.30 -> UNANIMOUS: NOT
+  [1168/1177] archives.gov_003_s1_vs_archives.gov_009_s1 sim=0.30 -> UNANIMOUS: NOT
+  [1164/1177] sltrib.com_008_s1_vs_sltrib.com_009_s2 sim=0.30 -> UNANIMOUS: NOT
+  [1163/1177] washingtonian.com_005_s3_vs_washingtonian.com_007_s2 sim=0.30 -> UNANIMOUS: NOT
+  [1161/1177] fool.com_005_s3_vs_fool.com_020_s1 sim=0.30 -> UNANIMOUS: NOT
+  [1162/1177] sheknows.com_004_s2_vs_sheknows.com_005_s1 sim=0.30 -> UNANIMOUS: NOT
+  [1172/1177] honda.com_057_s2_vs_honda.com_007_s1 sim=0.30 -> MAJORITY: CONTRA
+  [1173/1177] esquire.com_009_s2_vs_esquire.com_033_s1 sim=0.30 -> UNANIMOUS: NOT
+  [1170/1177] honda.com_038_s2_vs_honda.com_007_s1 sim=0.30 -> MAJORITY: CONTRA
+  [1171/1177] honda.com_054_s2_vs_honda.com_007_s1 sim=0.30 -> UNANIMOUS: CONTRA
+  [1175/1177] esquire.com_037_s1_vs_esquire.com_005_s2 sim=0.30 -> MAJORITY: CONTRA
+  [1165/1177] si.edu_002_s1_vs_si.edu_004_s2 sim=0.30 -> MAJORITY: NOT
+  [1174/1177] redorbit.com_014_s2_vs_redorbit.com_006_s3 sim=0.30 -> UNANIMOUS: CONTRA
+  [1177/1177] jibjab.com_008_s2_vs_jibjab.com_015_s2 sim=0.30 -> MAJORITY: NOT
+  [1167/1177] barnesandnoble.com_026_s2_vs_barnesandnoble.com_093_s1 sim=0.30 -> MAJORITY: NOT
+  [1176/1177] citizen.org_010_s2_vs_citizen.org_003_s3 sim=0.30 -> UNANIMOUS: NOT
+  [1169/1177] reference.com_033_s3_vs_reference.com_008_s1 sim=0.30 -> MAJORITY: NOT
+  --- Batch 59: saved 1177 results, 155 confirmed contradictions so far ---
+
+Computing agreement metrics...
+
+Results saved to: /Users/tbrack/Documents/Projects/Varitas/Varitas/varitas-foundation/research/privacy_washing/opp115_experiment_stability_20260830/statement_judge_results.json
+  File size: 7293.9 KB
+
+============================================================
+STATEMENT-LEVEL 3-LLM JUDGE VERIFICATION COMPLETE
+============================================================
+
+Models used:
+  Judge 1: deepseek/deepseek-v4-flash-0731 (deepseek)
+  Judge 2: z-ai/glm-5.3-flash (z-ai)
+  Judge 3: moonshotai/kimi-k3 (moonshotai)
+
+Judge Agreement:
+  Total pairs judged: 1177
+  Unanimous (3/3):    1017 (86.4%)
+  Majority (2/3):     157 (13.3%)
+  Usable (>=2/3):     99.7%
+  Needs review:       3
+  Fleiss' kappa:      0.6382
+
+Pairwise Cohen's Kappa:
+  deepseek vs z-ai: 0.5891
+  deepseek vs moonshotai: 0.6052
+  z-ai vs moonshotai: 0.7448
+
+Verification Results (all pairs were NLI-flagged):
+  Confirmed contradictions:   155
+  Rejected (not contradiction): 1019
+  Needs review (split/invalid): 3
+  Confirmation rate:          13.2%
+
+NLI Score by Judge Verdict:
+  Confirmed: mean=0.973, median=0.998, range=[0.531, 1.000]
+  Rejected: mean=0.946, median=0.995, range=[0.504, 1.000]
+
+Per-Company Results:
+  abcnews.com: 1 confirmed, 9 rejected, 0 review (10% confirmed)
+  abita.com: 0 confirmed, 5 rejected, 0 review (0% confirmed)
+  acbj.com: 2 confirmed, 8 rejected, 0 review (20% confirmed)
+  adweek.com: 1 confirmed, 6 rejected, 0 review (14% confirmed)
+  allstate.com: 0 confirmed, 13 rejected, 0 review (0% confirmed)
+  amazon.com: 0 confirmed, 12 rejected, 0 review (0% confirmed)
+  aol.com: 0 confirmed, 7 rejected, 0 review (0% confirmed)
+  archives.gov: 5 confirmed, 17 rejected, 0 review (23% confirmed)
+  austincc.edu: 0 confirmed, 1 rejected, 0 review (0% confirmed)
+  bankofamerica.com: 0 confirmed, 20 rejected, 0 review (0% confirmed)
+  barnesandnoble.com: 7 confirmed, 44 rejected, 0 review (14% confirmed)
+  boardgamegeek.com: 0 confirmed, 1 rejected, 0 review (0% confirmed)
+  buffalowildwings.com: 1 confirmed, 4 rejected, 0 review (20% confirmed)
+  cariboucoffee.com: 1 confirmed, 1 rejected, 0 review (50% confirmed)
+  chasepaymentech.com: 0 confirmed, 2 rejected, 0 review (0% confirmed)
+  cincymuseum.org: 1 confirmed, 1 rejected, 0 review (50% confirmed)
+  citizen.org: 0 confirmed, 1 rejected, 0 review (0% confirmed)
+  coffeereview.com: 0 confirmed, 2 rejected, 0 review (0% confirmed)
+  dailynews.com: 3 confirmed, 16 rejected, 0 review (16% confirmed)
+  disinfo.com: 3 confirmed, 11 rejected, 0 review (21% confirmed)
+  earthkam.org: 0 confirmed, 1 rejected, 0 review (0% confirmed)
+  enthusiastnetwork.com: 0 confirmed, 12 rejected, 0 review (0% confirmed)
+  esquire.com: 6 confirmed, 24 rejected, 0 review (20% confirmed)
+  everydayhealth.com: 0 confirmed, 4 rejected, 0 review (0% confirmed)
+  foodallergy.org: 1 confirmed, 2 rejected, 0 review (33% confirmed)
+  fool.com: 6 confirmed, 27 rejected, 0 review (18% confirmed)
+  fortune.com: 1 confirmed, 7 rejected, 0 review (12% confirmed)
+  fredericknewspost.com: 0 confirmed, 1 rejected, 0 review (0% confirmed)
+  freep.com: 0 confirmed, 6 rejected, 0 review (0% confirmed)
+  gamestop.com: 0 confirmed, 2 rejected, 0 review (0% confirmed)
+  gawker.com: 0 confirmed, 3 rejected, 0 review (0% confirmed)
+  geocaching.com: 0 confirmed, 6 rejected, 0 review (0% confirmed)
+  google.com: 2 confirmed, 1 rejected, 0 review (67% confirmed)
+  highgearmedia.com: 0 confirmed, 4 rejected, 0 review (0% confirmed)
+  honda.com: 24 confirmed, 121 rejected, 0 review (17% confirmed)
+  imdb.com: 4 confirmed, 16 rejected, 0 review (20% confirmed)
+  instagram.com: 0 confirmed, 4 rejected, 0 review (0% confirmed)
+  internetbrands.com: 1 confirmed, 14 rejected, 0 review (7% confirmed)
+  ironhorsevineyards.com: 0 confirmed, 2 rejected, 0 review (0% confirmed)
+  jibjab.com: 2 confirmed, 19 rejected, 0 review (10% confirmed)
+  kaleidahealth.org: 1 confirmed, 13 rejected, 0 review (7% confirmed)
+  kraftrecipes.com: 3 confirmed, 15 rejected, 0 review (17% confirmed)
+  latinpost.com: 7 confirmed, 14 rejected, 0 review (33% confirmed)
+  lids.com: 0 confirmed, 3 rejected, 0 review (0% confirmed)
+  lodgemfg.com: 0 confirmed, 2 rejected, 0 review (0% confirmed)
+  lynda.com: 1 confirmed, 19 rejected, 0 review (5% confirmed)
+  meredith.com: 1 confirmed, 18 rejected, 0 review (5% confirmed)
+  miaminewtimes.com: 1 confirmed, 9 rejected, 0 review (10% confirmed)
+  military.com: 2 confirmed, 17 rejected, 1 review (10% confirmed)
+  minecraft.gamepedia.com: 0 confirmed, 4 rejected, 0 review (0% confirmed)
+  mlb.mlb.com: 1 confirmed, 10 rejected, 0 review (9% confirmed)
+  mohegansun.com: 0 confirmed, 1 rejected, 0 review (0% confirmed)
+  msn.com: 0 confirmed, 2 rejected, 0 review (0% confirmed)
+  nbcuniversal.com: 0 confirmed, 14 rejected, 0 review (0% confirmed)
+  neworleansonline.com: 1 confirmed, 3 rejected, 0 review (25% confirmed)
+  newsbusters.org: 0 confirmed, 2 rejected, 0 review (0% confirmed)
+  nytimes.com: 2 confirmed, 31 rejected, 0 review (6% confirmed)
+  ocregister.com: 0 confirmed, 14 rejected, 0 review (0% confirmed)
+  pbs.org: 7 confirmed, 24 rejected, 0 review (23% confirmed)
+  playstation.com: 0 confirmed, 15 rejected, 0 review (0% confirmed)
+  post-gazette.com: 1 confirmed, 1 rejected, 0 review (50% confirmed)
+  randomhouse.com: 4 confirmed, 30 rejected, 0 review (12% confirmed)
+  reddit.com: 10 confirmed, 53 rejected, 1 review (16% confirmed)
+  redorbit.com: 3 confirmed, 2 rejected, 0 review (60% confirmed)
+  reference.com: 0 confirmed, 16 rejected, 0 review (0% confirmed)
+  rockstargames.com: 15 confirmed, 44 rejected, 0 review (25% confirmed)
+  sci-news.com: 0 confirmed, 1 rejected, 0 review (0% confirmed)
+  sciencemag.org: 0 confirmed, 3 rejected, 0 review (0% confirmed)
+  sheknows.com: 3 confirmed, 20 rejected, 0 review (13% confirmed)
+  si.edu: 1 confirmed, 7 rejected, 0 review (12% confirmed)
+  sidearmsports.com: 4 confirmed, 8 rejected, 1 review (31% confirmed)
+  sltrib.com: 1 confirmed, 8 rejected, 0 review (11% confirmed)
+  sports-reference.com: 0 confirmed, 1 rejected, 0 review (0% confirmed)
+  steampowered.com: 0 confirmed, 6 rejected, 0 review (0% confirmed)
+  stlouisfed.org: 1 confirmed, 4 rejected, 0 review (20% confirmed)
+  style.com: 2 confirmed, 7 rejected, 0 review (22% confirmed)
+  taylorswift.com: 0 confirmed, 10 rejected, 0 review (0% confirmed)
+  ted.com: 0 confirmed, 1 rejected, 0 review (0% confirmed)
+  tgifridays.com: 0 confirmed, 1 rejected, 0 review (0% confirmed)
+  theatlantic.com: 1 confirmed, 9 rejected, 0 review (10% confirmed)
+  thefreedictionary.com: 0 confirmed, 3 rejected, 0 review (0% confirmed)
+  thehill.com: 0 confirmed, 4 rejected, 0 review (0% confirmed)
+  ticketmaster.com: 0 confirmed, 5 rejected, 0 review (0% confirmed)
+  timeinc.com: 1 confirmed, 3 rejected, 0 review (25% confirmed)
+  tulsaworld.com: 1 confirmed, 7 rejected, 0 review (12% confirmed)
+  uh.edu: 0 confirmed, 1 rejected, 0 review (0% confirmed)
+  uptodate.com: 0 confirmed, 2 rejected, 0 review (0% confirmed)
+  usa.gov: 3 confirmed, 7 rejected, 0 review (30% confirmed)
+  vikings.com: 0 confirmed, 4 rejected, 0 review (0% confirmed)
+  voxmedia.com: 1 confirmed, 11 rejected, 0 review (8% confirmed)
+  walmart.com: 0 confirmed, 9 rejected, 0 review (0% confirmed)
+  washingtonian.com: 0 confirmed, 11 rejected, 0 review (0% confirmed)
+  washingtonpost.com: 0 confirmed, 1 rejected, 0 review (0% confirmed)
+  wsmv.com: 1 confirmed, 5 rejected, 0 review (17% confirmed)
+  www.loc.gov: 2 confirmed, 17 rejected, 0 review (11% confirmed)
+  yahoo.com: 0 confirmed, 3 rejected, 0 review (0% confirmed)
+  zacks.com: 1 confirmed, 7 rejected, 0 review (12% confirmed)
+=== Analysis opp115_experiment_stability_20260830 ===
+Statement-Level Contradiction Analysis Report Generator
+============================================================
+Loading judge results from: /Users/tbrack/Documents/Projects/Varitas/Varitas/varitas-foundation/research/privacy_washing/opp115_experiment_stability_20260830/statement_judge_results.json
+Loading statements from: /Users/tbrack/Documents/Projects/Varitas/Varitas/varitas-foundation/research/privacy_washing/opp115_experiment_stability_20260830/statements.json
+Computing statistics...
+Generating report...
+Writing report to: /Users/tbrack/Documents/Projects/Varitas/Varitas/varitas-foundation/research/privacy_washing/opp115_experiment_stability_20260830/statement_contradiction_analysis.md
+
+Report generated: 8,029 characters
+  Confirmed contradictions: 155
+  Companies with contradictions: 49/97
+  Confirmation rate: 13.2%
+
+=== Judging oppt_experiment_stability_20260830 ===
+  Judge model: deepseek/deepseek-v4-flash-0731
+  Judge model: z-ai/glm-5.3-flash
+  Judge model: moonshotai/kimi-k3
+Loaded prompt template: judge_statement_prompt.md (2947 chars)
+
+Loading contradictions from: /Users/tbrack/Documents/Projects/Varitas/Varitas/varitas-foundation/research/privacy_washing/oppt_experiment_stability_20260830/statement_contradictions.json
+  NLI-flagged contradictions: 834 / 4330 total pairs
+  Above similarity threshold (0.0): 834
+
+============================================================
+Judging 834 pairs with 3 LLM judges (concurrency=20)...
+============================================================
+  [16/834] github_029_s3_vs_github_009_s1 sim=0.72 -> UNANIMOUS: NOT
+  [13/834] meta_117_s2_vs_meta_021_s3 sim=0.72 -> UNANIMOUS: NOT
+  [6/834] khan-academy_042_s1_vs_khan-academy_041_s1 sim=0.74 -> UNANIMOUS: NOT
+  [12/834] xiaomi_018_s1_vs_xiaomi_017_s1 sim=0.72 -> UNANIMOUS: NOT
+  [14/834] linkedin_042_s4_vs_linkedin_012_s1 sim=0.72 -> UNANIMOUS: NOT
+  [9/834] duolingo_021_s4_vs_duolingo_026_s1 sim=0.73 -> UNANIMOUS: CONTRA
+  [15/834] khan-academy_048_s2_vs_khan-academy_045_s4 sim=0.72 -> UNANIMOUS: NOT
+  [1/834] github_029_s3_vs_github_005_s1 sim=0.79 -> UNANIMOUS: NOT
+  [7/834] epic-games_009_s3_vs_epic-games_004_s1 sim=0.73 -> UNANIMOUS: NOT
+  [18/834] linkedin_027_s4_vs_linkedin_022_s1 sim=0.71 -> UNANIMOUS: NOT
+  [4/834] coursera_011_s2_vs_coursera_009_s1 sim=0.75 -> UNANIMOUS: NOT
+  [10/834] duolingo_022_s4_vs_duolingo_007_s1 sim=0.73 -> UNANIMOUS: NOT
+  [8/834] khan-academy_051_s5_vs_khan-academy_047_s3 sim=0.73 -> UNANIMOUS: NOT
+  [19/834] t-mobile_097_s2_vs_t-mobile_086_s1 sim=0.71 -> UNANIMOUS: NOT
+  [11/834] duolingo_007_s4_vs_duolingo_019_s1 sim=0.73 -> MAJORITY: CONTRA
+  [17/834] venmo_021_s1_vs_venmo_032_s5 sim=0.71 -> UNANIMOUS: NOT
+  [3/834] khan-academy_046_s2_vs_khan-academy_047_s3 sim=0.75 -> MAJORITY: CONTRA
+  [5/834] duolingo_022_s1_vs_duolingo_016_s1 sim=0.74 -> MAJORITY: NOT
+  [20/834] roblox_075_s4_vs_roblox_063_s1 sim=0.71 -> UNANIMOUS: NOT
+  [2/834] duolingo_021_s4_vs_duolingo_003_s1 sim=0.77 -> MAJORITY: CONTRA
+  --- Batch 1: saved 20 results, 4 confirmed contradictions so far ---
+  [31/834] xiaomi_018_s1_vs_xiaomi_006_s2 sim=0.69 -> UNANIMOUS: NOT
+  [40/834] twitch_010_s2_vs_twitch_004_s1 sim=0.68 -> UNANIMOUS: NOT
+  [32/834] epic-games_009_s3_vs_epic-games_006_s1 sim=0.69 -> UNANIMOUS: NOT
+  [26/834] bi-incorporated_005_s1_vs_bi-incorporated_008_s1 sim=0.69 -> UNANIMOUS: NOT
+  [38/834] meta_117_s2_vs_meta_008_s2 sim=0.68 -> UNANIMOUS: NOT
+  [30/834] clearview-ai_014_s2_vs_clearview-ai_011_s2 sim=0.69 -> UNANIMOUS: NOT
+  [24/834] flock-safety_003_s2_vs_flock-safety_004_s2 sim=0.70 -> UNANIMOUS: NOT
+  [27/834] geo-group_005_s1_vs_geo-group_008_s2 sim=0.69 -> UNANIMOUS: NOT
+  [37/834] duolingo_022_s1_vs_duolingo_026_s1 sim=0.68 -> UNANIMOUS: NOT
+  [29/834] xiaomi_018_s1_vs_xiaomi_013_s2 sim=0.69 -> UNANIMOUS: NOT
+  [25/834] zoom_025_s3_vs_zoom_003_s2 sim=0.70 -> UNANIMOUS: NOT
+  [39/834] duolingo_021_s4_vs_duolingo_004_s1 sim=0.68 -> MAJORITY: NOT
+  [22/834] khan-academy_048_s2_vs_khan-academy_013_s4 sim=0.70 -> UNANIMOUS: NOT
+  [23/834] roblox_075_s4_vs_roblox_015_s1 sim=0.70 -> UNANIMOUS: NOT
+  [21/834] roblox_075_s4_vs_roblox_068_s2 sim=0.70 -> UNANIMOUS: NOT
+  [28/834] tiktok_013_s8_vs_tiktok_011_s2 sim=0.69 -> MAJORITY: NOT
+  [34/834] duolingo_021_s4_vs_duolingo_013_s1 sim=0.69 -> MAJORITY: CONTRA
+  [35/834] github_029_s3_vs_github_010_s2 sim=0.69 -> UNANIMOUS: NOT
+  [33/834] duolingo_021_s4_vs_duolingo_019_s1 sim=0.69 -> MAJORITY: CONTRA
+  [36/834] flock-safety_007_s2_vs_flock-safety_015_s2 sim=0.68 -> MAJORITY: CONTRA
+  --- Batch 2: saved 40 results, 7 confirmed contradictions so far ---
+  [42/834] perplexity_024_s1_vs_perplexity_002_s2 sim=0.68 -> UNANIMOUS: NOT
+  [60/834] meta_118_s2_vs_meta_008_s2 sim=0.65 -> UNANIMOUS: NOT
+  [45/834] meta_118_s2_vs_meta_021_s3 sim=0.67 -> UNANIMOUS: NOT
+  [49/834] duolingo_022_s1_vs_duolingo_013_s1 sim=0.66 -> UNANIMOUS: NOT
+  [46/834] zillow_005_s4_vs_zillow_016_s1 sim=0.67 -> UNANIMOUS: NOT
+  [41/834] anduril_049_s2_vs_anduril_029_s3 sim=0.68 -> UNANIMOUS: NOT
+  [54/834] github_015_s4_vs_github_010_s2 sim=0.66 -> UNANIMOUS: NOT
+  [43/834] verizon_031_s1_vs_verizon_054_s1 sim=0.67 -> UNANIMOUS: NOT
+  [59/834] flock-safety_008_s1_vs_flock-safety_004_s2 sim=0.65 -> UNANIMOUS: NOT
+  [53/834] twitch_015_s2_vs_twitch_014_s1 sim=0.66 -> UNANIMOUS: NOT
+  [51/834] bi-incorporated_005_s1_vs_bi-incorporated_007_s1 sim=0.66 -> UNANIMOUS: NOT
+  [58/834] khan-academy_008_s3_vs_khan-academy_016_s1 sim=0.65 -> UNANIMOUS: NOT
+  [47/834] apple_004_s1_vs_apple_011_s1 sim=0.66 -> UNANIMOUS: NOT
+  [56/834] t-mobile_097_s2_vs_t-mobile_028_s1 sim=0.66 -> UNANIMOUS: NOT
+  [55/834] babel-street_023_s1_vs_babel-street_014_s2 sim=0.66 -> UNANIMOUS: NOT
+  [48/834] duolingo_020_s2_vs_duolingo_003_s1 sim=0.66 -> UNANIMOUS: NOT
+  [57/834] t-mobile_097_s2_vs_t-mobile_035_s1 sim=0.66 -> UNANIMOUS: NOT
+  [52/834] geo-group_005_s1_vs_geo-group_007_s1 sim=0.66 -> UNANIMOUS: NOT
+  [50/834] meta_075_s3_vs_meta_010_s5 sim=0.66 -> MAJORITY: NOT
+  [44/834] github_029_s3_vs_github_028_s3 sim=0.67 -> UNANIMOUS: CONTRA
+  --- Batch 3: saved 60 results, 8 confirmed contradictions so far ---
+  [62/834] venmo_021_s1_vs_venmo_028_s4 sim=0.65 -> UNANIMOUS: NOT
+  [69/834] flock-safety_015_s1_vs_flock-safety_011_s1 sim=0.64 -> UNANIMOUS: NOT
+  [70/834] venmo_021_s1_vs_venmo_006_s2 sim=0.64 -> UNANIMOUS: NOT
+  [71/834] venmo_021_s1_vs_venmo_017_s1 sim=0.64 -> UNANIMOUS: NOT
+  [72/834] venmo_021_s1_vs_venmo_018_s1 sim=0.64 -> UNANIMOUS: NOT
+  [73/834] ebay_011_s3_vs_ebay_038_s4 sim=0.64 -> UNANIMOUS: NOT
+  [74/834] motorola-solutions_015_s1_vs_motorola-solutions_018_s1 sim=0.64 -> UNANIMOUS: NOT
+  [78/834] tiktok_016_s3_vs_tiktok_002_s1 sim=0.63 -> UNANIMOUS: NOT
+  [80/834] venmo_032_s4_vs_venmo_028_s4 sim=0.63 -> UNANIMOUS: NOT
+  [76/834] meta_148_s5_vs_meta_159_s1 sim=0.64 -> UNANIMOUS: NOT
+  [63/834] duolingo_022_s2_vs_duolingo_013_s1 sim=0.65 -> UNANIMOUS: NOT
+  [67/834] github_029_s3_vs_github_003_s1 sim=0.64 -> UNANIMOUS: NOT
+  [75/834] motorola-solutions_019_s3_vs_motorola-solutions_006_s2 sim=0.64 -> UNANIMOUS: NOT
+  [68/834] linkedin_027_s4_vs_linkedin_047_s1 sim=0.64 -> UNANIMOUS: NOT
+  [77/834] linkedin_042_s4_vs_linkedin_045_s1 sim=0.63 -> UNANIMOUS: NOT
+  [64/834] flock-safety_003_s2_vs_flock-safety_011_s1 sim=0.65 -> UNANIMOUS: NOT
+  [65/834] stripe_034_s4_vs_stripe_009_s1 sim=0.65 -> UNANIMOUS: NOT
+  [61/834] microsoft_048_s2_vs_microsoft_054_s1 sim=0.65 -> UNANIMOUS: NOT
+  [79/834] xiaomi_018_s1_vs_xiaomi_015_s1 sim=0.63 -> MAJORITY: CONTRA
+  [66/834] duolingo_020_s2_vs_duolingo_004_s1 sim=0.65 -> UNANIMOUS: CONTRA
+  --- Batch 4: saved 80 results, 10 confirmed contradictions so far ---
+  [84/834] venmo_009_s2_vs_venmo_032_s1 sim=0.62 -> UNANIMOUS: NOT
+  [83/834] flock-safety_013_s1_vs_flock-safety_011_s1 sim=0.63 -> UNANIMOUS: NOT
+  [97/834] roblox_030_s3_vs_roblox_008_s2 sim=0.62 -> UNANIMOUS: NOT
+  [87/834] roblox_008_s4_vs_roblox_062_s1 sim=0.62 -> UNANIMOUS: NOT
+  [81/834] venmo_009_s2_vs_venmo_028_s4 sim=0.63 -> UNANIMOUS: NOT
+  [82/834] uber_026_s2_vs_uber_017_s1 sim=0.63 -> UNANIMOUS: NOT
+  [98/834] linkedin_042_s4_vs_linkedin_047_s2 sim=0.61 -> UNANIMOUS: NOT
+  [94/834] meta_117_s2_vs_meta_050_s5 sim=0.62 -> UNANIMOUS: NOT
+  [100/834] khan-academy_011_s1_vs_khan-academy_041_s1 sim=0.61 -> UNANIMOUS: NOT
+  [95/834] duolingo_022_s5_vs_duolingo_013_s1 sim=0.62 -> UNANIMOUS: NOT
+  [96/834] ebay_030_s3_vs_ebay_007_s1 sim=0.62 -> UNANIMOUS: NOT
+  [93/834] bi-incorporated_006_s2_vs_bi-incorporated_008_s1 sim=0.62 -> UNANIMOUS: NOT
+  [90/834] venmo_021_s1_vs_venmo_020_s2 sim=0.62 -> UNANIMOUS: NOT
+  [92/834] t-mobile_097_s2_vs_t-mobile_090_s1 sim=0.62 -> UNANIMOUS: NOT
+  [88/834] roblox_008_s4_vs_roblox_074_s1 sim=0.62 -> UNANIMOUS: NOT
+  [91/834] motorola-solutions_015_s1_vs_motorola-solutions_006_s2 sim=0.62 -> UNANIMOUS: NOT
+  [85/834] t-mobile_097_s2_vs_t-mobile_095_s1 sim=0.62 -> UNANIMOUS: NOT
+  [99/834] sosi_003_s2_vs_sosi_005_s1 sim=0.61 -> MAJORITY: CONTRA
+  [89/834] flock-safety_003_s2_vs_flock-safety_015_s2 sim=0.62 -> UNANIMOUS: NOT
+  [86/834] duolingo_022_s3_vs_duolingo_006_s6 sim=0.62 -> MAJORITY: NOT
+  --- Batch 5: saved 100 results, 11 confirmed contradictions so far ---
+  [116/834] zignal-labs_005_s4_vs_zignal-labs_003_s2 sim=0.60 -> UNANIMOUS: NOT
+  [112/834] american-airlines_053_s1_vs_american-airlines_054_s1 sim=0.61 -> UNANIMOUS: NOT
+  [119/834] ebay_030_s3_vs_ebay_036_s1 sim=0.60 -> UNANIMOUS: NOT
+  [105/834] github_029_s3_vs_github_006_s1 sim=0.61 -> UNANIMOUS: NOT
+  [104/834] roblox_030_s3_vs_roblox_013_s2 sim=0.61 -> UNANIMOUS: NOT
+  [110/834] khan-academy_051_s5_vs_khan-academy_045_s3 sim=0.61 -> UNANIMOUS: NOT
+  [113/834] khan-academy_040_s2_vs_khan-academy_041_s1 sim=0.60 -> UNANIMOUS: NOT
+  [107/834] khan-academy_017_s2_vs_khan-academy_045_s3 sim=0.61 -> UNANIMOUS: NOT
+  [115/834] notion_017_s1_vs_notion_002_s1 sim=0.60 -> UNANIMOUS: NOT
+  [109/834] babel-street_005_s1_vs_babel-street_006_s3 sim=0.61 -> UNANIMOUS: NOT
+  [117/834] epic-games_009_s3_vs_epic-games_008_s1 sim=0.60 -> UNANIMOUS: NOT
+  [103/834] duolingo_020_s2_vs_duolingo_019_s1 sim=0.61 -> UNANIMOUS: NOT
+  [120/834] walmart_014_s6_vs_walmart_018_s4 sim=0.60 -> UNANIMOUS: NOT
+  [101/834] linkedin_027_s4_vs_linkedin_040_s1 sim=0.61 -> UNANIMOUS: NOT
+  [118/834] t-mobile_097_s2_vs_t-mobile_023_s1 sim=0.60 -> UNANIMOUS: NOT
+  [102/834] khan-academy_008_s3_vs_khan-academy_010_s2 sim=0.61 -> UNANIMOUS: NOT
+  [114/834] venmo_021_s1_vs_venmo_032_s3 sim=0.60 -> UNANIMOUS: NOT
+  [108/834] walmart_031_s3_vs_walmart_012_s1 sim=0.61 -> UNANIMOUS: NOT
+  [111/834] twitch_006_s1_vs_twitch_009_s2 sim=0.61 -> UNANIMOUS: NOT
+  [106/834] microsoft_010_s4_vs_microsoft_011_s1 sim=0.61 -> MAJORITY: NOT
+  --- Batch 6: saved 120 results, 11 confirmed contradictions so far ---
+  [124/834] venmo_009_s2_vs_venmo_033_s1 sim=0.60 -> UNANIMOUS: NOT
+  [133/834] meta_117_s2_vs_meta_034_s2 sim=0.60 -> UNANIMOUS: NOT
+  [139/834] khan-academy_011_s1_vs_khan-academy_056_s1 sim=0.59 -> UNANIMOUS: NOT
+  [125/834] vercel_017_s1_vs_vercel_009_s2 sim=0.60 -> UNANIMOUS: NOT
+  [121/834] zignal-labs_004_s2_vs_zignal-labs_003_s2 sim=0.60 -> UNANIMOUS: NOT
+  [138/834] t-mobile_097_s2_vs_t-mobile_017_s1 sim=0.59 -> UNANIMOUS: NOT
+  [127/834] t-mobile_097_s2_vs_t-mobile_030_s1 sim=0.60 -> UNANIMOUS: NOT
+  [140/834] duolingo_022_s1_vs_duolingo_015_s1 sim=0.59 -> UNANIMOUS: NOT
+  [136/834] adobe_011_s1_vs_adobe_007_s1 sim=0.60 -> UNANIMOUS: NOT
+  [134/834] t-mobile_097_s2_vs_t-mobile_008_s1 sim=0.60 -> UNANIMOUS: NOT
+  [128/834] twitch_015_s4_vs_twitch_004_s1 sim=0.60 -> UNANIMOUS: NOT
+  [122/834] khan-academy_008_s3_vs_khan-academy_015_s2 sim=0.60 -> UNANIMOUS: NOT
+  [137/834] thomson-reuters_013_s1_vs_thomson-reuters_006_s1 sim=0.59 -> UNANIMOUS: NOT
+  [129/834] duolingo_022_s2_vs_duolingo_003_s1 sim=0.60 -> UNANIMOUS: NOT
+  [135/834] khan-academy_017_s3_vs_khan-academy_013_s4 sim=0.60 -> UNANIMOUS: NOT
+  [130/834] linkedin_027_s4_vs_linkedin_045_s1 sim=0.60 -> UNANIMOUS: NOT
+  [126/834] roblox_038_s1_vs_roblox_005_s1 sim=0.60 -> UNANIMOUS: NOT
+  [123/834] twitch_010_s2_vs_twitch_009_s2 sim=0.60 -> UNANIMOUS: NOT
+  [132/834] duolingo_022_s3_vs_duolingo_013_s3 sim=0.60 -> MAJORITY: NOT
+  [131/834] twitch_006_s1_vs_twitch_011_s2 sim=0.60 -> UNANIMOUS: CONTRA
+  --- Batch 7: saved 140 results, 12 confirmed contradictions so far ---
+  [150/834] google_024_s1_vs_google_003_s2 sim=0.59 -> UNANIMOUS: NOT
+  [153/834] duolingo_022_s2_vs_duolingo_027_s1 sim=0.59 -> UNANIMOUS: NOT
+  [142/834] peloton_027_s2_vs_peloton_008_s1 sim=0.59 -> UNANIMOUS: NOT
+  [147/834] khan-academy_002_s1_vs_khan-academy_013_s1 sim=0.59 -> UNANIMOUS: NOT
+  [146/834] delta_017_s2_vs_delta_009_s9 sim=0.59 -> UNANIMOUS: NOT
+  [141/834] walmart_031_s3_vs_walmart_014_s8 sim=0.59 -> UNANIMOUS: NOT
+  [155/834] uber_026_s2_vs_uber_041_s2 sim=0.59 -> UNANIMOUS: NOT
+  [144/834] khan-academy_008_s3_vs_khan-academy_015_s1 sim=0.59 -> UNANIMOUS: NOT
+  [160/834] uber_026_s2_vs_uber_003_s6 sim=0.59 -> UNANIMOUS: NOT
+  [148/834] geo-group_006_s2_vs_geo-group_008_s2 sim=0.59 -> UNANIMOUS: NOT
+  [156/834] khan-academy_037_s1_vs_khan-academy_013_s4 sim=0.59 -> UNANIMOUS: NOT
+  [159/834] flock-safety_012_s3_vs_flock-safety_003_s1 sim=0.59 -> UNANIMOUS: NOT
+  [151/834] meta_117_s2_vs_meta_137_s1 sim=0.59 -> UNANIMOUS: NOT
+  [149/834] adobe_011_s1_vs_adobe_019_s1 sim=0.59 -> UNANIMOUS: NOT
+  [145/834] peloton_027_s2_vs_peloton_009_s1 sim=0.59 -> UNANIMOUS: NOT
+  [154/834] avast_010_s2_vs_avast_009_s5 sim=0.59 -> UNANIMOUS: NOT
+  [152/834] t-mobile_097_s2_vs_t-mobile_079_s1 sim=0.59 -> UNANIMOUS: NOT
+  [158/834] microsoft_045_s2_vs_microsoft_064_s3 sim=0.59 -> MAJORITY: NOT
+  [143/834] duolingo_020_s2_vs_duolingo_016_s1 sim=0.59 -> UNANIMOUS: CONTRA
+  [157/834] github_029_s3_vs_github_010_s1 sim=0.59 -> UNANIMOUS: CONTRA
+  --- Batch 8: saved 160 results, 14 confirmed contradictions so far ---
+  [172/834] roblox_045_s4_vs_roblox_032_s3 sim=0.57 -> UNANIMOUS: NOT
+  [169/834] khan-academy_042_s1_vs_khan-academy_047_s1 sim=0.58 -> UNANIMOUS: NOT
+  [175/834] venmo_023_s1_vs_venmo_033_s1 sim=0.57 -> UNANIMOUS: NOT
+  [171/834] twitch_010_s2_vs_twitch_011_s2 sim=0.57 -> UNANIMOUS: NOT
+  [161/834] sosi_001_s1_vs_sosi_005_s1 sim=0.58 -> UNANIMOUS: NOT
+  [165/834] khan-academy_013_s2_vs_khan-academy_041_s1 sim=0.58 -> UNANIMOUS: NOT
+  [177/834] venmo_032_s4_vs_venmo_009_s1 sim=0.57 -> UNANIMOUS: NOT
+  [168/834] github_038_s1_vs_github_009_s1 sim=0.58 -> UNANIMOUS: NOT
+  [173/834] verizon_049_s2_vs_verizon_021_s1 sim=0.57 -> UNANIMOUS: NOT
+  [179/834] t-mobile_097_s2_vs_t-mobile_061_s1 sim=0.57 -> UNANIMOUS: NOT
+  [176/834] grindr_003_s3_vs_grindr_019_s8 sim=0.57 -> UNANIMOUS: NOT
+  [164/834] peloton_027_s2_vs_peloton_011_s1 sim=0.58 -> UNANIMOUS: NOT
+  [166/834] twitch_004_s6_vs_twitch_010_s3 sim=0.58 -> UNANIMOUS: NOT
+  [170/834] uber_026_s2_vs_uber_045_s1 sim=0.57 -> UNANIMOUS: NOT
+  [180/834] meta_117_s2_vs_meta_138_s2 sim=0.57 -> UNANIMOUS: NOT
+  [174/834] venmo_009_s2_vs_venmo_032_s3 sim=0.57 -> UNANIMOUS: NOT
+  [162/834] peloton_033_s1_vs_peloton_028_s1 sim=0.58 -> UNANIMOUS: NOT
+  [167/834] ngl_022_s4_vs_ngl_005_s3 sim=0.58 -> UNANIMOUS: CONTRA
+  [178/834] hilton_031_s1_vs_hilton_029_s1 sim=0.57 -> MAJORITY: NOT
+  [163/834] ngl_022_s2_vs_ngl_005_s3 sim=0.58 -> UNANIMOUS: CONTRA
+  --- Batch 9: saved 180 results, 16 confirmed contradictions so far ---
+  [200/834] github_038_s1_vs_github_005_s1 sim=0.56 -> UNANIMOUS: NOT
+  [185/834] stripe_034_s4_vs_stripe_036_s1 sim=0.57 -> UNANIMOUS: NOT
+  [195/834] wells-fargo_006_s2_vs_wells-fargo_017_s1 sim=0.56 -> UNANIMOUS: NOT
+  [188/834] t-mobile_097_s2_vs_t-mobile_002_s2 sim=0.56 -> UNANIMOUS: NOT
+  [186/834] khan-academy_019_s2_vs_khan-academy_064_s2 sim=0.56 -> UNANIMOUS: NOT
+  [187/834] roblox_038_s1_vs_roblox_007_s1 sim=0.56 -> UNANIMOUS: NOT
+  [182/834] twitch_015_s4_vs_twitch_006_s5 sim=0.57 -> UNANIMOUS: NOT
+  [191/834] duolingo_022_s3_vs_duolingo_026_s1 sim=0.56 -> UNANIMOUS: NOT
+  [194/834] babel-street_023_s1_vs_babel-street_010_s1 sim=0.56 -> UNANIMOUS: NOT
+  [198/834] motorola-solutions_015_s1_vs_motorola-solutions_006_s1 sim=0.56 -> UNANIMOUS: NOT
+  [196/834] adobe_011_s1_vs_adobe_012_s1 sim=0.56 -> UNANIMOUS: NOT
+  [184/834] meta_117_s2_vs_meta_008_s1 sim=0.57 -> UNANIMOUS: NOT
+  [190/834] linkedin_031_s1_vs_linkedin_048_s1 sim=0.56 -> UNANIMOUS: NOT
+  [193/834] motorola-solutions_018_s4_vs_motorola-solutions_006_s2 sim=0.56 -> UNANIMOUS: NOT
+  [192/834] flock-safety_008_s1_vs_flock-safety_011_s1 sim=0.56 -> UNANIMOUS: NOT
+  [183/834] babel-street_015_s1_vs_babel-street_014_s2 sim=0.57 -> UNANIMOUS: NOT
+  [189/834] roblox_045_s4_vs_roblox_068_s2 sim=0.56 -> UNANIMOUS: NOT
+  [181/834] uber_026_s2_vs_uber_029_s1 sim=0.57 -> MAJORITY: NOT
+  [197/834] walmart_014_s2_vs_walmart_024_s2 sim=0.56 -> UNANIMOUS: NOT
+  [199/834] verizon_049_s1_vs_verizon_018_s1 sim=0.56 -> UNANIMOUS: NOT
+  --- Batch 10: saved 200 results, 16 confirmed contradictions so far ---
+  [206/834] xiaomi_018_s1_vs_xiaomi_006_s1 sim=0.55 -> UNANIMOUS: NOT
+  [209/834] duolingo_016_s3_vs_duolingo_011_s5 sim=0.55 -> UNANIMOUS: NOT
+  [218/834] ebay_030_s3_vs_ebay_014_s2 sim=0.55 -> UNANIMOUS: NOT
+  [210/834] google_010_s5_vs_google_007_s2 sim=0.55 -> UNANIMOUS: NOT
+  [203/834] khan-academy_037_s1_vs_khan-academy_041_s1 sim=0.55 -> UNANIMOUS: NOT
+  [213/834] khan-academy_025_s2_vs_khan-academy_046_s1 sim=0.55 -> UNANIMOUS: NOT
+  [211/834] meta_118_s2_vs_meta_008_s1 sim=0.55 -> UNANIMOUS: NOT
+  [202/834] khan-academy_051_s2_vs_khan-academy_047_s3 sim=0.55 -> UNANIMOUS: NOT
+  [204/834] uber_026_s2_vs_uber_021_s1 sim=0.55 -> UNANIMOUS: NOT
+  [216/834] zillow_005_s4_vs_zillow_006_s1 sim=0.55 -> UNANIMOUS: NOT
+  [201/834] meta_117_s2_vs_meta_141_s1 sim=0.56 -> UNANIMOUS: NOT
+  [215/834] safegraph_012_s1_vs_safegraph_004_s1 sim=0.55 -> UNANIMOUS: NOT
+  [208/834] github_015_s4_vs_github_028_s3 sim=0.55 -> UNANIMOUS: NOT
+  [207/834] roblox_013_s7_vs_roblox_017_s1 sim=0.55 -> UNANIMOUS: NOT
+  [212/834] equifax_007_s2_vs_equifax_006_s1 sim=0.55 -> UNANIMOUS: NOT
+  [217/834] vonage_015_s2_vs_vonage_016_s5 sim=0.55 -> UNANIMOUS: NOT
+  [219/834] motorola-solutions_019_s3_vs_motorola-solutions_018_s1 sim=0.55 -> UNANIMOUS: NOT
+  [205/834] duolingo_022_s2_vs_duolingo_016_s1 sim=0.55 -> UNANIMOUS: NOT
+  [214/834] roblox_008_s4_vs_roblox_017_s2 sim=0.55 -> MAJORITY: CONTRA
+  [220/834] monument_021_s1_vs_monument_020_s1 sim=0.55 -> UNANIMOUS: NOT
+  --- Batch 11: saved 220 results, 17 confirmed contradictions so far ---
+  [226/834] meta_118_s2_vs_meta_034_s2 sim=0.55 -> UNANIMOUS: NOT
+  [227/834] jasper_031_s1_vs_jasper_003_s1 sim=0.55 -> UNANIMOUS: NOT
+  [235/834] walmart_005_s4_vs_walmart_018_s4 sim=0.54 -> UNANIMOUS: NOT
+  [232/834] duolingo_022_s1_vs_duolingo_005_s1 sim=0.54 -> UNANIMOUS: NOT
+  [230/834] tesla_012_s2_vs_tesla_025_s6 sim=0.54 -> UNANIMOUS: NOT
+  [229/834] khan-academy_045_s2_vs_khan-academy_041_s1 sim=0.55 -> UNANIMOUS: NOT
+  [225/834] zignal-labs_012_s2_vs_zignal-labs_003_s2 sim=0.55 -> UNANIMOUS: NOT
+  [221/834] meta_024_s2_vs_meta_005_s6 sim=0.55 -> UNANIMOUS: NOT
+  [233/834] venmo_009_s2_vs_venmo_020_s2 sim=0.54 -> UNANIMOUS: NOT
+  [224/834] venmo_009_s2_vs_venmo_017_s1 sim=0.55 -> UNANIMOUS: NOT
+  [237/834] linkedin_027_s4_vs_linkedin_044_s3 sim=0.54 -> UNANIMOUS: NOT
+  [228/834] xiaomi_018_s1_vs_xiaomi_030_s5 sim=0.55 -> UNANIMOUS: CONTRA
+  [236/834] khan-academy_046_s3_vs_khan-academy_018_s3 sim=0.54 -> UNANIMOUS: NOT
+  [234/834] anthropic_007_s4_vs_anthropic_006_s1 sim=0.54 -> UNANIMOUS: NOT
+  [238/834] khan-academy_019_s2_vs_khan-academy_064_s1 sim=0.54 -> MAJORITY: NOT
+  [239/834] tesla_012_s2_vs_tesla_003_s1 sim=0.54 -> UNANIMOUS: NOT
+  [222/834] microsoft_054_s2_vs_microsoft_053_s7 sim=0.55 -> MAJORITY: NOT
+  [240/834] roblox_008_s4_vs_roblox_013_s2 sim=0.54 -> MAJORITY: NOT
+  [231/834] duolingo_021_s4_vs_duolingo_016_s1 sim=0.54 -> MAJORITY: CONTRA
+  [223/834] roblox_035_s3_vs_roblox_030_s1 sim=0.55 -> MAJORITY: CONTRA
+  --- Batch 12: saved 240 results, 20 confirmed contradictions so far ---
+  [252/834] venmo_032_s4_vs_venmo_033_s1 sim=0.54 -> UNANIMOUS: NOT
+  [241/834] duolingo_022_s2_vs_duolingo_027_s6 sim=0.54 -> UNANIMOUS: NOT
+  [247/834] meta_118_s2_vs_meta_007_s1 sim=0.54 -> UNANIMOUS: NOT
+  [248/834] clearview-ai_007_s3_vs_clearview-ai_005_s2 sim=0.54 -> UNANIMOUS: NOT
+  [246/834] duolingo_022_s2_vs_duolingo_028_s6 sim=0.54 -> UNANIMOUS: NOT
+  [258/834] hilton_039_s3_vs_hilton_005_s1 sim=0.53 -> UNANIMOUS: NOT
+  [253/834] linkedin_042_s4_vs_linkedin_040_s1 sim=0.53 -> UNANIMOUS: NOT
+  [260/834] uber_026_s2_vs_uber_042_s1 sim=0.53 -> UNANIMOUS: NOT
+  [254/834] meta_117_s2_vs_meta_036_s1 sim=0.53 -> UNANIMOUS: NOT
+  [256/834] appriss_009_s4_vs_appriss_011_s1 sim=0.53 -> UNANIMOUS: NOT
+  [257/834] verizon_049_s1_vs_verizon_024_s1 sim=0.53 -> UNANIMOUS: NOT
+  [243/834] venmo_009_s2_vs_venmo_032_s5 sim=0.54 -> UNANIMOUS: NOT
+  [245/834] duolingo_022_s2_vs_duolingo_013_s3 sim=0.54 -> UNANIMOUS: NOT
+  [242/834] microsoft_045_s2_vs_microsoft_054_s4 sim=0.54 -> UNANIMOUS: NOT
+  [251/834] meta_117_s2_vs_meta_079_s2 sim=0.54 -> UNANIMOUS: NOT
+  [249/834] ihg_009_s3_vs_ihg_019_s2 sim=0.54 -> UNANIMOUS: NOT
+  [259/834] peloton_016_s5_vs_peloton_023_s1 sim=0.53 -> UNANIMOUS: NOT
+  [255/834] venmo_025_s1_vs_venmo_016_s1 sim=0.53 -> UNANIMOUS: NOT
+  [250/834] roblox_045_s4_vs_roblox_030_s1 sim=0.54 -> UNANIMOUS: CONTRA
+  [244/834] verizon_049_s1_vs_verizon_013_s1 sim=0.54 -> UNANIMOUS: NOT
+  --- Batch 13: saved 260 results, 21 confirmed contradictions so far ---
+  [269/834] grindr_007_s1_vs_grindr_008_s2 sim=0.53 -> UNANIMOUS: NOT
+  [262/834] jasper_031_s1_vs_jasper_029_s1 sim=0.53 -> UNANIMOUS: NOT
+  [267/834] t-mobile_097_s2_vs_t-mobile_026_s1 sim=0.53 -> UNANIMOUS: NOT
+  [270/834] roblox_008_s4_vs_roblox_011_s1 sim=0.53 -> UNANIMOUS: NOT
+  [273/834] khan-academy_054_s2_vs_khan-academy_064_s2 sim=0.53 -> UNANIMOUS: NOT
+  [265/834] khan-academy_045_s2_vs_khan-academy_047_s1 sim=0.53 -> UNANIMOUS: NOT
+  [280/834] tesla_011_s2_vs_tesla_015_s2 sim=0.53 -> UNANIMOUS: NOT
+  [279/834] github_029_s3_vs_github_008_s3 sim=0.53 -> UNANIMOUS: NOT
+  [278/834] roblox_045_s4_vs_roblox_011_s2 sim=0.53 -> UNANIMOUS: NOT
+  [264/834] khan-academy_017_s3_vs_khan-academy_011_s2 sim=0.53 -> UNANIMOUS: NOT
+  [271/834] tesla_011_s2_vs_tesla_007_s2 sim=0.53 -> UNANIMOUS: NOT
+  [272/834] twitch_010_s2_vs_twitch_004_s2 sim=0.53 -> UNANIMOUS: NOT
+  [263/834] coursera_017_s2_vs_coursera_001_s1 sim=0.53 -> UNANIMOUS: NOT
+  [277/834] peloton_027_s2_vs_peloton_010_s3 sim=0.53 -> UNANIMOUS: NOT
+  [275/834] adobe_011_s1_vs_adobe_010_s1 sim=0.53 -> UNANIMOUS: NOT
+  [276/834] khan-academy_020_s1_vs_khan-academy_028_s1 sim=0.53 -> UNANIMOUS: NOT
+  [274/834] peloton_027_s2_vs_peloton_012_s1 sim=0.53 -> UNANIMOUS: NOT
+  [266/834] meta_118_s2_vs_meta_138_s2 sim=0.53 -> UNANIMOUS: NOT
+  [261/834] duolingo_022_s2_vs_duolingo_007_s1 sim=0.53 -> UNANIMOUS: NOT
+  [268/834] motorola-solutions_002_s1_vs_motorola-solutions_019_s1 sim=0.53 -> UNANIMOUS: NOT
+  --- Batch 14: saved 280 results, 21 confirmed contradictions so far ---
+  [288/834] khan-academy_042_s1_vs_khan-academy_010_s1 sim=0.52 -> UNANIMOUS: NOT
+  [286/834] runway_014_s1_vs_runway_002_s1 sim=0.52 -> UNANIMOUS: NOT
+  [292/834] roblox_008_s4_vs_roblox_032_s1 sim=0.52 -> UNANIMOUS: NOT
+  [287/834] duolingo_022_s4_vs_duolingo_027_s1 sim=0.52 -> UNANIMOUS: NOT
+  [291/834] microsoft_048_s2_vs_microsoft_050_s1 sim=0.52 -> UNANIMOUS: NOT
+  [283/834] venmo_032_s4_vs_venmo_017_s1 sim=0.52 -> UNANIMOUS: NOT
+  [290/834] xiaomi_030_s1_vs_xiaomi_029_s2 sim=0.52 -> UNANIMOUS: NOT
+  [281/834] duolingo_022_s2_vs_duolingo_014_s1 sim=0.52 -> UNANIMOUS: NOT
+  [299/834] meta_148_s5_vs_meta_151_s1 sim=0.52 -> UNANIMOUS: NOT
+  [285/834] microsoft_045_s2_vs_microsoft_011_s1 sim=0.52 -> UNANIMOUS: NOT
+  [298/834] jasper_031_s1_vs_jasper_021_s1 sim=0.52 -> UNANIMOUS: NOT
+  [289/834] tesla_012_s2_vs_tesla_004_s1 sim=0.52 -> UNANIMOUS: NOT
+  [294/834] microsoft_045_s2_vs_microsoft_038_s1 sim=0.52 -> UNANIMOUS: NOT
+  [300/834] venmo_032_s4_vs_venmo_020_s2 sim=0.51 -> UNANIMOUS: NOT
+  [295/834] jasper_031_s1_vs_jasper_032_s1 sim=0.52 -> UNANIMOUS: NOT
+  [293/834] roblox_045_s4_vs_roblox_068_s1 sim=0.52 -> MAJORITY: CONTRA
+  [282/834] venmo_038_s1_vs_venmo_028_s4 sim=0.52 -> UNANIMOUS: CONTRA
+  [297/834] duolingo_027_s3_vs_duolingo_026_s1 sim=0.52 -> MAJORITY: NOT
+  [284/834] microsoft_047_s5_vs_microsoft_034_s3 sim=0.52 -> MAJORITY: CONTRA
+  [296/834] peloton_033_s1_vs_peloton_027_s1 sim=0.52 -> UNANIMOUS: CONTRA
+  --- Batch 15: saved 300 results, 25 confirmed contradictions so far ---
+  [320/834] khan-academy_011_s1_vs_khan-academy_047_s1 sim=0.51 -> UNANIMOUS: NOT
+  [310/834] khan-academy_011_s1_vs_khan-academy_058_s1 sim=0.51 -> UNANIMOUS: NOT
+  [304/834] x_051_s1_vs_x_043_s2 sim=0.51 -> UNANIMOUS: NOT
+  [303/834] x_051_s1_vs_x_014_s2 sim=0.51 -> UNANIMOUS: NOT
+  [308/834] tesla_012_s2_vs_tesla_022_s1 sim=0.51 -> UNANIMOUS: NOT
+  [314/834] roblox_023_s2_vs_roblox_025_s1 sim=0.51 -> UNANIMOUS: NOT
+  [313/834] perplexity_019_s2_vs_perplexity_002_s2 sim=0.51 -> UNANIMOUS: NOT
+  [317/834] roblox_035_s3_vs_roblox_032_s3 sim=0.51 -> UNANIMOUS: NOT
+  [301/834] x_022_s1_vs_x_014_s2 sim=0.51 -> UNANIMOUS: NOT
+  [306/834] uber_026_s2_vs_uber_025_s2 sim=0.51 -> UNANIMOUS: NOT
+  [315/834] twitch_010_s2_vs_twitch_006_s5 sim=0.51 -> UNANIMOUS: NOT
+  [302/834] x_022_s1_vs_x_043_s2 sim=0.51 -> UNANIMOUS: NOT
+  [318/834] microsoft_045_s2_vs_microsoft_038_s2 sim=0.51 -> UNANIMOUS: NOT
+  [319/834] monument_002_s1_vs_monument_005_s2 sim=0.51 -> UNANIMOUS: CONTRA
+  [307/834] khan-academy_046_s3_vs_khan-academy_043_s6 sim=0.51 -> UNANIMOUS: NOT
+  [312/834] linkedin_044_s4_vs_linkedin_041_s1 sim=0.51 -> UNANIMOUS: NOT
+  [316/834] duolingo_022_s2_vs_duolingo_008_s2 sim=0.51 -> UNANIMOUS: NOT
+  [305/834] babel-street_023_s1_vs_babel-street_014_s1 sim=0.51 -> UNANIMOUS: NOT
+  [309/834] peloton_016_s5_vs_peloton_028_s1 sim=0.51 -> UNANIMOUS: NOT
+  [311/834] meta_118_s2_vs_meta_079_s2 sim=0.51 -> UNANIMOUS: NOT
+  --- Batch 16: saved 320 results, 26 confirmed contradictions so far ---
+  [326/834] khan-academy_047_s2_vs_khan-academy_064_s2 sim=0.51 -> UNANIMOUS: NOT
+  [325/834] wells-fargo_024_s1_vs_wells-fargo_017_s1 sim=0.51 -> UNANIMOUS: NOT
+  [322/834] tesla_012_s2_vs_tesla_007_s1 sim=0.51 -> UNANIMOUS: NOT
+  [332/834] khan-academy_013_s2_vs_khan-academy_047_s1 sim=0.51 -> UNANIMOUS: NOT
+  [327/834] babel-street_023_s1_vs_babel-street_004_s2 sim=0.51 -> UNANIMOUS: NOT
+  [323/834] clearview-ai_007_s1_vs_clearview-ai_002_s2 sim=0.51 -> UNANIMOUS: NOT
+  [324/834] pimeyes_008_s2_vs_pimeyes_005_s1 sim=0.51 -> UNANIMOUS: NOT
+  [335/834] uber_026_s2_vs_uber_032_s1 sim=0.50 -> UNANIMOUS: NOT
+  [340/834] twitch_010_s2_vs_twitch_006_s2 sim=0.50 -> UNANIMOUS: NOT
+  [334/834] github_029_s3_vs_github_010_s3 sim=0.51 -> UNANIMOUS: NOT
+  [331/834] roblox_023_s2_vs_roblox_032_s3 sim=0.51 -> UNANIMOUS: NOT
+  [329/834] duolingo_022_s2_vs_duolingo_015_s1 sim=0.51 -> UNANIMOUS: NOT
+  [337/834] khan-academy_051_s5_vs_khan-academy_041_s1 sim=0.50 -> UNANIMOUS: NOT
+  [321/834] t-mobile_064_s2_vs_t-mobile_009_s3 sim=0.51 -> UNANIMOUS: NOT
+  [330/834] t-mobile_097_s2_vs_t-mobile_018_s1 sim=0.51 -> UNANIMOUS: NOT
+  [328/834] uber_026_s2_vs_uber_018_s1 sim=0.51 -> UNANIMOUS: NOT
+  [333/834] khan-academy_037_s1_vs_khan-academy_019_s3 sim=0.51 -> UNANIMOUS: NOT
+  [336/834] meta_051_s3_vs_meta_031_s3 sim=0.50 -> MAJORITY: CONTRA
+  [338/834] nordvpn_002_s5_vs_nordvpn_010_s1 sim=0.50 -> UNANIMOUS: CONTRA
+  [339/834] uber_026_s2_vs_uber_027_s1 sim=0.50 -> MAJORITY: CONTRA
+  --- Batch 17: saved 340 results, 29 confirmed contradictions so far ---
+  [349/834] tesla_012_s2_vs_tesla_008_s5 sim=0.50 -> UNANIMOUS: NOT
+  [354/834] american-airlines_019_s1_vs_american-airlines_054_s1 sim=0.50 -> UNANIMOUS: NOT
+  [351/834] meta_096_s1_vs_meta_106_s1 sim=0.50 -> UNANIMOUS: NOT
+  [346/834] amazon_005_s2_vs_amazon_003_s1 sim=0.50 -> UNANIMOUS: NOT
+  [348/834] venmo_009_s2_vs_venmo_030_s5 sim=0.50 -> UNANIMOUS: NOT
+  [341/834] linkedin_055_s1_vs_linkedin_011_s1 sim=0.50 -> UNANIMOUS: NOT
+  [344/834] meta_117_s2_vs_meta_011_s7 sim=0.50 -> UNANIMOUS: NOT
+  [342/834] babel-street_023_s1_vs_babel-street_010_s2 sim=0.50 -> UNANIMOUS: NOT
+  [357/834] lyft_017_s11_vs_lyft_019_s2 sim=0.49 -> UNANIMOUS: NOT
+  [352/834] microsoft_065_s2_vs_microsoft_055_s2 sim=0.50 -> UNANIMOUS: NOT
+  [350/834] clearview-ai_014_s2_vs_clearview-ai_013_s1 sim=0.50 -> UNANIMOUS: NOT
+  [343/834] verizon_049_s1_vs_verizon_002_s1 sim=0.50 -> UNANIMOUS: NOT
+  [347/834] khan-academy_045_s2_vs_khan-academy_007_s1 sim=0.50 -> UNANIMOUS: NOT
+  [359/834] roblox_013_s7_vs_roblox_082_s1 sim=0.49 -> UNANIMOUS: NOT
+  [360/834] betterhelp_013_s1_vs_betterhelp_020_s1 sim=0.49 -> UNANIMOUS: NOT
+  [353/834] bumble_040_s1_vs_bumble_008_s1 sim=0.50 -> UNANIMOUS: NOT
+  [356/834] linkedin_055_s1_vs_linkedin_044_s3 sim=0.49 -> UNANIMOUS: NOT
+  [345/834] walmart_031_s3_vs_walmart_014_s9 sim=0.50 -> MAJORITY: NOT
+  [358/834] perplexity_003_s2_vs_perplexity_005_s7 sim=0.49 -> MAJORITY: CONTRA
+  [355/834] microsoft_048_s2_vs_microsoft_038_s4 sim=0.49 -> MAJORITY: CONTRA
+  --- Batch 18: saved 360 results, 31 confirmed contradictions so far ---
+  [368/834] doordash_005_s2_vs_doordash_003_s1 sim=0.48 -> UNANIMOUS: NOT
+  [380/834] khan-academy_042_s1_vs_khan-academy_059_s1 sim=0.47 -> UNANIMOUS: NOT
+  [370/834] khan-academy_002_s5_vs_khan-academy_015_s2 sim=0.48 -> UNANIMOUS: NOT
+  [371/834] nordvpn_022_s1_vs_nordvpn_003_s1 sim=0.48 -> UNANIMOUS: NOT
+  [365/834] peloton_027_s2_vs_peloton_022_s1 sim=0.49 -> UNANIMOUS: NOT
+  [364/834] linkedin_042_s4_vs_linkedin_044_s3 sim=0.49 -> UNANIMOUS: NOT
+  [376/834] duolingo_032_s3_vs_duolingo_017_s1 sim=0.48 -> UNANIMOUS: NOT
+  [377/834] betterhelp_016_s4_vs_betterhelp_020_s1 sim=0.48 -> UNANIMOUS: NOT
+  [361/834] jasper_040_s1_vs_jasper_013_s7 sim=0.49 -> MAJORITY: NOT
+  [362/834] duolingo_022_s2_vs_duolingo_013_s4 sim=0.49 -> UNANIMOUS: NOT
+  [372/834] avast_010_s2_vs_avast_009_s6 sim=0.48 -> UNANIMOUS: NOT
+  [367/834] tesla_012_s2_vs_tesla_006_s1 sim=0.48 -> UNANIMOUS: NOT
+  [378/834] linkedin_031_s1_vs_linkedin_044_s3 sim=0.47 -> UNANIMOUS: NOT
+  [366/834] reddit_002_s8_vs_reddit_023_s10 sim=0.49 -> UNANIMOUS: NOT
+  [369/834] microsoft_045_s2_vs_microsoft_064_s4 sim=0.48 -> MAJORITY: NOT
+  [363/834] linkedin_048_s2_vs_linkedin_044_s3 sim=0.49 -> UNANIMOUS: NOT
+  [373/834] meta_075_s3_vs_meta_054_s2 sim=0.48 -> UNANIMOUS: NOT
+  [379/834] t-mobile_075_s1_vs_t-mobile_064_s1 sim=0.47 -> UNANIMOUS: CONTRA
+  [375/834] microsoft_052_s4_vs_microsoft_050_s1 sim=0.48 -> UNANIMOUS: CONTRA
+  [374/834] uber_026_s2_vs_uber_009_s3 sim=0.48 -> UNANIMOUS: CONTRA
+  --- Batch 19: saved 380 results, 34 confirmed contradictions so far ---
+  [382/834] uber_026_s2_vs_uber_031_s1 sim=0.47 -> UNANIMOUS: NOT
+  [389/834] roblox_008_s4_vs_roblox_032_s3 sim=0.47 -> UNANIMOUS: NOT
+  [384/834] tesla_012_s2_vs_tesla_008_s4 sim=0.47 -> UNANIMOUS: NOT
+  [398/834] uber_026_s2_vs_uber_003_s2 sim=0.47 -> UNANIMOUS: NOT
+  [387/834] uber_026_s2_vs_uber_011_s1 sim=0.47 -> UNANIMOUS: NOT
+  [383/834] uber_026_s2_vs_uber_009_s2 sim=0.47 -> UNANIMOUS: NOT
+  [399/834] replit_004_s7_vs_replit_006_s5 sim=0.47 -> UNANIMOUS: NOT
+  [391/834] t-mobile_033_s3_vs_t-mobile_035_s1 sim=0.47 -> UNANIMOUS: NOT
+  [400/834] peloton_033_s1_vs_peloton_022_s1 sim=0.46 -> UNANIMOUS: NOT
+  [396/834] roblox_023_s2_vs_roblox_068_s1 sim=0.47 -> UNANIMOUS: NOT
+  [394/834] cursor_006_s2_vs_cursor_003_s5 sim=0.47 -> UNANIMOUS: NOT
+  [390/834] t-mobile_033_s3_vs_t-mobile_028_s1 sim=0.47 -> UNANIMOUS: NOT
+  [393/834] realtor_008_s1_vs_realtor_004_s1 sim=0.47 -> UNANIMOUS: NOT
+  [381/834] reddit_037_s2_vs_reddit_023_s10 sim=0.47 -> UNANIMOUS: NOT
+  [397/834] meta_116_s5_vs_meta_127_s2 sim=0.47 -> UNANIMOUS: NOT
+  [395/834] microsoft_052_s2_vs_microsoft_041_s1 sim=0.47 -> UNANIMOUS: NOT
+  [388/834] perplexity_003_s2_vs_perplexity_005_s4 sim=0.47 -> UNANIMOUS: NOT
+  [386/834] duolingo_027_s3_vs_duolingo_019_s1 sim=0.47 -> MAJORITY: CONTRA
+  [385/834] github_029_s2_vs_github_010_s3 sim=0.47 -> UNANIMOUS: NOT
+  [392/834] perplexity_003_s2_vs_perplexity_005_s6 sim=0.47 -> UNANIMOUS: NOT
+  --- Batch 20: saved 400 results, 35 confirmed contradictions so far ---
+  [409/834] khan-academy_020_s1_vs_khan-academy_064_s2 sim=0.46 -> UNANIMOUS: NOT
+  [416/834] tesla_012_s2_vs_tesla_016_s2 sim=0.46 -> UNANIMOUS: NOT
+  [408/834] uber_026_s2_vs_uber_009_s1 sim=0.46 -> UNANIMOUS: NOT
+  [411/834] ihg_016_s1_vs_ihg_019_s4 sim=0.46 -> UNANIMOUS: NOT
+  [418/834] delta_017_s2_vs_delta_009_s3 sim=0.46 -> UNANIMOUS: NOT
+  [410/834] linkedin_031_s1_vs_linkedin_045_s1 sim=0.46 -> UNANIMOUS: NOT
+  [415/834] linkedin_031_s1_vs_linkedin_047_s1 sim=0.46 -> UNANIMOUS: NOT
+  [404/834] microsoft_052_s2_vs_microsoft_033_s1 sim=0.46 -> UNANIMOUS: NOT
+  [403/834] khan-academy_013_s2_vs_khan-academy_019_s3 sim=0.46 -> UNANIMOUS: NOT
+  [419/834] perplexity_019_s4_vs_perplexity_002_s2 sim=0.46 -> UNANIMOUS: NOT
+  [407/834] betterhelp_017_s1_vs_betterhelp_020_s1 sim=0.46 -> UNANIMOUS: NOT
+  [406/834] stripe_015_s3_vs_stripe_013_s1 sim=0.46 -> UNANIMOUS: NOT
+  [417/834] uber_026_s2_vs_uber_008_s6 sim=0.46 -> UNANIMOUS: NOT
+  [402/834] khan-academy_046_s2_vs_khan-academy_004_s2 sim=0.46 -> UNANIMOUS: NOT
+  [413/834] linkedin_051_s4_vs_linkedin_011_s2 sim=0.46 -> UNANIMOUS: NOT
+  [405/834] duolingo_022_s3_vs_duolingo_008_s2 sim=0.46 -> UNANIMOUS: NOT
+  [412/834] realtor_005_s2_vs_realtor_003_s11 sim=0.46 -> UNANIMOUS: NOT
+  [420/834] microsoft_052_s2_vs_microsoft_029_s10 sim=0.46 -> UNANIMOUS: NOT
+  [401/834] microsoft_048_s2_vs_microsoft_029_s1 sim=0.46 -> UNANIMOUS: NOT
+  [414/834] jasper_022_s1_vs_jasper_029_s1 sim=0.46 -> UNANIMOUS: NOT
+  --- Batch 21: saved 420 results, 35 confirmed contradictions so far ---
+  [427/834] roblox_013_s7_vs_roblox_008_s1 sim=0.45 -> UNANIMOUS: NOT
+  [435/834] khan-academy_045_s2_vs_khan-academy_064_s2 sim=0.45 -> UNANIMOUS: NOT
+  [430/834] microsoft_058_s3_vs_microsoft_046_s2 sim=0.45 -> UNANIMOUS: NOT
+  [432/834] microsoft_052_s5_vs_microsoft_040_s3 sim=0.45 -> UNANIMOUS: NOT
+  [434/834] uber_026_s2_vs_uber_003_s5 sim=0.45 -> UNANIMOUS: NOT
+  [431/834] microsoft_052_s2_vs_microsoft_050_s6 sim=0.45 -> UNANIMOUS: NOT
+  [437/834] uber_026_s2_vs_uber_007_s2 sim=0.45 -> UNANIMOUS: NOT
+  [428/834] microsoft_044_s7_vs_microsoft_040_s2 sim=0.45 -> UNANIMOUS: NOT
+  [425/834] microsoft_044_s7_vs_microsoft_011_s2 sim=0.45 -> UNANIMOUS: NOT
+  [436/834] uber_026_s2_vs_uber_022_s6 sim=0.45 -> UNANIMOUS: NOT
+  [433/834] khan-academy_051_s2_vs_khan-academy_004_s2 sim=0.45 -> UNANIMOUS: NOT
+  [438/834] duolingo_004_s5_vs_duolingo_019_s1 sim=0.45 -> UNANIMOUS: NOT
+  [429/834] t-mobile_033_s3_vs_t-mobile_002_s4 sim=0.45 -> MAJORITY: NOT
+  [426/834] linkedin_051_s4_vs_linkedin_011_s1 sim=0.45 -> UNANIMOUS: NOT
+  [422/834] betterhelp_025_s2_vs_betterhelp_020_s1 sim=0.46 -> UNANIMOUS: NOT
+  [440/834] ngl_002_s2_vs_ngl_004_s1 sim=0.45 -> UNANIMOUS: NOT
+  [439/834] microsoft_054_s2_vs_microsoft_047_s2 sim=0.45 -> UNANIMOUS: NOT
+  [421/834] t-mobile_033_s3_vs_t-mobile_013_s1 sim=0.46 -> MAJORITY: NOT
+  [423/834] att_003_s1_vs_att_012_s1 sim=0.45 -> UNANIMOUS: NOT
+  [424/834] microsoft_044_s7_vs_microsoft_045_s5 sim=0.45 -> UNANIMOUS: NOT
+  --- Batch 22: saved 440 results, 35 confirmed contradictions so far ---
+  [451/834] premom_012_s2_vs_premom_009_s1 sim=0.44 -> UNANIMOUS: NOT
+  [443/834] roblox_023_s2_vs_roblox_008_s1 sim=0.44 -> UNANIMOUS: NOT
+  [444/834] roblox_023_s2_vs_roblox_080_s1 sim=0.44 -> UNANIMOUS: NOT
+  [453/834] thomson-reuters_003_s6_vs_thomson-reuters_016_s11 sim=0.44 -> UNANIMOUS: NOT
+  [441/834] walmart_014_s6_vs_walmart_010_s3 sim=0.45 -> UNANIMOUS: NOT
+  [445/834] uber_026_s2_vs_uber_006_s2 sim=0.44 -> UNANIMOUS: NOT
+  [446/834] meta_096_s1_vs_meta_145_s1 sim=0.44 -> UNANIMOUS: NOT
+  [449/834] t-mobile_033_s3_vs_t-mobile_059_s4 sim=0.44 -> MAJORITY: NOT
+  [448/834] betterhelp_025_s2_vs_betterhelp_019_s2 sim=0.44 -> MAJORITY: NOT
+  [455/834] linkedin_055_s1_vs_linkedin_045_s1 sim=0.44 -> UNANIMOUS: NOT
+  [458/834] delta_024_s5_vs_delta_047_s5 sim=0.44 -> UNANIMOUS: NOT
+  [460/834] roblox_013_s7_vs_roblox_014_s2 sim=0.44 -> UNANIMOUS: NOT
+  [447/834] uber_026_s2_vs_uber_006_s3 sim=0.44 -> UNANIMOUS: NOT
+  [450/834] uber_026_s2_vs_uber_033_s1 sim=0.44 -> UNANIMOUS: NOT
+  [454/834] meta_117_s2_vs_meta_137_s5 sim=0.44 -> UNANIMOUS: NOT
+  [442/834] cursor_006_s2_vs_cursor_003_s4 sim=0.44 -> UNANIMOUS: NOT
+  [459/834] microsoft_052_s2_vs_microsoft_053_s3 sim=0.44 -> UNANIMOUS: NOT
+  [457/834] microsoft_052_s4_vs_microsoft_029_s10 sim=0.44 -> UNANIMOUS: NOT
+  [452/834] roblox_013_s7_vs_roblox_077_s1 sim=0.44 -> UNANIMOUS: NOT
+  [456/834] grindr_006_s3_vs_grindr_021_s1 sim=0.44 -> MAJORITY: NOT
+  --- Batch 23: saved 460 results, 35 confirmed contradictions so far ---
+  [464/834] microsoft_050_s2_vs_microsoft_063_s1 sim=0.43 -> UNANIMOUS: NOT
+  [480/834] khan-academy_002_s5_vs_khan-academy_041_s1 sim=0.43 -> UNANIMOUS: NOT
+  [479/834] corsight-ai_010_s2_vs_corsight-ai_002_s2 sim=0.43 -> UNANIMOUS: NOT
+  [476/834] microsoft_050_s2_vs_microsoft_054_s4 sim=0.43 -> UNANIMOUS: NOT
+  [462/834] duolingo_022_s4_vs_duolingo_005_s2 sim=0.44 -> UNANIMOUS: NOT
+  [470/834] clearview-ai_014_s2_vs_clearview-ai_011_s1 sim=0.43 -> UNANIMOUS: NOT
+  [471/834] delta_018_s2_vs_delta_009_s9 sim=0.43 -> UNANIMOUS: NOT
+  [466/834] microsoft_048_s2_vs_microsoft_050_s3 sim=0.43 -> UNANIMOUS: NOT
+  [469/834] microsoft_052_s2_vs_microsoft_028_s1 sim=0.43 -> UNANIMOUS: NOT
+  [472/834] roblox_013_s7_vs_roblox_065_s1 sim=0.43 -> UNANIMOUS: NOT
+  [475/834] microsoft_052_s5_vs_microsoft_029_s10 sim=0.43 -> UNANIMOUS: NOT
+  [463/834] microsoft_052_s2_vs_microsoft_033_s4 sim=0.44 -> UNANIMOUS: NOT
+  [467/834] tesla_025_s7_vs_tesla_008_s5 sim=0.43 -> UNANIMOUS: NOT
+  [477/834] duolingo_022_s2_vs_duolingo_027_s5 sim=0.43 -> UNANIMOUS: NOT
+  [468/834] roblox_023_s2_vs_roblox_011_s2 sim=0.43 -> UNANIMOUS: NOT
+  [461/834] khan-academy_013_s2_vs_khan-academy_011_s2 sim=0.44 -> UNANIMOUS: NOT
+  [465/834] t-mobile_033_s3_vs_t-mobile_042_s1 sim=0.43 -> UNANIMOUS: NOT
+  [474/834] t-mobile_033_s3_vs_t-mobile_059_s3 sim=0.43 -> UNANIMOUS: NOT
+  [473/834] meta_051_s3_vs_meta_054_s3 sim=0.43 -> UNANIMOUS: CONTRA
+  [478/834] meta_024_s2_vs_meta_060_s3 sim=0.43 -> MAJORITY: NOT
+  --- Batch 24: saved 480 results, 36 confirmed contradictions so far ---
+  [497/834] roblox_040_s2_vs_roblox_026_s5 sim=0.42 -> UNANIMOUS: NOT
+  [494/834] t-mobile_033_s3_vs_t-mobile_048_s1 sim=0.42 -> UNANIMOUS: NOT
+  [481/834] roblox_013_s7_vs_roblox_062_s1 sim=0.43 -> UNANIMOUS: NOT
+  [488/834] microsoft_052_s2_vs_microsoft_055_s1 sim=0.42 -> UNANIMOUS: NOT
+  [498/834] khan-academy_020_s1_vs_khan-academy_064_s1 sim=0.42 -> UNANIMOUS: NOT
+  [492/834] microsoft_045_s2_vs_microsoft_029_s2 sim=0.42 -> UNANIMOUS: NOT
+  [486/834] t-mobile_033_s3_vs_t-mobile_002_s1 sim=0.42 -> UNANIMOUS: NOT
+  [482/834] roblox_013_s7_vs_roblox_074_s1 sim=0.43 -> UNANIMOUS: NOT
+  [496/834] t-mobile_097_s2_vs_t-mobile_094_s1 sim=0.42 -> UNANIMOUS: NOT
+  [500/834] microsoft_050_s2_vs_microsoft_055_s1 sim=0.42 -> UNANIMOUS: NOT
+  [489/834] realtor_005_s2_vs_realtor_003_s12 sim=0.42 -> UNANIMOUS: NOT
+  [490/834] delta_017_s2_vs_delta_011_s5 sim=0.42 -> UNANIMOUS: NOT
+  [484/834] meta_118_s2_vs_meta_137_s5 sim=0.43 -> UNANIMOUS: NOT
+  [495/834] coursera_017_s2_vs_coursera_003_s1 sim=0.42 -> UNANIMOUS: NOT
+  [491/834] geo-group_005_s1_vs_geo-group_002_s2 sim=0.42 -> MAJORITY: CONTRA
+  [499/834] roblox_013_s7_vs_roblox_030_s2 sim=0.42 -> UNANIMOUS: NOT
+  [493/834] united-airlines_019_s3_vs_united-airlines_022_s1 sim=0.42 -> MAJORITY: NOT
+  [485/834] microsoft_047_s5_vs_microsoft_028_s4 sim=0.43 -> UNANIMOUS: NOT
+  [487/834] betterhelp_013_s1_vs_betterhelp_019_s2 sim=0.42 -> UNANIMOUS: CONTRA
+  [483/834] uber_026_s2_vs_uber_010_s1 sim=0.43 -> UNANIMOUS: NOT
+  --- Batch 25: saved 500 results, 38 confirmed contradictions so far ---
+  [509/834] microsoft_044_s7_vs_microsoft_033_s4 sim=0.41 -> UNANIMOUS: NOT
+  [512/834] venmo_009_s2_vs_venmo_028_s1 sim=0.41 -> UNANIMOUS: NOT
+  [519/834] microsoft_047_s5_vs_microsoft_029_s7 sim=0.41 -> UNANIMOUS: NOT
+  [518/834] linkedin_016_s4_vs_linkedin_037_s7 sim=0.41 -> UNANIMOUS: NOT
+  [511/834] roblox_013_s7_vs_roblox_007_s2 sim=0.41 -> UNANIMOUS: NOT
+  [513/834] meta_014_s2_vs_meta_047_s2 sim=0.41 -> UNANIMOUS: NOT
+  [503/834] gravy-analytics_013_s1_vs_gravy-analytics_005_s2 sim=0.41 -> UNANIMOUS: NOT
+  [506/834] meta_051_s3_vs_meta_186_s1 sim=0.41 -> UNANIMOUS: CONTRA
+  [504/834] microsoft_052_s2_vs_microsoft_063_s1 sim=0.41 -> UNANIMOUS: NOT
+  [505/834] jasper_019_s2_vs_jasper_020_s3 sim=0.41 -> UNANIMOUS: NOT
+  [516/834] microsoft_045_s2_vs_microsoft_057_s1 sim=0.41 -> UNANIMOUS: NOT
+  [517/834] clearview-ai_014_s2_vs_clearview-ai_017_s1 sim=0.41 -> UNANIMOUS: NOT
+  [515/834] gravy-analytics_013_s1_vs_gravy-analytics_017_s1 sim=0.41 -> UNANIMOUS: NOT
+  [510/834] microsoft_044_s7_vs_microsoft_038_s1 sim=0.41 -> UNANIMOUS: NOT
+  [514/834] duolingo_027_s3_vs_duolingo_003_s1 sim=0.41 -> UNANIMOUS: NOT
+  [508/834] thomson-reuters_022_s1_vs_thomson-reuters_019_s1 sim=0.41 -> UNANIMOUS: NOT
+  [520/834] stripe_034_s1_vs_stripe_005_s4 sim=0.41 -> MAJORITY: NOT
+  [507/834] microsoft_010_s5_vs_microsoft_042_s5 sim=0.41 -> UNANIMOUS: NOT
+  [502/834] perplexity_003_s2_vs_perplexity_005_s1 sim=0.41 -> MAJORITY: CONTRA
+  [501/834] uber_026_s2_vs_uber_027_s5 sim=0.42 -> UNANIMOUS: CONTRA
+  --- Batch 26: saved 520 results, 41 confirmed contradictions so far ---
+  [526/834] meta_055_s1_vs_meta_106_s1 sim=0.40 -> UNANIMOUS: NOT
+  [531/834] microsoft_052_s2_vs_microsoft_040_s3 sim=0.40 -> UNANIMOUS: NOT
+  [523/834] microsoft_044_s7_vs_microsoft_023_s2 sim=0.40 -> UNANIMOUS: NOT
+  [525/834] corsight-ai_010_s1_vs_corsight-ai_003_s2 sim=0.40 -> UNANIMOUS: NOT
+  [527/834] peloton_029_s1_vs_peloton_022_s3 sim=0.40 -> UNANIMOUS: NOT
+  [536/834] babel-street_005_s1_vs_babel-street_004_s2 sim=0.40 -> UNANIMOUS: NOT
+  [522/834] delta_053_s1_vs_delta_009_s9 sim=0.40 -> UNANIMOUS: NOT
+  [528/834] corsight-ai_010_s2_vs_corsight-ai_003_s11 sim=0.40 -> UNANIMOUS: NOT
+  [524/834] microsoft_052_s4_vs_microsoft_045_s5 sim=0.40 -> UNANIMOUS: NOT
+  [530/834] grindr_006_s3_vs_grindr_021_s3 sim=0.40 -> UNANIMOUS: NOT
+  [539/834] babel-street_005_s1_vs_babel-street_010_s1 sim=0.40 -> UNANIMOUS: NOT
+  [534/834] roblox_013_s7_vs_roblox_021_s3 sim=0.40 -> UNANIMOUS: NOT
+  [535/834] microsoft_044_s7_vs_microsoft_023_s1 sim=0.40 -> UNANIMOUS: NOT
+  [538/834] shopify_002_s1_vs_shopify_009_s5 sim=0.40 -> UNANIMOUS: NOT
+  [537/834] uber_026_s2_vs_uber_027_s2 sim=0.40 -> MAJORITY: NOT
+  [533/834] microsoft_058_s3_vs_microsoft_029_s1 sim=0.40 -> MAJORITY: NOT
+  [521/834] microsoft_044_s7_vs_microsoft_038_s4 sim=0.40 -> UNANIMOUS: NOT
+  [532/834] meta_051_s3_vs_meta_064_s1 sim=0.40 -> UNANIMOUS: CONTRA
+  [529/834] duolingo_027_s2_vs_duolingo_026_s1 sim=0.40 -> UNANIMOUS: NOT
+  [540/834] microsoft_052_s2_vs_microsoft_050_s1 sim=0.40 -> MAJORITY: NOT
+  --- Batch 27: saved 540 results, 42 confirmed contradictions so far ---
+  [554/834] microsoft_050_s2_vs_microsoft_041_s1 sim=0.39 -> UNANIMOUS: NOT
+  [549/834] microsoft_028_s5_vs_microsoft_038_s3 sim=0.39 -> UNANIMOUS: NOT
+  [542/834] roblox_044_s2_vs_roblox_047_s3 sim=0.40 -> UNANIMOUS: NOT
+  [546/834] betterhelp_012_s2_vs_betterhelp_032_s5 sim=0.39 -> UNANIMOUS: CONTRA
+  [556/834] reddit_037_s2_vs_reddit_016_s2 sim=0.39 -> UNANIMOUS: NOT
+  [553/834] duolingo_027_s3_vs_duolingo_013_s1 sim=0.39 -> MAJORITY: NOT
+  [557/834] robinhood_010_s1_vs_robinhood_004_s3 sim=0.39 -> UNANIMOUS: NOT
+  [555/834] microsoft_052_s2_vs_microsoft_058_s1 sim=0.39 -> UNANIMOUS: NOT
+  [545/834] t-mobile_097_s2_vs_t-mobile_002_s4 sim=0.39 -> UNANIMOUS: NOT
+  [559/834] grindr_007_s6_vs_grindr_008_s2 sim=0.39 -> UNANIMOUS: NOT
+  [548/834] venmo_033_s3_vs_venmo_028_s4 sim=0.39 -> UNANIMOUS: NOT
+  [558/834] microsoft_052_s2_vs_microsoft_045_s5 sim=0.39 -> UNANIMOUS: NOT
+  [560/834] t-mobile_033_s3_vs_t-mobile_059_s2 sim=0.39 -> MAJORITY: NOT
+  [543/834] microsoft_048_s2_vs_microsoft_029_s2 sim=0.40 -> UNANIMOUS: NOT
+  [551/834] stripe_034_s4_vs_stripe_006_s3 sim=0.39 -> MAJORITY: CONTRA
+  [550/834] meta_051_s3_vs_meta_062_s2 sim=0.39 -> UNANIMOUS: NOT
+  [544/834] microsoft_050_s2_vs_microsoft_058_s1 sim=0.40 -> UNANIMOUS: NOT
+  [552/834] meta_118_s2_vs_meta_093_s1 sim=0.39 -> MAJORITY: NOT
+  [541/834] walmart_014_s6_vs_walmart_012_s1 sim=0.40 -> MAJORITY: CONTRA
+  [547/834] strava_015_s3_vs_strava_013_s1 sim=0.39 -> MAJORITY: NOT
+  --- Batch 28: saved 560 results, 45 confirmed contradictions so far ---
+  [573/834] tesla_012_s2_vs_tesla_008_s6 sim=0.38 -> UNANIMOUS: NOT
+  [569/834] microsoft_050_s2_vs_microsoft_040_s1 sim=0.38 -> UNANIMOUS: NOT
+  [574/834] roblox_023_s2_vs_roblox_075_s2 sim=0.38 -> UNANIMOUS: NOT
+  [565/834] microsoft_028_s5_vs_microsoft_029_s10 sim=0.39 -> UNANIMOUS: NOT
+  [579/834] meta_048_s1_vs_meta_014_s1 sim=0.38 -> UNANIMOUS: NOT
+  [570/834] khan-academy_051_s5_vs_khan-academy_004_s2 sim=0.38 -> UNANIMOUS: NOT
+  [575/834] microsoft_056_s3_vs_microsoft_055_s2 sim=0.38 -> UNANIMOUS: NOT
+  [562/834] linkedin_051_s4_vs_linkedin_009_s1 sim=0.39 -> UNANIMOUS: NOT
+  [578/834] microsoft_047_s5_vs_microsoft_029_s5 sim=0.38 -> UNANIMOUS: NOT
+  [566/834] venmo_033_s3_vs_venmo_028_s1 sim=0.39 -> UNANIMOUS: NOT
+  [563/834] salesforce_018_s9_vs_salesforce_021_s2 sim=0.39 -> UNANIMOUS: NOT
+  [564/834] thomson-reuters_022_s1_vs_thomson-reuters_016_s6 sim=0.39 -> UNANIMOUS: NOT
+  [576/834] betterhelp_013_s1_vs_betterhelp_023_s3 sim=0.38 -> UNANIMOUS: NOT
+  [572/834] microsoft_052_s2_vs_microsoft_029_s1 sim=0.38 -> UNANIMOUS: NOT
+  [568/834] linkedin_027_s4_vs_linkedin_048_s1 sim=0.38 -> UNANIMOUS: NOT
+  [571/834] pimeyes_007_s3_vs_pimeyes_005_s3 sim=0.38 -> UNANIMOUS: CONTRA
+  [567/834] walmart_014_s7_vs_walmart_012_s1 sim=0.38 -> UNANIMOUS: NOT
+  [561/834] eyematch-ai_002_s4_vs_eyematch-ai_004_s3 sim=0.39 -> MAJORITY: NOT
+  [577/834] 23andme_010_s2_vs_23andme_007_s2 sim=0.38 -> UNANIMOUS: NOT
+  [580/834] microsoft_050_s2_vs_microsoft_029_s10 sim=0.38 -> MAJORITY: NOT
+  --- Batch 29: saved 580 results, 46 confirmed contradictions so far ---
+  [590/834] microsoft_065_s2_vs_microsoft_052_s6 sim=0.38 -> UNANIMOUS: NOT
+  [595/834] tesla_012_s2_vs_tesla_007_s2 sim=0.37 -> UNANIMOUS: NOT
+  [588/834] walmart_005_s3_vs_walmart_018_s4 sim=0.38 -> UNANIMOUS: NOT
+  [586/834] roblox_044_s2_vs_roblox_047_s2 sim=0.38 -> UNANIMOUS: NOT
+  [597/834] roblox_040_s2_vs_roblox_025_s1 sim=0.37 -> UNANIMOUS: NOT
+  [583/834] microsoft_057_s7_vs_microsoft_052_s6 sim=0.38 -> UNANIMOUS: NOT
+  [599/834] microsoft_052_s2_vs_microsoft_053_s6 sim=0.37 -> UNANIMOUS: NOT
+  [589/834] penlink_009_s2_vs_penlink_008_s1 sim=0.38 -> UNANIMOUS: NOT
+  [591/834] tesla_018_s2_vs_tesla_022_s3 sim=0.37 -> UNANIMOUS: NOT
+  [596/834] microsoft_047_s5_vs_microsoft_064_s2 sim=0.37 -> UNANIMOUS: NOT
+  [598/834] notion_017_s1_vs_notion_008_s2 sim=0.37 -> UNANIMOUS: NOT
+  [600/834] venmo_033_s3_vs_venmo_028_s6 sim=0.37 -> UNANIMOUS: NOT
+  [592/834] meta_048_s1_vs_meta_008_s2 sim=0.37 -> UNANIMOUS: NOT
+  [585/834] microsoft_058_s3_vs_microsoft_050_s6 sim=0.38 -> UNANIMOUS: NOT
+  [582/834] t-mobile_097_s2_vs_t-mobile_091_s1 sim=0.38 -> UNANIMOUS: NOT
+  [593/834] microsoft_045_s2_vs_microsoft_044_s2 sim=0.37 -> UNANIMOUS: NOT
+  [581/834] microsoft_045_s4_vs_microsoft_029_s2 sim=0.38 -> UNANIMOUS: NOT
+  [584/834] microsoft_045_s2_vs_microsoft_029_s3 sim=0.38 -> UNANIMOUS: NOT
+  [587/834] salesforce_018_s9_vs_salesforce_009_s1 sim=0.38 -> UNANIMOUS: NOT
+  [594/834] t-mobile_075_s1_vs_t-mobile_079_s1 sim=0.37 -> UNANIMOUS: NOT
+  --- Batch 30: saved 600 results, 46 confirmed contradictions so far ---
+  [606/834] microsoft_050_s2_vs_microsoft_052_s1 sim=0.37 -> UNANIMOUS: NOT
+  [602/834] linkedin_031_s3_vs_linkedin_047_s2 sim=0.37 -> UNANIMOUS: NOT
+  [613/834] microsoft_050_s2_vs_microsoft_033_s4 sim=0.37 -> UNANIMOUS: NOT
+  [605/834] zignal-labs_012_s2_vs_zignal-labs_003_s3 sim=0.37 -> UNANIMOUS: NOT
+  [615/834] microsoft_045_s2_vs_microsoft_058_s1 sim=0.36 -> UNANIMOUS: NOT
+  [616/834] microsoft_048_s2_vs_microsoft_058_s1 sim=0.36 -> UNANIMOUS: NOT
+  [604/834] khan-academy_002_s5_vs_khan-academy_013_s1 sim=0.37 -> UNANIMOUS: NOT
+  [609/834] meta_117_s2_vs_meta_127_s2 sim=0.37 -> UNANIMOUS: NOT
+  [608/834] microsoft_044_s7_vs_microsoft_056_s2 sim=0.37 -> UNANIMOUS: NOT
+  [611/834] microsoft_044_s7_vs_microsoft_063_s4 sim=0.37 -> UNANIMOUS: NOT
+  [620/834] walmart_017_s2_vs_walmart_010_s3 sim=0.36 -> UNANIMOUS: NOT
+  [618/834] t-mobile_033_s3_vs_t-mobile_006_s1 sim=0.36 -> UNANIMOUS: NOT
+  [603/834] microsoft_044_s7_vs_microsoft_011_s1 sim=0.37 -> UNANIMOUS: NOT
+  [601/834] khan-academy_045_s2_vs_khan-academy_064_s1 sim=0.37 -> UNANIMOUS: NOT
+  [612/834] jasper_028_s8_vs_jasper_021_s1 sim=0.37 -> UNANIMOUS: NOT
+  [607/834] t-mobile_033_s3_vs_t-mobile_030_s1 sim=0.37 -> UNANIMOUS: NOT
+  [619/834] peloton_031_s4_vs_peloton_017_s1 sim=0.36 -> MAJORITY: NOT
+  [610/834] venmo_030_s2_vs_venmo_016_s1 sim=0.37 -> MAJORITY: CONTRA
+  [617/834] nordvpn_002_s5_vs_nordvpn_009_s1 sim=0.36 -> UNANIMOUS: NOT
+  [614/834] meta_117_s2_vs_meta_123_s2 sim=0.36 -> MAJORITY: CONTRA
+  --- Batch 31: saved 620 results, 48 confirmed contradictions so far ---
+  [628/834] duolingo_022_s2_vs_duolingo_023_s2 sim=0.36 -> UNANIMOUS: NOT
+  [635/834] microsoft_044_s7_vs_microsoft_050_s1 sim=0.35 -> UNANIMOUS: NOT
+  [627/834] venmo_021_s1_vs_venmo_028_s1 sim=0.36 -> UNANIMOUS: NOT
+  [625/834] linkedin_042_s4_vs_linkedin_048_s1 sim=0.36 -> UNANIMOUS: NOT
+  [639/834] thomson-reuters_013_s3_vs_thomson-reuters_016_s4 sim=0.35 -> UNANIMOUS: NOT
+  [638/834] microsoft_045_s2_vs_microsoft_061_s1 sim=0.35 -> UNANIMOUS: NOT
+  [634/834] babel-street_005_s1_vs_babel-street_004_s1 sim=0.35 -> UNANIMOUS: NOT
+  [623/834] delta_018_s2_vs_delta_009_s2 sim=0.36 -> UNANIMOUS: NOT
+  [631/834] t-mobile_033_s3_vs_t-mobile_047_s1 sim=0.36 -> UNANIMOUS: NOT
+  [632/834] peloton_020_s2_vs_peloton_039_s1 sim=0.35 -> UNANIMOUS: NOT
+  [626/834] jasper_019_s4_vs_jasper_020_s3 sim=0.36 -> UNANIMOUS: NOT
+  [637/834] jasper_022_s1_vs_jasper_030_s1 sim=0.35 -> UNANIMOUS: NOT
+  [636/834] microsoft_052_s4_vs_microsoft_058_s1 sim=0.35 -> UNANIMOUS: NOT
+  [630/834] clearview-ai_013_s2_vs_clearview-ai_011_s1 sim=0.36 -> UNANIMOUS: NOT
+  [633/834] xiaomi_005_s2_vs_xiaomi_006_s2 sim=0.35 -> MAJORITY: NOT
+  [624/834] perplexity_003_s2_vs_perplexity_005_s2 sim=0.36 -> MAJORITY: NOT
+  [622/834] meta_117_s2_vs_meta_093_s1 sim=0.36 -> MAJORITY: NOT
+  [640/834] xiaomi_018_s1_vs_xiaomi_012_s2 sim=0.35 -> UNANIMOUS: CONTRA
+  [629/834] meta_024_s2_vs_meta_061_s2 sim=0.36 -> UNANIMOUS: NOT
+  [621/834] microsoft_050_s2_vs_microsoft_046_s3 sim=0.36 -> UNANIMOUS: NOT
+  --- Batch 32: saved 640 results, 49 confirmed contradictions so far ---
+  [660/834] ebay_011_s3_vs_ebay_037_s2 sim=0.35 -> UNANIMOUS: NOT
+  [653/834] lexisnexis_018_s1_vs_lexisnexis_015_s1 sim=0.35 -> UNANIMOUS: NOT
+  [652/834] perplexity_019_s2_vs_perplexity_002_s1 sim=0.35 -> UNANIMOUS: NOT
+  [650/834] ihg_016_s1_vs_ihg_005_s5 sim=0.35 -> UNANIMOUS: NOT
+  [645/834] perplexity_003_s2_vs_perplexity_002_s1 sim=0.35 -> UNANIMOUS: NOT
+  [649/834] linkedin_055_s1_vs_linkedin_047_s2 sim=0.35 -> UNANIMOUS: NOT
+  [654/834] meta_075_s3_vs_meta_035_s2 sim=0.35 -> UNANIMOUS: NOT
+  [651/834] microsoft_054_s2_vs_microsoft_029_s1 sim=0.35 -> UNANIMOUS: NOT
+  [642/834] delta_017_s2_vs_delta_011_s7 sim=0.35 -> UNANIMOUS: NOT
+  [646/834] t-mobile_033_s3_vs_t-mobile_026_s1 sim=0.35 -> UNANIMOUS: NOT
+  [644/834] stripe_034_s1_vs_stripe_006_s3 sim=0.35 -> UNANIMOUS: NOT
+  [656/834] linkedin_050_s1_vs_linkedin_018_s1 sim=0.35 -> UNANIMOUS: NOT
+  [655/834] epic-games_006_s4_vs_epic-games_003_s3 sim=0.35 -> UNANIMOUS: NOT
+  [643/834] roblox_022_s2_vs_roblox_051_s1 sim=0.35 -> UNANIMOUS: NOT
+  [648/834] khan-academy_054_s2_vs_khan-academy_011_s2 sim=0.35 -> UNANIMOUS: NOT
+  [658/834] microsoft_050_s2_vs_microsoft_045_s5 sim=0.35 -> UNANIMOUS: NOT
+  [659/834] t-mobile_033_s3_vs_t-mobile_024_s1 sim=0.35 -> UNANIMOUS: NOT
+  [657/834] meta_117_s2_vs_meta_120_s1 sim=0.35 -> UNANIMOUS: NOT
+  [647/834] t-mobile_033_s3_vs_t-mobile_009_s1 sim=0.35 -> UNANIMOUS: NOT
+  [641/834] meta_051_s3_vs_meta_186_s4 sim=0.35 -> MAJORITY: NOT
+  --- Batch 33: saved 660 results, 49 confirmed contradictions so far ---
+  [670/834] tesla_012_s6_vs_tesla_008_s6 sim=0.34 -> UNANIMOUS: NOT
+  [664/834] khan-academy_042_s1_vs_khan-academy_004_s1 sim=0.34 -> UNANIMOUS: NOT
+  [666/834] microsoft_050_s2_vs_microsoft_028_s1 sim=0.34 -> UNANIMOUS: NOT
+  [671/834] microsoft_052_s4_vs_microsoft_065_s3 sim=0.34 -> UNANIMOUS: NOT
+  [679/834] jasper_014_s1_vs_jasper_028_s3 sim=0.34 -> UNANIMOUS: NOT
+  [665/834] jasper_028_s6_vs_jasper_015_s1 sim=0.34 -> UNANIMOUS: NOT
+  [674/834] microsoft_028_s5_vs_microsoft_045_s5 sim=0.34 -> UNANIMOUS: NOT
+  [667/834] microsoft_050_s2_vs_microsoft_057_s3 sim=0.34 -> UNANIMOUS: NOT
+  [661/834] microsoft_050_s2_vs_microsoft_023_s2 sim=0.35 -> UNANIMOUS: NOT
+  [677/834] microsoft_044_s7_vs_microsoft_040_s1 sim=0.34 -> UNANIMOUS: NOT
+  [676/834] microsoft_044_s7_vs_microsoft_019_s2 sim=0.34 -> UNANIMOUS: NOT
+  [663/834] roblox_013_s7_vs_roblox_082_s2 sim=0.35 -> UNANIMOUS: NOT
+  [669/834] peloton_031_s4_vs_peloton_010_s2 sim=0.34 -> UNANIMOUS: NOT
+  [675/834] pimeyes_011_s1_vs_pimeyes_007_s2 sim=0.34 -> UNANIMOUS: NOT
+  [672/834] linkedin_048_s2_vs_linkedin_047_s2 sim=0.34 -> UNANIMOUS: NOT
+  [678/834] 23andme_020_s1_vs_23andme_021_s1 sim=0.34 -> UNANIMOUS: NOT
+  [662/834] microsoft_052_s2_vs_microsoft_066_s1 sim=0.35 -> UNANIMOUS: NOT
+  [668/834] microsoft_050_s2_vs_microsoft_065_s1 sim=0.34 -> UNANIMOUS: NOT
+  [673/834] jasper_028_s8_vs_jasper_005_s2 sim=0.34 -> UNANIMOUS: NOT
+  [680/834] epic-games_011_s9_vs_epic-games_004_s1 sim=0.34 -> UNANIMOUS: NOT
+  --- Batch 34: saved 680 results, 49 confirmed contradictions so far ---
+  [686/834] microsoft_032_s4_vs_microsoft_055_s2 sim=0.34 -> UNANIMOUS: NOT
+  [695/834] microsoft_028_s5_vs_microsoft_053_s6 sim=0.34 -> UNANIMOUS: NOT
+  [699/834] microsoft_052_s2_vs_microsoft_023_s1 sim=0.34 -> UNANIMOUS: NOT
+  [700/834] microsoft_050_s2_vs_microsoft_066_s1 sim=0.33 -> UNANIMOUS: NOT
+  [690/834] meta_051_s3_vs_meta_062_s1 sim=0.34 -> UNANIMOUS: NOT
+  [693/834] cursor_006_s2_vs_cursor_003_s3 sim=0.34 -> UNANIMOUS: NOT
+  [689/834] t-mobile_033_s3_vs_t-mobile_006_s2 sim=0.34 -> UNANIMOUS: NOT
+  [681/834] microsoft_044_s7_vs_microsoft_052_s1 sim=0.34 -> UNANIMOUS: NOT
+  [694/834] microsoft_050_s2_vs_microsoft_044_s2 sim=0.34 -> UNANIMOUS: NOT
+  [698/834] thomson-reuters_022_s1_vs_thomson-reuters_020_s2 sim=0.34 -> UNANIMOUS: NOT
+  [691/834] peloton_024_s3_vs_peloton_026_s2 sim=0.34 -> UNANIMOUS: NOT
+  [685/834] meta_051_s3_vs_meta_050_s5 sim=0.34 -> UNANIMOUS: NOT
+  [692/834] khan-academy_054_s2_vs_khan-academy_041_s1 sim=0.34 -> UNANIMOUS: NOT
+  [684/834] wise_004_s7_vs_wise_025_s3 sim=0.34 -> UNANIMOUS: NOT
+  [696/834] meta_116_s5_vs_meta_093_s1 sim=0.34 -> UNANIMOUS: NOT
+  [697/834] roblox_013_s7_vs_roblox_008_s2 sim=0.34 -> UNANIMOUS: NOT
+  [687/834] microsoft_045_s4_vs_microsoft_029_s3 sim=0.34 -> UNANIMOUS: NOT
+  [688/834] meta_051_s3_vs_meta_075_s4 sim=0.34 -> MAJORITY: CONTRA
+  [682/834] american-airlines_039_s2_vs_american-airlines_006_s1 sim=0.34 -> UNANIMOUS: NOT
+  [683/834] motorola-solutions_002_s1_vs_motorola-solutions_012_s1 sim=0.34 -> UNANIMOUS: NOT
+  --- Batch 35: saved 700 results, 50 confirmed contradictions so far ---
+  [706/834] ihg_016_s1_vs_ihg_003_s4 sim=0.33 -> UNANIMOUS: NOT
+  [702/834] roblox_013_s7_vs_roblox_014_s1 sim=0.33 -> UNANIMOUS: NOT
+  [712/834] betterhelp_024_s5_vs_betterhelp_014_s1 sim=0.33 -> UNANIMOUS: NOT
+  [715/834] t-mobile_033_s3_vs_t-mobile_090_s1 sim=0.33 -> MAJORITY: NOT
+  [710/834] tesla_012_s2_vs_tesla_011_s3 sim=0.33 -> UNANIMOUS: NOT
+  [707/834] microsoft_044_s7_vs_microsoft_011_s3 sim=0.33 -> UNANIMOUS: NOT
+  [718/834] x_015_s2_vs_x_014_s2 sim=0.33 -> UNANIMOUS: NOT
+  [704/834] linkedin_031_s1_vs_linkedin_043_s1 sim=0.33 -> UNANIMOUS: NOT
+  [709/834] gravy-analytics_013_s1_vs_gravy-analytics_016_s1 sim=0.33 -> UNANIMOUS: NOT
+  [717/834] jasper_019_s3_vs_jasper_020_s3 sim=0.33 -> UNANIMOUS: NOT
+  [703/834] t-mobile_033_s3_vs_t-mobile_011_s3 sim=0.33 -> UNANIMOUS: NOT
+  [701/834] uber_026_s2_vs_uber_024_s2 sim=0.33 -> UNANIMOUS: NOT
+  [719/834] x_015_s2_vs_x_043_s2 sim=0.33 -> UNANIMOUS: NOT
+  [720/834] eyematch-ai_002_s3_vs_eyematch-ai_004_s3 sim=0.33 -> UNANIMOUS: NOT
+  [708/834] microsoft_050_s2_vs_microsoft_060_s3 sim=0.33 -> UNANIMOUS: NOT
+  [713/834] thomson-reuters_022_s1_vs_thomson-reuters_018_s1 sim=0.33 -> UNANIMOUS: NOT
+  [714/834] khan-academy_048_s2_vs_khan-academy_010_s4 sim=0.33 -> UNANIMOUS: NOT
+  [716/834] ngl_002_s2_vs_ngl_004_s2 sim=0.33 -> MAJORITY: NOT
+  [711/834] microsoft_034_s2_vs_microsoft_032_s2 sim=0.33 -> UNANIMOUS: NOT
+  [705/834] uber_026_s2_vs_uber_028_s1 sim=0.33 -> UNANIMOUS: CONTRA
+  --- Batch 36: saved 720 results, 51 confirmed contradictions so far ---
+  [740/834] microsoft_050_s2_vs_microsoft_033_s1 sim=0.32 -> UNANIMOUS: NOT
+  [736/834] microsoft_045_s2_vs_microsoft_034_s3 sim=0.32 -> UNANIMOUS: NOT
+  [734/834] microsoft_052_s2_vs_microsoft_033_s2 sim=0.32 -> UNANIMOUS: NOT
+  [729/834] microsoft_065_s2_vs_microsoft_029_s6 sim=0.32 -> UNANIMOUS: NOT
+  [723/834] microsoft_050_s2_vs_microsoft_046_s5 sim=0.33 -> UNANIMOUS: NOT
+  [722/834] roblox_023_s2_vs_roblox_031_s1 sim=0.33 -> UNANIMOUS: NOT
+  [737/834] khan-academy_015_s3_vs_khan-academy_029_s1 sim=0.32 -> UNANIMOUS: NOT
+  [726/834] tesla_025_s7_vs_tesla_007_s1 sim=0.33 -> UNANIMOUS: NOT
+  [739/834] khan-academy_042_s1_vs_khan-academy_006_s2 sim=0.32 -> UNANIMOUS: NOT
+  [721/834] meta_118_s2_vs_meta_127_s2 sim=0.33 -> UNANIMOUS: NOT
+  [731/834] jasper_022_s1_vs_jasper_013_s1 sim=0.32 -> UNANIMOUS: NOT
+  [732/834] microsoft_044_s7_vs_microsoft_050_s6 sim=0.32 -> UNANIMOUS: NOT
+  [728/834] microsoft_034_s2_vs_microsoft_011_s1 sim=0.33 -> UNANIMOUS: NOT
+  [733/834] khan-academy_019_s2_vs_khan-academy_028_s1 sim=0.32 -> UNANIMOUS: NOT
+  [724/834] american-airlines_029_s1_vs_american-airlines_030_s1 sim=0.33 -> UNANIMOUS: NOT
+  [727/834] cursor_006_s5_vs_cursor_003_s3 sim=0.33 -> UNANIMOUS: NOT
+  [725/834] grindr_006_s3_vs_grindr_020_s6 sim=0.33 -> UNANIMOUS: NOT
+  [735/834] gravy-analytics_013_s1_vs_gravy-analytics_016_s2 sim=0.32 -> UNANIMOUS: NOT
+  [730/834] premom_012_s2_vs_premom_003_s1 sim=0.32 -> UNANIMOUS: NOT
+  [738/834] meta_024_s2_vs_meta_050_s4 sim=0.32 -> UNANIMOUS: NOT
+  --- Batch 37: saved 740 results, 51 confirmed contradictions so far ---
+  [758/834] microsoft_050_s2_vs_microsoft_032_s2 sim=0.32 -> UNANIMOUS: NOT
+  [746/834] microsoft_052_s2_vs_microsoft_044_s1 sim=0.32 -> UNANIMOUS: NOT
+  [745/834] microsoft_044_s7_vs_microsoft_050_s4 sim=0.32 -> UNANIMOUS: NOT
+  [741/834] jasper_028_s4_vs_jasper_030_s1 sim=0.32 -> UNANIMOUS: NOT
+  [749/834] thomson-reuters_003_s6_vs_thomson-reuters_016_s1 sim=0.32 -> UNANIMOUS: NOT
+  [748/834] meta_075_s3_vs_meta_023_s1 sim=0.32 -> UNANIMOUS: NOT
+  [751/834] linkedin_041_s4_vs_linkedin_048_s1 sim=0.32 -> UNANIMOUS: NOT
+  [755/834] roblox_022_s2_vs_roblox_021_s2 sim=0.32 -> UNANIMOUS: NOT
+  [756/834] khan-academy_042_s1_vs_khan-academy_004_s2 sim=0.32 -> UNANIMOUS: NOT
+  [747/834] roblox_030_s3_vs_roblox_011_s2 sim=0.32 -> UNANIMOUS: NOT
+  [750/834] microsoft_048_s2_vs_microsoft_046_s2 sim=0.32 -> UNANIMOUS: NOT
+  [744/834] meta_118_s2_vs_meta_120_s1 sim=0.32 -> UNANIMOUS: NOT
+  [754/834] microsoft_052_s5_vs_microsoft_058_s1 sim=0.32 -> UNANIMOUS: NOT
+  [753/834] hyatt_016_s1_vs_hyatt_022_s1 sim=0.32 -> UNANIMOUS: NOT
+  [742/834] betterhelp_025_s2_vs_betterhelp_014_s1 sim=0.32 -> UNANIMOUS: NOT
+  [757/834] jasper_019_s3_vs_jasper_007_s5 sim=0.32 -> UNANIMOUS: NOT
+  [759/834] microsoft_052_s2_vs_microsoft_046_s5 sim=0.32 -> UNANIMOUS: NOT
+  [752/834] motorola-solutions_006_s4_vs_motorola-solutions_010_s1 sim=0.32 -> UNANIMOUS: NOT
+  [760/834] hilton_023_s2_vs_hilton_039_s2 sim=0.32 -> MAJORITY: CONTRA
+  [743/834] t-mobile_033_s3_vs_t-mobile_045_s2 sim=0.32 -> UNANIMOUS: NOT
+  --- Batch 38: saved 760 results, 52 confirmed contradictions so far ---
+  [775/834] microsoft_054_s2_vs_microsoft_056_s4 sim=0.31 -> UNANIMOUS: NOT
+  [762/834] delta_018_s2_vs_delta_009_s10 sim=0.32 -> UNANIMOUS: NOT
+  [774/834] microsoft_050_s2_vs_microsoft_054_s1 sim=0.31 -> UNANIMOUS: NOT
+  [765/834] meta_051_s3_vs_meta_013_s1 sim=0.32 -> UNANIMOUS: NOT
+  [761/834] betterhelp_024_s5_vs_betterhelp_007_s4 sim=0.32 -> UNANIMOUS: NOT
+  [778/834] uber_026_s2_vs_uber_022_s3 sim=0.31 -> UNANIMOUS: NOT
+  [769/834] microsoft_052_s2_vs_microsoft_034_s1 sim=0.32 -> UNANIMOUS: NOT
+  [777/834] peloton_031_s4_vs_peloton_032_s1 sim=0.31 -> UNANIMOUS: NOT
+  [776/834] meta_014_s2_vs_meta_021_s3 sim=0.31 -> UNANIMOUS: NOT
+  [768/834] meta_024_s2_vs_meta_065_s2 sim=0.32 -> UNANIMOUS: NOT
+  [772/834] microsoft_045_s2_vs_microsoft_065_s1 sim=0.31 -> UNANIMOUS: NOT
+  [764/834] microsoft_028_s5_vs_microsoft_053_s4 sim=0.32 -> UNANIMOUS: NOT
+  [773/834] microsoft_052_s5_vs_microsoft_053_s3 sim=0.31 -> UNANIMOUS: NOT
+  [766/834] uber_026_s2_vs_uber_007_s1 sim=0.32 -> UNANIMOUS: NOT
+  [767/834] khan-academy_051_s2_vs_khan-academy_007_s1 sim=0.32 -> UNANIMOUS: NOT
+  [780/834] linkedin_041_s4_vs_linkedin_044_s3 sim=0.31 -> UNANIMOUS: NOT
+  [771/834] wells-fargo_025_s7_vs_wells-fargo_020_s2 sim=0.32 -> UNANIMOUS: NOT
+  [779/834] avast_010_s5_vs_avast_009_s5 sim=0.31 -> UNANIMOUS: NOT
+  [770/834] meta_117_s2_vs_meta_116_s1 sim=0.32 -> UNANIMOUS: NOT
+  [763/834] redfin_019_s2_vs_redfin_033_s2 sim=0.32 -> UNANIMOUS: NOT
+  --- Batch 39: saved 780 results, 52 confirmed contradictions so far ---
+  [790/834] microsoft_044_s7_vs_microsoft_019_s1 sim=0.31 -> UNANIMOUS: NOT
+  [791/834] github_013_s8_vs_github_005_s1 sim=0.31 -> UNANIMOUS: NOT
+  [787/834] delta_018_s2_vs_delta_011_s9 sim=0.31 -> UNANIMOUS: NOT
+  [799/834] cursor_006_s5_vs_cursor_003_s1 sim=0.31 -> UNANIMOUS: NOT
+  [781/834] delta_017_s2_vs_delta_011_s6 sim=0.31 -> UNANIMOUS: NOT
+  [796/834] microsoft_052_s5_vs_microsoft_028_s1 sim=0.31 -> UNANIMOUS: NOT
+  [798/834] meta_075_s3_vs_meta_010_s4 sim=0.31 -> UNANIMOUS: NOT
+  [793/834] delta_017_s2_vs_delta_016_s2 sim=0.31 -> UNANIMOUS: NOT
+  [800/834] microsoft_052_s2_vs_microsoft_044_s2 sim=0.31 -> UNANIMOUS: NOT
+  [792/834] betterhelp_007_s3_vs_betterhelp_019_s2 sim=0.31 -> UNANIMOUS: NOT
+  [797/834] reddit_037_s2_vs_reddit_002_s9 sim=0.31 -> UNANIMOUS: NOT
+  [784/834] t-mobile_033_s3_vs_t-mobile_025_s1 sim=0.31 -> UNANIMOUS: NOT
+  [785/834] microsoft_048_s2_vs_microsoft_045_s5 sim=0.31 -> UNANIMOUS: NOT
+  [786/834] microsoft_052_s2_vs_microsoft_058_s4 sim=0.31 -> UNANIMOUS: NOT
+  [789/834] venmo_009_s2_vs_venmo_028_s6 sim=0.31 -> UNANIMOUS: NOT
+  [794/834] khan-academy_051_s2_vs_khan-academy_047_s1 sim=0.31 -> UNANIMOUS: NOT
+  [788/834] roblox_040_s2_vs_roblox_042_s1 sim=0.31 -> UNANIMOUS: NOT
+  [795/834] jasper_028_s6_vs_jasper_003_s1 sim=0.31 -> MAJORITY: CONTRA
+  [782/834] gravy-analytics_013_s1_vs_gravy-analytics_002_s2 sim=0.31 -> MAJORITY: NOT
+  [783/834] stripe_034_s1_vs_stripe_009_s1 sim=0.31 -> UNANIMOUS: NOT
+  --- Batch 40: saved 800 results, 53 confirmed contradictions so far ---
+  [807/834] jasper_028_s4_vs_jasper_015_s1 sim=0.31 -> UNANIMOUS: NOT
+  [818/834] microsoft_032_s4_vs_microsoft_029_s6 sim=0.30 -> UNANIMOUS: NOT
+  [810/834] t-mobile_097_s2_vs_t-mobile_048_s1 sim=0.31 -> UNANIMOUS: NOT
+  [801/834] microsoft_050_s2_vs_microsoft_053_s3 sim=0.31 -> UNANIMOUS: NOT
+  [814/834] uber_026_s2_vs_uber_022_s1 sim=0.31 -> UNANIMOUS: NOT
+  [811/834] jasper_028_s6_vs_jasper_005_s2 sim=0.31 -> UNANIMOUS: NOT
+  [812/834] microsoft_044_s7_vs_microsoft_063_s3 sim=0.31 -> UNANIMOUS: NOT
+  [820/834] duolingo_022_s1_vs_duolingo_004_s4 sim=0.30 -> UNANIMOUS: NOT
+  [815/834] linkedin_031_s1_vs_linkedin_042_s3 sim=0.31 -> UNANIMOUS: NOT
+  [805/834] t-mobile_097_s2_vs_t-mobile_059_s3 sim=0.31 -> UNANIMOUS: NOT
+  [813/834] gravy-analytics_013_s1_vs_gravy-analytics_016_s3 sim=0.31 -> UNANIMOUS: NOT
+  [804/834] linkedin_041_s4_vs_linkedin_047_s1 sim=0.31 -> UNANIMOUS: NOT
+  [809/834] roblox_013_s7_vs_roblox_028_s1 sim=0.31 -> UNANIMOUS: NOT
+  [802/834] meta_051_s3_vs_meta_057_s1 sim=0.31 -> UNANIMOUS: NOT
+  [816/834] microsoft_044_s7_vs_microsoft_041_s1 sim=0.30 -> UNANIMOUS: NOT
+  [819/834] babel-street_005_s1_vs_babel-street_006_s4 sim=0.30 -> UNANIMOUS: NOT
+  [817/834] meta_118_s2_vs_meta_123_s2 sim=0.30 -> MAJORITY: CONTRA
+  [808/834] t-mobile_064_s2_vs_t-mobile_079_s2 sim=0.31 -> MAJORITY: CONTRA
+  [806/834] t-mobile_064_s2_vs_t-mobile_079_s1 sim=0.31 -> UNANIMOUS: CONTRA
+  [803/834] t-mobile_033_s3_vs_t-mobile_004_s2 sim=0.31 -> UNANIMOUS: NOT
+  --- Batch 41: saved 820 results, 56 confirmed contradictions so far ---
+  [826/834] microsoft_064_s5_vs_microsoft_055_s2 sim=0.30 -> UNANIMOUS: NOT
+  [829/834] jasper_022_s1_vs_jasper_015_s1 sim=0.30 -> UNANIMOUS: NOT
+  [828/834] jasper_028_s4_vs_jasper_013_s1 sim=0.30 -> UNANIMOUS: NOT
+  [830/834] microsoft_048_s2_vs_microsoft_065_s4 sim=0.30 -> UNANIMOUS: NOT
+  [827/834] roblox_013_s7_vs_roblox_033_s4 sim=0.30 -> UNANIMOUS: NOT
+  [821/834] microsoft_044_s7_vs_microsoft_054_s1 sim=0.30 -> UNANIMOUS: NOT
+  [834/834] delta_053_s1_vs_delta_004_s3 sim=0.30 -> UNANIMOUS: NOT
+  [832/834] wells-fargo_024_s1_vs_wells-fargo_020_s2 sim=0.30 -> UNANIMOUS: NOT
+  [833/834] nordvpn_002_s5_vs_nordvpn_004_s1 sim=0.30 -> UNANIMOUS: NOT
+  [822/834] meta_116_s5_vs_meta_093_s2 sim=0.30 -> UNANIMOUS: NOT
+  [823/834] ihg_003_s6_vs_ihg_009_s1 sim=0.30 -> UNANIMOUS: NOT
+  [831/834] avast_009_s4_vs_avast_006_s2 sim=0.30 -> UNANIMOUS: NOT
+  [825/834] linkedin_027_s3_vs_linkedin_044_s3 sim=0.30 -> UNANIMOUS: NOT
+  [824/834] meta_051_s3_vs_meta_052_s1 sim=0.30 -> MAJORITY: NOT
+  --- Batch 42: saved 834 results, 56 confirmed contradictions so far ---
+
+Computing agreement metrics...
+
+Results saved to: /Users/tbrack/Documents/Projects/Varitas/Varitas/varitas-foundation/research/privacy_washing/oppt_experiment_stability_20260830/statement_judge_results.json
+  File size: 4961.3 KB
+
+============================================================
+STATEMENT-LEVEL 3-LLM JUDGE VERIFICATION COMPLETE
+============================================================
+
+Models used:
+  Judge 1: deepseek/deepseek-v4-flash-0731 (deepseek)
+  Judge 2: z-ai/glm-5.3-flash (z-ai)
+  Judge 3: moonshotai/kimi-k3 (moonshotai)
+
+Judge Agreement:
+  Total pairs judged: 834
+  Unanimous (3/3):    762 (91.4%)
+  Majority (2/3):     72 (8.6%)
+  Usable (>=2/3):     100.0%
+  Needs review:       0
+  Fleiss' kappa:      0.5731
+
+Pairwise Cohen's Kappa:
+  deepseek vs z-ai: 0.4832
+  deepseek vs moonshotai: 0.6362
+  z-ai vs moonshotai: 0.6030
+
+Verification Results (all pairs were NLI-flagged):
+  Confirmed contradictions:   56
+  Rejected (not contradiction): 778
+  Needs review (split/invalid): 0
+  Confirmation rate:          6.7%
+
+NLI Score by Judge Verdict:
+  Confirmed: mean=0.964, median=0.997, range=[0.535, 1.000]
+  Rejected: mean=0.944, median=0.995, range=[0.502, 1.000]
+
+Per-Company Results:
+  23andme: 0 confirmed, 2 rejected, 0 review (0% confirmed)
+  adobe: 0 confirmed, 4 rejected, 0 review (0% confirmed)
+  amazon: 0 confirmed, 1 rejected, 0 review (0% confirmed)
+  american-airlines: 0 confirmed, 4 rejected, 0 review (0% confirmed)
+  anduril: 0 confirmed, 1 rejected, 0 review (0% confirmed)
+  anthropic: 0 confirmed, 1 rejected, 0 review (0% confirmed)
+  apple: 0 confirmed, 1 rejected, 0 review (0% confirmed)
+  appriss: 0 confirmed, 1 rejected, 0 review (0% confirmed)
+  att: 0 confirmed, 1 rejected, 0 review (0% confirmed)
+  avast: 0 confirmed, 4 rejected, 0 review (0% confirmed)
+  babel-street: 0 confirmed, 11 rejected, 0 review (0% confirmed)
+  betterhelp: 2 confirmed, 10 rejected, 0 review (17% confirmed)
+  bi-incorporated: 0 confirmed, 3 rejected, 0 review (0% confirmed)
+  bumble: 0 confirmed, 1 rejected, 0 review (0% confirmed)
+  clearview-ai: 0 confirmed, 7 rejected, 0 review (0% confirmed)
+  corsight-ai: 0 confirmed, 3 rejected, 0 review (0% confirmed)
+  coursera: 0 confirmed, 3 rejected, 0 review (0% confirmed)
+  cursor: 0 confirmed, 5 rejected, 0 review (0% confirmed)
+  delta: 0 confirmed, 13 rejected, 0 review (0% confirmed)
+  doordash: 0 confirmed, 1 rejected, 0 review (0% confirmed)
+  duolingo: 9 confirmed, 38 rejected, 0 review (19% confirmed)
+  ebay: 0 confirmed, 5 rejected, 0 review (0% confirmed)
+  epic-games: 0 confirmed, 5 rejected, 0 review (0% confirmed)
+  equifax: 0 confirmed, 1 rejected, 0 review (0% confirmed)
+  eyematch-ai: 0 confirmed, 2 rejected, 0 review (0% confirmed)
+  flock-safety: 1 confirmed, 8 rejected, 0 review (11% confirmed)
+  geo-group: 1 confirmed, 3 rejected, 0 review (25% confirmed)
+  github: 2 confirmed, 13 rejected, 0 review (13% confirmed)
+  google: 0 confirmed, 2 rejected, 0 review (0% confirmed)
+  gravy-analytics: 0 confirmed, 6 rejected, 0 review (0% confirmed)
+  grindr: 0 confirmed, 6 rejected, 0 review (0% confirmed)
+  hilton: 1 confirmed, 2 rejected, 0 review (33% confirmed)
+  hyatt: 0 confirmed, 1 rejected, 0 review (0% confirmed)
+  ihg: 0 confirmed, 5 rejected, 0 review (0% confirmed)
+  jasper: 1 confirmed, 21 rejected, 0 review (5% confirmed)
+  khan-academy: 1 confirmed, 61 rejected, 0 review (2% confirmed)
+  lexisnexis: 0 confirmed, 1 rejected, 0 review (0% confirmed)
+  linkedin: 0 confirmed, 35 rejected, 0 review (0% confirmed)
+  lyft: 0 confirmed, 1 rejected, 0 review (0% confirmed)
+  meta: 7 confirmed, 56 rejected, 0 review (11% confirmed)
+  microsoft: 3 confirmed, 130 rejected, 0 review (2% confirmed)
+  monument: 1 confirmed, 1 rejected, 0 review (50% confirmed)
+  motorola-solutions: 0 confirmed, 9 rejected, 0 review (0% confirmed)
+  ngl: 2 confirmed, 2 rejected, 0 review (50% confirmed)
+  nordvpn: 1 confirmed, 3 rejected, 0 review (25% confirmed)
+  notion: 0 confirmed, 2 rejected, 0 review (0% confirmed)
+  peloton: 1 confirmed, 16 rejected, 0 review (6% confirmed)
+  penlink: 0 confirmed, 1 rejected, 0 review (0% confirmed)
+  perplexity: 2 confirmed, 8 rejected, 0 review (20% confirmed)
+  pimeyes: 1 confirmed, 2 rejected, 0 review (33% confirmed)
+  premom: 0 confirmed, 2 rejected, 0 review (0% confirmed)
+  realtor: 0 confirmed, 3 rejected, 0 review (0% confirmed)
+  reddit: 0 confirmed, 4 rejected, 0 review (0% confirmed)
+  redfin: 0 confirmed, 1 rejected, 0 review (0% confirmed)
+  replit: 0 confirmed, 1 rejected, 0 review (0% confirmed)
+  robinhood: 0 confirmed, 1 rejected, 0 review (0% confirmed)
+  roblox: 4 confirmed, 49 rejected, 0 review (8% confirmed)
+  runway: 0 confirmed, 1 rejected, 0 review (0% confirmed)
+  safegraph: 0 confirmed, 1 rejected, 0 review (0% confirmed)
+  salesforce: 0 confirmed, 2 rejected, 0 review (0% confirmed)
+  shopify: 0 confirmed, 1 rejected, 0 review (0% confirmed)
+  sosi: 1 confirmed, 1 rejected, 0 review (50% confirmed)
+  strava: 0 confirmed, 1 rejected, 0 review (0% confirmed)
+  stripe: 1 confirmed, 6 rejected, 0 review (14% confirmed)
+  t-mobile: 3 confirmed, 43 rejected, 0 review (7% confirmed)
+  tesla: 0 confirmed, 18 rejected, 0 review (0% confirmed)
+  thomson-reuters: 0 confirmed, 8 rejected, 0 review (0% confirmed)
+  tiktok: 0 confirmed, 2 rejected, 0 review (0% confirmed)
+  twitch: 1 confirmed, 11 rejected, 0 review (8% confirmed)
+  uber: 4 confirmed, 28 rejected, 0 review (12% confirmed)
+  united-airlines: 0 confirmed, 1 rejected, 0 review (0% confirmed)
+  venmo: 2 confirmed, 28 rejected, 0 review (7% confirmed)
+  vercel: 0 confirmed, 1 rejected, 0 review (0% confirmed)
+  verizon: 0 confirmed, 6 rejected, 0 review (0% confirmed)
+  vonage: 0 confirmed, 1 rejected, 0 review (0% confirmed)
+  walmart: 1 confirmed, 10 rejected, 0 review (9% confirmed)
+  wells-fargo: 0 confirmed, 4 rejected, 0 review (0% confirmed)
+  wise: 0 confirmed, 1 rejected, 0 review (0% confirmed)
+  x: 0 confirmed, 6 rejected, 0 review (0% confirmed)
+  xiaomi: 3 confirmed, 6 rejected, 0 review (33% confirmed)
+  zignal-labs: 0 confirmed, 4 rejected, 0 review (0% confirmed)
+  zillow: 0 confirmed, 2 rejected, 0 review (0% confirmed)
+  zoom: 0 confirmed, 1 rejected, 0 review (0% confirmed)
+=== Analysis oppt_experiment_stability_20260830 ===
+Statement-Level Contradiction Analysis Report Generator
+============================================================
+Loading judge results from: /Users/tbrack/Documents/Projects/Varitas/Varitas/varitas-foundation/research/privacy_washing/oppt_experiment_stability_20260830/statement_judge_results.json
+Loading statements from: /Users/tbrack/Documents/Projects/Varitas/Varitas/varitas-foundation/research/privacy_washing/oppt_experiment_stability_20260830/statements.json
+Computing statistics...
+Generating report...
+Writing report to: /Users/tbrack/Documents/Projects/Varitas/Varitas/varitas-foundation/research/privacy_washing/oppt_experiment_stability_20260830/statement_contradiction_analysis.md
+
+Report generated: 7,501 characters
+  Confirmed contradictions: 56
+  Companies with contradictions: 25/83
+  Confirmation rate: 6.7%
+=== Re-judge complete: Mon Aug 31 12:33:58 PDT 2026 ===

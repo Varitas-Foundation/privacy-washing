@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.DS_Store
+.env
+.venv/
+
+# Scratch outputs from re-runs (released run outputs live in the
+# per-experiment directories)
+output/
+
+# OPP-115 is not redistributed; fetch it from its original source
+data/opp115/*
+!data/opp115/.gitkeep

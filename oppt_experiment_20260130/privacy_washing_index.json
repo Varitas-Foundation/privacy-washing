@@ -1,0 +1,587 @@
+{
+  "generated_at": "2026-01-31T05:32:09.999496+00:00",
+  "config": {
+    "contradiction_detection": "NLI-primary: is_contradiction = (nli_contradiction >= 0.5)",
+    "pwi_formula": "0.5 * contradiction_density + 0.5 * avg_severity",
+    "severity_formula": "nli_contradiction * (1 + 0.3 * tone_gap_normalized)",
+    "normalization": "min-max to [0, 1]",
+    "enforcement_companies_total": 31
+  },
+  "summary": {
+    "companies_scored": 17,
+    "mean_pwi": 0.2121,
+    "median_pwi": 0.0,
+    "std_pwi": 0.3153
+  },
+  "company_rankings": [
+    {
+      "rank": 1,
+      "company": "microsoft",
+      "raw_pwi": 0.99945,
+      "contradiction_density": 1.0,
+      "avg_severity": 0.9989,
+      "n_pairs": 1,
+      "n_contradictions": 1,
+      "mean_nli_contradiction": 0.9971,
+      "max_nli_contradiction": 0.9971,
+      "evidence_type_counts": {
+        "nli_plus_tone": 1,
+        "nli": 0,
+        "none": 0
+      },
+      "top_3_contradictions": [
+        {
+          "claim_id": "microsoft_014",
+          "practice_id": "microsoft_053",
+          "severity": 0.9989,
+          "nli_contradiction": 0.9971,
+          "tone_gap": 0.410678,
+          "evidence_type": "nli_plus_tone",
+          "claim_preview": "Microsoft is committed to protecting the security of your personal data. We use a variety of security technologies and procedures to help protect your",
+          "practice_preview": ". Device encryption helps protect the data stored on your device by encrypting it using BitLocker Drive Encryption technology. When device encryption "
+        }
+      ],
+      "pwi": 1.0
+    },
+    {
+      "rank": 2,
+      "company": "tesla",
+      "raw_pwi": 0.735623,
+      "contradiction_density": 0.5238,
+      "avg_severity": 0.9474,
+      "n_pairs": 21,
+      "n_contradictions": 11,
+      "mean_nli_contradiction": 0.515,
+      "max_nli_contradiction": 0.9982,
+      "evidence_type_counts": {
+        "nli_plus_tone": 5,
+        "nli": 6,
+        "none": 0
+      },
+      "top_3_contradictions": [
+        {
+          "claim_id": "tesla_020",
+          "practice_id": "tesla_022",
+          "severity": 1.11,
+          "nli_contradiction": 0.9977,
+          "tone_gap": 25.0,
+          "evidence_type": "nli_plus_tone",
+          "claim_preview": "We may share information with:\n\n- Our service providers, business partners and affiliates\n- Third parties you authorize\n- Other third parties as requi",
+          "practice_preview": "| Categories of Recipients | Description | Reason for Sharing |\n|---|---|---|\n| Financial institutions | Companies that process credit applications fo"
+        },
+        {
+          "claim_id": "tesla_020",
+          "practice_id": "tesla_019",
+          "severity": 1.0114,
+          "nli_contradiction": 0.9575,
+          "tone_gap": 12.5,
+          "evidence_type": "nli_plus_tone",
+          "claim_preview": "We may share information with:\n\n- Our service providers, business partners and affiliates\n- Third parties you authorize\n- Other third parties as requi",
+          "practice_preview": "Except as described here, Tesla may also collect, use, and share information that does not, on its own, personally identify you. Such information may "
+        },
+        {
+          "claim_id": "tesla_020",
+          "practice_id": "tesla_007",
+          "severity": 0.9982,
+          "nli_contradiction": 0.9982,
+          "tone_gap": 0.0,
+          "evidence_type": "nli",
+          "claim_preview": "We may share information with:\n\n- Our service providers, business partners and affiliates\n- Third parties you authorize\n- Other third parties as requi",
+          "practice_preview": "| Categories of Data | Description | Purpose and Legal Basis |\n|---|---|---|\n| Order information | Your purchase details, order agreement, trade-in in"
+        }
+      ],
+      "pwi": 0.736
+    },
+    {
+      "rank": 3,
+      "company": "linkedin",
+      "raw_pwi": 0.560262,
+      "contradiction_density": 0.0769,
+      "avg_severity": 1.0436,
+      "n_pairs": 13,
+      "n_contradictions": 1,
+      "mean_nli_contradiction": 0.115,
+      "max_nli_contradiction": 0.9987,
+      "evidence_type_counts": {
+        "nli_plus_tone": 1,
+        "nli": 0,
+        "none": 0
+      },
+      "top_3_contradictions": [
+        {
+          "claim_id": "linkedin_034",
+          "practice_id": "linkedin_009",
+          "severity": 1.0436,
+          "nli_contradiction": 0.9987,
+          "tone_gap": 10.0,
+          "evidence_type": "nli_plus_tone",
+          "claim_preview": "We seek to create economic opportunity for Members of the global workforce and to help them be more productive and successful. We use the personal dat",
+          "practice_preview": "We collect personal data from you when you provide, post or upload it to our Services, such as when you fill out a form, (e.g., with demographic data "
+        }
+      ],
+      "pwi": 0.5606
+    },
+    {
+      "rank": 4,
+      "company": "venmo",
+      "raw_pwi": 0.507894,
+      "contradiction_density": 0.1053,
+      "avg_severity": 0.9105,
+      "n_pairs": 38,
+      "n_contradictions": 4,
+      "mean_nli_contradiction": 0.1087,
+      "max_nli_contradiction": 0.9894,
+      "evidence_type_counts": {
+        "nli_plus_tone": 1,
+        "nli": 3,
+        "none": 0
+      },
+      "top_3_contradictions": [
+        {
+          "claim_id": "venmo_037",
+          "practice_id": "venmo_005",
+          "severity": 0.9894,
+          "nli_contradiction": 0.9894,
+          "tone_gap": 0.0,
+          "evidence_type": "nli",
+          "claim_preview": "2. The categories of third parties to which we (a) disclose such personal information for a business purpose, (b) \"share\" personal information for \"cr",
+          "practice_preview": "Your name, street address, email address, date of birth, and Social Security number (\"SSN\") (or other governmental issued verification numbers)."
+        },
+        {
+          "claim_id": "venmo_037",
+          "practice_id": "venmo_011",
+          "severity": 0.9885,
+          "nli_contradiction": 0.9885,
+          "tone_gap": 0.0,
+          "evidence_type": "nli",
+          "claim_preview": "2. The categories of third parties to which we (a) disclose such personal information for a business purpose, (b) \"share\" personal information for \"cr",
+          "practice_preview": "Call recordings when you talk to customer service or sales.\n\nIncluding business information, contact emails, phone numbers and taxpayer ID numbers."
+        },
+        {
+          "claim_id": "venmo_037",
+          "practice_id": "venmo_026",
+          "severity": 0.9715,
+          "nli_contradiction": 0.97,
+          "tone_gap": 0.3334,
+          "evidence_type": "nli_plus_tone",
+          "claim_preview": "2. The categories of third parties to which we (a) disclose such personal information for a business purpose, (b) \"share\" personal information for \"cr",
+          "practice_preview": "**Identifiers:** An Account Holder provides your name, birthday, address, and phone number. You will create a username/password for online account acc"
+        }
+      ],
+      "pwi": 0.5082
+    },
+    {
+      "rank": 5,
+      "company": "jasper",
+      "raw_pwi": 0.500112,
+      "contradiction_density": 0.0588,
+      "avg_severity": 0.9414,
+      "n_pairs": 17,
+      "n_contradictions": 1,
+      "mean_nli_contradiction": 0.0558,
+      "max_nli_contradiction": 0.9301,
+      "evidence_type_counts": {
+        "nli_plus_tone": 1,
+        "nli": 0,
+        "none": 0
+      },
+      "top_3_contradictions": [
+        {
+          "claim_id": "jasper_034",
+          "practice_id": "jasper_037",
+          "severity": 0.9414,
+          "nli_contradiction": 0.9301,
+          "tone_gap": 2.692929,
+          "evidence_type": "nli_plus_tone",
+          "claim_preview": "We do not sell the personal information of Consumers We actually know are less than 16 years of age, unless We receive affirmative authorization (the",
+          "practice_preview": "You have the right to opt-out of the sale of Your personal information. Once We receive and confirm a verifiable consumer request from You, we will st"
+        }
+      ],
+      "pwi": 0.5004
+    },
+    {
+      "rank": 6,
+      "company": "motorola-solutions",
+      "raw_pwi": 0.299731,
+      "contradiction_density": 0.0385,
+      "avg_severity": 0.561,
+      "n_pairs": 26,
+      "n_contradictions": 1,
+      "mean_nli_contradiction": 0.0308,
+      "max_nli_contradiction": 0.5597,
+      "evidence_type_counts": {
+        "nli_plus_tone": 1,
+        "nli": 0,
+        "none": 0
+      },
+      "top_3_contradictions": [
+        {
+          "claim_id": "motorola-solutions_018",
+          "practice_id": "motorola-solutions_002",
+          "severity": 0.561,
+          "nli_contradiction": 0.5597,
+          "tone_gap": 0.522504,
+          "evidence_type": "nli_plus_tone",
+          "claim_preview": "We disclose all of the categories of personal data we collect to the categories of recipients set forth in the Our Disclosure of Personal Data section",
+          "practice_preview": "We collect the following categories of personal data individuals provide us:\n\n- **Contact Information.** Including first and last name, alias, title, "
+        }
+      ],
+      "pwi": 0.2999
+    },
+    {
+      "rank": 7,
+      "company": "anduril",
+      "raw_pwi": 0.0,
+      "contradiction_density": 0.0,
+      "avg_severity": 0.0,
+      "n_pairs": 1,
+      "n_contradictions": 0,
+      "mean_nli_contradiction": 0.0001,
+      "max_nli_contradiction": 0.0001,
+      "evidence_type_counts": {
+        "nli_plus_tone": 0,
+        "nli": 0,
+        "none": 0
+      },
+      "top_3_contradictions": [],
+      "pwi": 0.0
+    },
+    {
+      "rank": 8,
+      "company": "bumble",
+      "raw_pwi": 0.0,
+      "contradiction_density": 0.0,
+      "avg_severity": 0.0,
+      "n_pairs": 19,
+      "n_contradictions": 0,
+      "mean_nli_contradiction": 0.0014,
+      "max_nli_contradiction": 0.0075,
+      "evidence_type_counts": {
+        "nli_plus_tone": 0,
+        "nli": 0,
+        "none": 0
+      },
+      "top_3_contradictions": [],
+      "pwi": 0.0
+    },
+    {
+      "rank": 9,
+      "company": "github",
+      "raw_pwi": 0.0,
+      "contradiction_density": 0.0,
+      "avg_severity": 0.0,
+      "n_pairs": 6,
+      "n_contradictions": 0,
+      "mean_nli_contradiction": 0.0005,
+      "max_nli_contradiction": 0.0021,
+      "evidence_type_counts": {
+        "nli_plus_tone": 0,
+        "nli": 0,
+        "none": 0
+      },
+      "top_3_contradictions": [],
+      "pwi": 0.0
+    },
+    {
+      "rank": 10,
+      "company": "hilton",
+      "raw_pwi": 0.0,
+      "contradiction_density": 0.0,
+      "avg_severity": 0.0,
+      "n_pairs": 12,
+      "n_contradictions": 0,
+      "mean_nli_contradiction": 0.0037,
+      "max_nli_contradiction": 0.0316,
+      "evidence_type_counts": {
+        "nli_plus_tone": 0,
+        "nli": 0,
+        "none": 0
+      },
+      "top_3_contradictions": [],
+      "pwi": 0.0
+    },
+    {
+      "rank": 11,
+      "company": "khan-academy",
+      "raw_pwi": 0.0,
+      "contradiction_density": 0.0,
+      "avg_severity": 0.0,
+      "n_pairs": 4,
+      "n_contradictions": 0,
+      "mean_nli_contradiction": 0.0,
+      "max_nli_contradiction": 0.0001,
+      "evidence_type_counts": {
+        "nli_plus_tone": 0,
+        "nli": 0,
+        "none": 0
+      },
+      "top_3_contradictions": [],
+      "pwi": 0.0
+    },
+    {
+      "rank": 12,
+      "company": "meta",
+      "raw_pwi": 0.0,
+      "contradiction_density": 0.0,
+      "avg_severity": 0.0,
+      "n_pairs": 99,
+      "n_contradictions": 0,
+      "mean_nli_contradiction": 0.0001,
+      "max_nli_contradiction": 0.0022,
+      "evidence_type_counts": {
+        "nli_plus_tone": 0,
+        "nli": 0,
+        "none": 0
+      },
+      "top_3_contradictions": [],
+      "pwi": 0.0
+    },
+    {
+      "rank": 13,
+      "company": "northrop-grumman",
+      "raw_pwi": 0.0,
+      "contradiction_density": 0.0,
+      "avg_severity": 0.0,
+      "n_pairs": 5,
+      "n_contradictions": 0,
+      "mean_nli_contradiction": 0.0007,
+      "max_nli_contradiction": 0.0014,
+      "evidence_type_counts": {
+        "nli_plus_tone": 0,
+        "nli": 0,
+        "none": 0
+      },
+      "top_3_contradictions": [],
+      "pwi": 0.0
+    },
+    {
+      "rank": 14,
+      "company": "pimeyes",
+      "raw_pwi": 0.0,
+      "contradiction_density": 0.0,
+      "avg_severity": 0.0,
+      "n_pairs": 10,
+      "n_contradictions": 0,
+      "mean_nli_contradiction": 0.0003,
+      "max_nli_contradiction": 0.0009,
+      "evidence_type_counts": {
+        "nli_plus_tone": 0,
+        "nli": 0,
+        "none": 0
+      },
+      "top_3_contradictions": [],
+      "pwi": 0.0
+    },
+    {
+      "rank": 15,
+      "company": "united-airlines",
+      "raw_pwi": 0.0,
+      "contradiction_density": 0.0,
+      "avg_severity": 0.0,
+      "n_pairs": 19,
+      "n_contradictions": 0,
+      "mean_nli_contradiction": 0.0008,
+      "max_nli_contradiction": 0.002,
+      "evidence_type_counts": {
+        "nli_plus_tone": 0,
+        "nli": 0,
+        "none": 0
+      },
+      "top_3_contradictions": [],
+      "pwi": 0.0
+    },
+    {
+      "rank": 16,
+      "company": "xiaomi",
+      "raw_pwi": 0.0,
+      "contradiction_density": 0.0,
+      "avg_severity": 0.0,
+      "n_pairs": 17,
+      "n_contradictions": 0,
+      "mean_nli_contradiction": 0.0008,
+      "max_nli_contradiction": 0.0091,
+      "evidence_type_counts": {
+        "nli_plus_tone": 0,
+        "nli": 0,
+        "none": 0
+      },
+      "top_3_contradictions": [],
+      "pwi": 0.0
+    },
+    {
+      "rank": 17,
+      "company": "zillow",
+      "raw_pwi": 0.0,
+      "contradiction_density": 0.0,
+      "avg_severity": 0.0,
+      "n_pairs": 10,
+      "n_contradictions": 0,
+      "mean_nli_contradiction": 0.0008,
+      "max_nli_contradiction": 0.0022,
+      "evidence_type_counts": {
+        "nli_plus_tone": 0,
+        "nli": 0,
+        "none": 0
+      },
+      "top_3_contradictions": [],
+      "pwi": 0.0
+    }
+  ],
+  "category_analysis": {
+    "AUTOMATED_DECISIONS": {
+      "n_pairs": 6,
+      "n_practice_segments": 4,
+      "mean_severity": 0.0,
+      "mean_tone_gap": 12.4987,
+      "median_tone_gap": 4.1662,
+      "mean_nli_contradiction": 0.0024,
+      "nli_contradiction_rate": 0.0,
+      "mean_hedging": 0.3125,
+      "mean_specificity": 0.0,
+      "mean_vagueness": 0.0063
+    },
+    "FIRST_PARTY": {
+      "n_pairs": 155,
+      "n_practice_segments": 144,
+      "mean_severity": 0.0811,
+      "mean_tone_gap": 6.631,
+      "median_tone_gap": 2.6935,
+      "mean_nli_contradiction": 0.0908,
+      "nli_contradiction_rate": 0.0903,
+      "mean_hedging": 0.3539,
+      "mean_specificity": 0.0287,
+      "mean_vagueness": 0.0189
+    },
+    "RETENTION": {
+      "n_pairs": 20,
+      "n_practice_segments": 18,
+      "mean_severity": 0.0,
+      "mean_tone_gap": 13.9332,
+      "median_tone_gap": 12.5,
+      "mean_nli_contradiction": 0.001,
+      "nli_contradiction_rate": 0.0,
+      "mean_hedging": 0.5193,
+      "mean_specificity": 0.0125,
+      "mean_vagueness": 0.0177
+    },
+    "SALE_SHARING": {
+      "n_pairs": 9,
+      "n_practice_segments": 8,
+      "mean_severity": 0.1046,
+      "mean_tone_gap": 1.9868,
+      "median_tone_gap": 1.5464,
+      "mean_nli_contradiction": 0.1041,
+      "nli_contradiction_rate": 0.1111,
+      "mean_hedging": 0.1708,
+      "mean_specificity": 0.0331,
+      "mean_vagueness": 0.0135
+    },
+    "SECURITY": {
+      "n_pairs": 30,
+      "n_practice_segments": 20,
+      "mean_severity": 0.0333,
+      "mean_tone_gap": 3.4835,
+      "median_tone_gap": 0.2053,
+      "mean_nli_contradiction": 0.035,
+      "nli_contradiction_rate": 0.0333,
+      "mean_hedging": 0.0954,
+      "mean_specificity": 0.0239,
+      "mean_vagueness": 0.0097
+    },
+    "SENSITIVE_DATA": {
+      "n_pairs": 10,
+      "n_practice_segments": 9,
+      "mean_severity": 0.0989,
+      "mean_tone_gap": 6.3344,
+      "median_tone_gap": 2.761,
+      "mean_nli_contradiction": 0.1,
+      "nli_contradiction_rate": 0.1,
+      "mean_hedging": 0.363,
+      "mean_specificity": 0.0516,
+      "mean_vagueness": 0.0227
+    },
+    "THIRD_PARTY": {
+      "n_pairs": 74,
+      "n_practice_segments": 68,
+      "mean_severity": 0.0284,
+      "mean_tone_gap": 7.8471,
+      "median_tone_gap": 3.6631,
+      "mean_nli_contradiction": 0.0275,
+      "nli_contradiction_rate": 0.027,
+      "mean_hedging": 0.3981,
+      "mean_specificity": 0.0259,
+      "mean_vagueness": 0.0309
+    },
+    "TRACKING": {
+      "n_pairs": 14,
+      "n_practice_segments": 11,
+      "mean_severity": 0.0,
+      "mean_tone_gap": 2.5054,
+      "median_tone_gap": 2.5708,
+      "mean_nli_contradiction": 0.0129,
+      "nli_contradiction_rate": 0.0,
+      "mean_hedging": 0.2797,
+      "mean_specificity": 0.0434,
+      "mean_vagueness": 0.0194
+    }
+  },
+  "enforcement_validation": {
+    "n_enforced": 3,
+    "n_non_enforced": 14,
+    "enforcement_companies_missing_from_analysis": [
+      "adobe",
+      "amazon",
+      "att",
+      "avast",
+      "babel-street",
+      "betterhelp",
+      "cerebral",
+      "clearview-ai",
+      "draftkings",
+      "epic-games",
+      "fanduel",
+      "google",
+      "gravy-analytics",
+      "grindr",
+      "kochava",
+      "lexisnexis",
+      "monument",
+      "ngl",
+      "premom",
+      "roblox",
+      "safegraph",
+      "t-mobile",
+      "tiktok",
+      "tinder",
+      "uber",
+      "verizon",
+      "vonage",
+      "x-mode-social"
+    ],
+    "enforced_pwi_mean": 0.1869,
+    "enforced_pwi_ci_95": [
+      0.0,
+      0.5606
+    ],
+    "non_enforced_pwi_mean": 0.2175,
+    "non_enforced_pwi_ci_95": [
+      0.0577,
+      0.3998
+    ],
+    "mean_difference": -0.0306,
+    "mann_whitney_u": 21.0,
+    "mann_whitney_p": 1.0,
+    "cohens_d": -0.0912,
+    "cohens_d_ci_95": [
+      -0.9923,
+      1.3277
+    ],
+    "cohens_d_interpretation": "negligible",
+    "roc_auc": 0.5,
+    "roc_auc_ci_95": [
+      0.2308,
+      0.9333
+    ],
+    "note": "Results are exploratory/hypothesis-generating given modest sample size (N=17 companies, 3 enforced). Bootstrap N=10,000."
+  }
+}

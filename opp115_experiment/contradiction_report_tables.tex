@@ -1,0 +1,67 @@
+% Table 1: Top 20 Privacy Washers
+\begin{table*}[t]
+\centering
+\caption{Top 20 companies by Privacy Washing Index (PWI). Enforcement-actioned companies marked with $\dagger$.}
+\label{tab:top20}
+\begin{tabular}{rlccccl}
+\toprule
+Rank & Company & PWI & Density & Severity & Pairs & Evidence \\
+\midrule
+1 & Sciencemag.Org & 1.000 & 1.000 & 0.972 & 1 & NT:1 N:0 \\
+2 & Sheknows.Com & 0.631 & 0.250 & 0.995 & 4 & NT:0 N:1 \\
+3 & Latinpost.Com & 0.621 & 0.263 & 0.962 & 57 & NT:11 N:4 \\
+4 & Taylorswift.Com & 0.613 & 0.250 & 0.959 & 12 & NT:1 N:2 \\
+5 & Meredith.Com & 0.587 & 0.167 & 0.992 & 24 & NT:2 N:2 \\
+6 & Theatlantic.Com & 0.573 & 0.118 & 1.013 & 17 & NT:1 N:1 \\
+7 & Adweek.Com & 0.568 & 0.100 & 1.020 & 10 & NT:1 N:0 \\
+8 & Ocregister.Com & 0.563 & 0.083 & 1.027 & 12 & NT:1 N:0 \\
+9 & Voxmedia.Com & 0.549 & 0.067 & 1.017 & 30 & NT:2 N:0 \\
+10 & Barnesandnoble.Com & 0.549 & 0.024 & 1.059 & 41 & NT:1 N:0 \\
+11 & Abcnews.Com & 0.542 & 0.062 & 1.007 & 16 & NT:1 N:0 \\
+12 & Nytimes.Com & 0.536 & 0.075 & 0.983 & 53 & NT:4 N:0 \\
+13 & Allstate.Com & 0.536 & 0.056 & 1.002 & 18 & NT:1 N:0 \\
+14 & Pbs.Org & 0.524 & 0.053 & 0.980 & 19 & NT:1 N:0 \\
+15 & Lynda.Com & 0.497 & 0.082 & 0.898 & 73 & NT:2 N:4 \\
+16 & Reddit.Com & 0.482 & 0.033 & 0.917 & 60 & NT:2 N:0 \\
+17 & Kraftrecipes.Com & 0.481 & 0.030 & 0.919 & 33 & NT:0 N:1 \\
+18 & Sidearmsports.Com & 0.413 & 0.056 & 0.760 & 54 & NT:2 N:1 \\
+19 & Lids.Com & 0.385 & 0.100 & 0.660 & 10 & NT:0 N:1 \\
+20 & Mlb.Mlb.Com & 0.359 & 0.048 & 0.660 & 21 & NT:1 N:0 \\
+\bottomrule
+\end{tabular}
+\end{table*}
+
+% Table 2: Per-OPPT Category Contradiction Analysis
+\begin{table}[t]
+\centering
+\caption{Rhetorical contradiction metrics by OPPT practice category, sorted by severity.}
+\label{tab:categories}
+\begin{tabular}{lccccc}
+\toprule
+Category & Pairs & Severity & NLI Rate & Hedging & Specificity \\
+\midrule
+THIRD\\_PARTY & 297 & 0.0728 & 0.077 & 0.542 & 0.0402 \\
+FIRST\\_PARTY & 392 & 0.0575 & 0.061 & 0.463 & 0.0453 \\
+SECURITY & 112 & 0.0436 & 0.045 & 0.160 & 0.0527 \\
+RETENTION & 18 & 0.0000 & 0.000 & 0.344 & 0.0444 \\
+TRACKING & 1 & 0.0000 & 0.000 & 0.500 & 0.0702 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+% Table 3: Enforcement Validation
+\begin{table}[t]
+\centering
+\caption{Privacy Washing Index vs. regulatory enforcement history. Bootstrap 95\% CIs (N=10,000).}
+\label{tab:enforcement}
+\begin{tabular}{lcc}
+\toprule
+Metric & Value & 95\% CI \\
+\midrule
+Enforced mean PWI (n=0) & nan & [nan, nan] \\
+Non-enforced mean PWI (n=43) & 0.2561 & [0.1728, 0.3425] \\
+Mann-Whitney U & nan & $p=nan$ \\
+Cohen's $d$ & 0.0000 & [0.0000, 0.0000] \\
+\bottomrule
+\end{tabular}
+\end{table}

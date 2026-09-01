@@ -1,0 +1,68 @@
+% Table 1: Top 20 Privacy Washers
+\begin{table*}[t]
+\centering
+\caption{Top 20 companies by Privacy Washing Index (PWI). Enforcement-actioned companies marked with $\dagger$.}
+\label{tab:top20}
+\begin{tabular}{rlccccl}
+\toprule
+Rank & Company & PWI & Density & Severity & Pairs & Evidence \\
+\midrule
+1 & Microsoft & 1.000 & 1.000 & 0.999 & 1 & NT:1 N:0 \\
+2 & Tesla & 0.736 & 0.524 & 0.947 & 21 & NT:5 N:6 \\
+3 & Linkedin$^\dagger$ & 0.561 & 0.077 & 1.044 & 13 & NT:1 N:0 \\
+4 & Venmo & 0.508 & 0.105 & 0.910 & 38 & NT:1 N:3 \\
+5 & Jasper & 0.500 & 0.059 & 0.941 & 17 & NT:1 N:0 \\
+6 & Motorola Solutions & 0.300 & 0.038 & 0.561 & 26 & NT:1 N:0 \\
+7 & Anduril & 0.000 & 0.000 & 0.000 & 1 & NT:0 N:0 \\
+8 & Bumble$^\dagger$ & 0.000 & 0.000 & 0.000 & 19 & NT:0 N:0 \\
+9 & Github & 0.000 & 0.000 & 0.000 & 6 & NT:0 N:0 \\
+10 & Hilton & 0.000 & 0.000 & 0.000 & 12 & NT:0 N:0 \\
+11 & Khan Academy & 0.000 & 0.000 & 0.000 & 4 & NT:0 N:0 \\
+12 & Meta$^\dagger$ & 0.000 & 0.000 & 0.000 & 99 & NT:0 N:0 \\
+13 & Northrop Grumman & 0.000 & 0.000 & 0.000 & 5 & NT:0 N:0 \\
+14 & Pimeyes & 0.000 & 0.000 & 0.000 & 10 & NT:0 N:0 \\
+15 & United Airlines & 0.000 & 0.000 & 0.000 & 19 & NT:0 N:0 \\
+16 & Xiaomi & 0.000 & 0.000 & 0.000 & 17 & NT:0 N:0 \\
+17 & Zillow & 0.000 & 0.000 & 0.000 & 10 & NT:0 N:0 \\
+\bottomrule
+\end{tabular}
+\end{table*}
+
+% Table 2: Per-OPPT Category Contradiction Analysis
+\begin{table}[t]
+\centering
+\caption{Rhetorical contradiction metrics by OPPT practice category, sorted by severity.}
+\label{tab:categories}
+\begin{tabular}{lccccc}
+\toprule
+Category & Pairs & Severity & NLI Rate & Hedging & Specificity \\
+\midrule
+SALE\\_SHARING & 9 & 0.1046 & 0.111 & 0.171 & 0.0331 \\
+SENSITIVE\\_DATA & 10 & 0.0989 & 0.100 & 0.363 & 0.0516 \\
+FIRST\\_PARTY & 155 & 0.0811 & 0.090 & 0.354 & 0.0287 \\
+SECURITY & 30 & 0.0333 & 0.033 & 0.095 & 0.0239 \\
+THIRD\\_PARTY & 74 & 0.0284 & 0.027 & 0.398 & 0.0259 \\
+AUTOMATED\\_DECISIONS & 6 & 0.0000 & 0.000 & 0.312 & 0.0000 \\
+RETENTION & 20 & 0.0000 & 0.000 & 0.519 & 0.0125 \\
+TRACKING & 14 & 0.0000 & 0.000 & 0.280 & 0.0434 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+% Table 3: Enforcement Validation
+\begin{table}[t]
+\centering
+\caption{Privacy Washing Index vs. regulatory enforcement history. Bootstrap 95\% CIs (N=10,000).}
+\label{tab:enforcement}
+\begin{tabular}{lcc}
+\toprule
+Metric & Value & 95\% CI \\
+\midrule
+Enforced mean PWI (n=3) & 0.1869 & [0.0000, 0.5606] \\
+Non-enforced mean PWI (n=14) & 0.2175 & [0.0577, 0.3998] \\
+Mann-Whitney U & 21.0 & $p=1.0000$ \\
+Cohen's $d$ & -0.0912 & [-0.9923, 1.3277] \\
+ROC-AUC & 0.5000 & [0.2308, 0.9333] \\
+\bottomrule
+\end{tabular}
+\end{table}

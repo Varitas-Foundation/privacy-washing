@@ -1,0 +1,196 @@
+Classifier panel:
+  anthropic/claude-haiku-4.5
+  openai/gpt-5.6-luna
+  google/gemini-3.7-flash
+
+============================================================
+AUDITING OPPT STABILITY-RUN CONTRADICTIONS
+============================================================
+  Unique commitment statements to classify: 38
+  [1/38] duolingo: COMMITMENT -> COMPANY_COMMITMENT (unanimous)
+  [2/38] duolingo: COMMITMENT -> COMPANY_COMMITMENT (unanimous)
+  [3/38] khan-academy: COMMITMENT -> COMPANY_COMMITMENT (unanimous)
+  [4/38] flock-safety: COMMITMENT -> COMPANY_COMMITMENT (unanimous)
+  [5/38] github: COMMITMENT -> COMPANY_COMMITMENT (unanimous)
+  [6/38] xiaomi: COMMITMENT -> COMPANY_COMMITMENT (unanimous)
+  [7/38] duolingo: COMMITMENT -> COMPANY_COMMITMENT (unanimous)
+  [8/38] sosi: COMMITMENT -> COMPANY_COMMITMENT (unanimous)
+  [9/38] twitch: COMMITMENT -> COMPANY_COMMITMENT (unanimous)
+  [10/38] ngl: COMMITMENT -> PRACTICE (unanimous) *** MISLABELED ***
+  [11/38] ngl: COMMITMENT -> COMPANY_COMMITMENT (unanimous)
+  [12/38] roblox: COMMITMENT -> PRACTICE (majority) *** MISLABELED ***
+  [13/38] roblox: COMMITMENT -> COMPANY_COMMITMENT (unanimous)
+  [14/38] roblox: COMMITMENT -> COMPANY_COMMITMENT (unanimous)
+  [15/38] venmo: COMMITMENT -> COMPANY_COMMITMENT (unanimous)
+  [16/38] microsoft: COMMITMENT -> COMPANY_COMMITMENT (unanimous)
+  [17/38] peloton: COMMITMENT -> COMPANY_COMMITMENT (unanimous)
+  [18/38] monument: COMMITMENT -> COMPANY_COMMITMENT (unanimous)
+  [19/38] meta: COMMITMENT -> COMPANY_COMMITMENT (unanimous)
+  [20/38] nordvpn: COMMITMENT -> COMPANY_COMMITMENT (unanimous)
+  [21/38] uber: COMMITMENT -> COMPANY_COMMITMENT (unanimous)
+  [22/38] perplexity: COMMITMENT -> COMPANY_COMMITMENT (unanimous)
+  [23/38] microsoft: COMMITMENT -> COMPANY_COMMITMENT (unanimous)
+  [24/38] t-mobile: COMMITMENT -> COMPANY_COMMITMENT (unanimous)
+  [25/38] microsoft: COMMITMENT -> COMPANY_COMMITMENT (unanimous)
+  [26/38] duolingo: COMMITMENT -> COMPANY_COMMITMENT (unanimous)
+  [27/38] geo-group: COMMITMENT -> COMPANY_COMMITMENT (unanimous)
+  [28/38] betterhelp: COMMITMENT -> COMPANY_COMMITMENT (unanimous)
+  [29/38] betterhelp: COMMITMENT -> COMPANY_COMMITMENT (unanimous)
+  [30/38] stripe: COMMITMENT -> COMPANY_COMMITMENT (unanimous)
+  [31/38] walmart: COMMITMENT -> COMPANY_COMMITMENT (unanimous)
+  [32/38] pimeyes: COMMITMENT -> COMPANY_COMMITMENT (unanimous)
+  [33/38] venmo: COMMITMENT -> COMPANY_COMMITMENT (unanimous)
+  [34/38] meta: COMMITMENT -> COMPANY_COMMITMENT (unanimous)
+  [35/38] hilton: COMMITMENT -> COMPANY_COMMITMENT (unanimous)
+  [36/38] jasper: COMMITMENT -> COMPANY_COMMITMENT (unanimous)
+  [37/38] meta: COMMITMENT -> COMPANY_COMMITMENT (unanimous)
+  [38/38] t-mobile: COMMITMENT -> COMPANY_COMMITMENT (unanimous)
+
+  SUMMARY for OPPT:
+    Correctly labeled COMPANY_COMMITMENT: 36/38
+    Reclassified to USER_CONTROL: 0
+    Reclassified to PRACTICE: 2
+    Affected contradictions: 2/56 (3.6%)
+
+  RECLASSIFIED STATEMENTS:
+    [ngl] PRACTICE (was COMMITMENT) x1:
+      "Analytics cookies collect aggregated, anonymous data that does not identify individual users."
+    [roblox] PRACTICE (was COMMITMENT) x1:
+      "Children are not required to provide a parent email address to create a Roblox account."
+
+============================================================
+AUDITING OPP115 STABILITY-RUN CONTRADICTIONS
+============================================================
+  Unique commitment statements to classify: 98
+  [1/98] usa.gov: COMMITMENT -> PRACTICE (majority) *** MISLABELED ***
+  [2/98] barnesandnoble.com: COMMITMENT -> COMPANY_COMMITMENT (unanimous)
+  [3/98] abcnews.com: COMMITMENT -> COMPANY_COMMITMENT (unanimous)
+  [4/98] esquire.com: COMMITMENT -> COMPANY_COMMITMENT (unanimous)
+  [5/98] rockstargames.com: COMMITMENT -> COMPANY_COMMITMENT (majority)
+  [6/98] voxmedia.com: COMMITMENT -> COMPANY_COMMITMENT (unanimous)
+  [7/98] jibjab.com: COMMITMENT -> COMPANY_COMMITMENT (unanimous)
+  [8/98] disinfo.com: COMMITMENT -> PRACTICE (majority) *** MISLABELED ***
+  [9/98] honda.com: COMMITMENT -> COMPANY_COMMITMENT (unanimous)
+  [10/98] fortune.com: COMMITMENT -> COMPANY_COMMITMENT (unanimous)
+  [11/98] theatlantic.com: COMMITMENT -> COMPANY_COMMITMENT (majority)
+  [12/98] sltrib.com: COMMITMENT -> COMPANY_COMMITMENT (unanimous)
+  [13/98] nytimes.com: COMMITMENT -> COMPANY_COMMITMENT (unanimous)
+  [14/98] latinpost.com: COMMITMENT -> COMPANY_COMMITMENT (unanimous)
+  [15/98] honda.com: COMMITMENT -> COMPANY_COMMITMENT (unanimous)
+  [16/98] honda.com: COMMITMENT -> COMPANY_COMMITMENT (unanimous)
+  [17/98] honda.com: COMMITMENT -> COMPANY_COMMITMENT (unanimous)
+  [18/98] imdb.com: COMMITMENT -> COMPANY_COMMITMENT (unanimous)
+  [19/98] rockstargames.com: COMMITMENT -> COMPANY_COMMITMENT (unanimous)
+  [20/98] rockstargames.com: COMMITMENT -> PRACTICE (majority) *** MISLABELED ***
+  [21/98] style.com: COMMITMENT -> PRACTICE (unanimous) *** MISLABELED ***
+  [22/98] sidearmsports.com: COMMITMENT -> COMPANY_COMMITMENT (unanimous)
+  [23/98] si.edu: COMMITMENT -> COMPANY_COMMITMENT (unanimous)
+  [24/98] rockstargames.com: COMMITMENT -> COMPANY_COMMITMENT (unanimous)
+  [25/98] wsmv.com: COMMITMENT -> COMPANY_COMMITMENT (unanimous)
+  [26/98] imdb.com: COMMITMENT -> COMPANY_COMMITMENT (unanimous)
+  [27/98] military.com: COMMITMENT -> COMPANY_COMMITMENT (majority)
+  [28/98] dailynews.com: COMMITMENT -> COMPANY_COMMITMENT (unanimous)
+  [29/98] neworleansonline.com: COMMITMENT -> COMPANY_COMMITMENT (unanimous)
+  [30/98] cincymuseum.org: COMMITMENT -> COMPANY_COMMITMENT (unanimous)
+  [31/98] lynda.com: COMMITMENT -> COMPANY_COMMITMENT (unanimous)
+  [32/98] rockstargames.com: COMMITMENT -> COMPANY_COMMITMENT (unanimous)
+  [33/98] kaleidahealth.org: COMMITMENT -> COMPANY_COMMITMENT (unanimous)
+  [34/98] style.com: COMMITMENT -> COMPANY_COMMITMENT (unanimous)
+  [35/98] barnesandnoble.com: COMMITMENT -> COMPANY_COMMITMENT (unanimous)
+  [36/98] sheknows.com: COMMITMENT -> COMPANY_COMMITMENT (unanimous)
+  [37/98] zacks.com: COMMITMENT -> COMPANY_COMMITMENT (unanimous)
+  [38/98] honda.com: COMMITMENT -> COMPANY_COMMITMENT (unanimous)
+  [39/98] honda.com: COMMITMENT -> COMPANY_COMMITMENT (unanimous)
+  [40/98] adweek.com: COMMITMENT -> COMPANY_COMMITMENT (unanimous)
+  [41/98] tulsaworld.com: COMMITMENT -> PRACTICE (majority) *** MISLABELED ***
+  [42/98] reddit.com: COMMITMENT -> COMPANY_COMMITMENT (unanimous)
+  [43/98] reddit.com: COMMITMENT -> COMPANY_COMMITMENT (unanimous)
+  [44/98] timeinc.com: COMMITMENT -> COMPANY_COMMITMENT (unanimous)
+  [45/98] fool.com: COMMITMENT -> COMPANY_COMMITMENT (unanimous)
+  [46/98] honda.com: COMMITMENT -> COMPANY_COMMITMENT (unanimous)
+  [47/98] internetbrands.com: COMMITMENT -> COMPANY_COMMITMENT (unanimous)
+  [48/98] pbs.org: COMMITMENT -> COMPANY_COMMITMENT (unanimous)
+  [49/98] stlouisfed.org: COMMITMENT -> COMPANY_COMMITMENT (unanimous)
+  [50/98] miaminewtimes.com: COMMITMENT -> COMPANY_COMMITMENT (unanimous)
+  [51/98] barnesandnoble.com: COMMITMENT -> COMPANY_COMMITMENT (unanimous)
+  [52/98] pbs.org: COMMITMENT -> COMPANY_COMMITMENT (unanimous)
+  [53/98] sheknows.com: COMMITMENT -> COMPANY_COMMITMENT (unanimous)
+  [54/98] fool.com: COMMITMENT -> COMPANY_COMMITMENT (unanimous)
+  [55/98] sidearmsports.com: COMMITMENT -> COMPANY_COMMITMENT (unanimous)
+  [56/98] archives.gov: COMMITMENT -> COMPANY_COMMITMENT (unanimous)
+  [57/98] randomhouse.com: COMMITMENT -> COMPANY_COMMITMENT (unanimous)
+  [58/98] reddit.com: COMMITMENT -> USER_CONTROL (unanimous) *** MISLABELED ***
+  [59/98] latinpost.com: COMMITMENT -> COMPANY_COMMITMENT (unanimous)
+  [60/98] sidearmsports.com: COMMITMENT -> COMPANY_COMMITMENT (unanimous)
+  [61/98] reddit.com: COMMITMENT -> COMPANY_COMMITMENT (unanimous)
+  [62/98] barnesandnoble.com: COMMITMENT -> PRACTICE (unanimous) *** MISLABELED ***
+  [63/98] fool.com: COMMITMENT -> COMPANY_COMMITMENT (unanimous)
+  [64/98] archives.gov: COMMITMENT -> PRACTICE (majority) *** MISLABELED ***
+  [65/98] buffalowildwings.com: COMMITMENT -> COMPANY_COMMITMENT (majority)
+  [66/98] randomhouse.com: COMMITMENT -> COMPANY_COMMITMENT (unanimous)
+  [67/98] acbj.com: COMMITMENT -> COMPANY_COMMITMENT (unanimous)
+  [68/98] sidearmsports.com: COMMITMENT -> COMPANY_COMMITMENT (unanimous)
+  [69/98] reddit.com: COMMITMENT -> COMPANY_COMMITMENT (unanimous)
+  [70/98] mlb.mlb.com: COMMITMENT -> COMPANY_COMMITMENT (unanimous)
+  [71/98] google.com: COMMITMENT -> COMPANY_COMMITMENT (unanimous)
+  [72/98] foodallergy.org: COMMITMENT -> COMPANY_COMMITMENT (unanimous)
+  [73/98] reddit.com: COMMITMENT -> COMPANY_COMMITMENT (unanimous)
+  [74/98] military.com: COMMITMENT -> COMPANY_COMMITMENT (unanimous)
+  [75/98] cariboucoffee.com: COMMITMENT -> COMPANY_COMMITMENT (majority)
+  [76/98] reddit.com: COMMITMENT -> COMPANY_COMMITMENT (unanimous)
+  [77/98] kraftrecipes.com: COMMITMENT -> COMPANY_COMMITMENT (unanimous)
+  [78/98] randomhouse.com: COMMITMENT -> COMPANY_COMMITMENT (unanimous)
+  [79/98] fool.com: COMMITMENT -> USER_CONTROL (unanimous) *** MISLABELED ***
+  [80/98] www.loc.gov: COMMITMENT -> COMPANY_COMMITMENT (majority)
+  [81/98] meredith.com: COMMITMENT -> COMPANY_COMMITMENT (unanimous)
+  [82/98] archives.gov: COMMITMENT -> COMPANY_COMMITMENT (unanimous)
+  [83/98] redorbit.com: COMMITMENT -> COMPANY_COMMITMENT (majority)
+  [84/98] esquire.com: COMMITMENT -> COMPANY_COMMITMENT (majority)
+  [85/98] usa.gov: COMMITMENT -> COMPANY_COMMITMENT (unanimous)
+  [86/98] dailynews.com: COMMITMENT -> COMPANY_COMMITMENT (unanimous)
+  [87/98] randomhouse.com: COMMITMENT -> COMPANY_COMMITMENT (unanimous)
+  [88/98] www.loc.gov: COMMITMENT -> COMPANY_COMMITMENT (unanimous)
+  [89/98] sheknows.com: COMMITMENT -> PRACTICE (majority) *** MISLABELED ***
+  [90/98] post-gazette.com: COMMITMENT -> COMPANY_COMMITMENT (majority)
+  [91/98] kraftrecipes.com: COMMITMENT -> COMPANY_COMMITMENT (unanimous)
+  [92/98] archives.gov: COMMITMENT -> COMPANY_COMMITMENT (unanimous)
+  [93/98] reddit.com: COMMITMENT -> COMPANY_COMMITMENT (majority)
+  [94/98] acbj.com: COMMITMENT -> COMPANY_COMMITMENT (unanimous)
+  [95/98] dailynews.com: COMMITMENT -> COMPANY_COMMITMENT (unanimous)
+  [96/98] latinpost.com: COMMITMENT -> COMPANY_COMMITMENT (unanimous)
+  [97/98] pbs.org: COMMITMENT -> PRACTICE (unanimous) *** MISLABELED ***
+  [98/98] redorbit.com: COMMITMENT -> PRACTICE (majority) *** MISLABELED ***
+
+  SUMMARY for OPP115:
+    Correctly labeled COMPANY_COMMITMENT: 86/98
+    Reclassified to USER_CONTROL: 2
+    Reclassified to PRACTICE: 10
+    Affected contradictions: 15/155 (9.7%)
+
+  RECLASSIFIED STATEMENTS:
+    [usa.gov] PRACTICE (was COMMITMENT) x2:
+      "The site functions and provides service without persistent cookies."
+    [disinfo.com] PRACTICE (was COMMITMENT) x3:
+      "The company does not currently collect non-personal information such as browser type, URL, ISP, or operating system."
+    [rockstargames.com] PRACTICE (was COMMITMENT) x1:
+      "Flash cookies collect data only in the aggregate, not including personal identifiers or email addresses."
+    [style.com] PRACTICE (was COMMITMENT) x1:
+      "The company collects personally identifiable information with user specific knowledge and consent."
+    [tulsaworld.com] PRACTICE (was COMMITMENT) x1:
+      "Research data collected by Tulsaworld.com are aggregated and do not include data about specific individuals."
+    [reddit.com] USER_CONTROL (was COMMITMENT) x1:
+      "Reddit allows user participation to remain as anonymous as the user chooses."
+    [barnesandnoble.com] PRACTICE (was COMMITMENT) x1:
+      "Barnes & Noble's treatment of co-branded service information is governed by its privacy policy."
+    [archives.gov] PRACTICE (was COMMITMENT) x1:
+      "The company’s cookies record only that a visitor had the opportunity to answer the survey questions."
+    [fool.com] USER_CONTROL (was COMMITMENT) x1:
+      "Users are not required to provide personal information requested by the company."
+    [sheknows.com] PRACTICE (was COMMITMENT) x1:
+      "Cookies do not collect personal information from which individual identity can be established."
+    [pbs.org] PRACTICE (was COMMITMENT) x1:
+      "Collected information does not identify users personally."
+    [redorbit.com] PRACTICE (was COMMITMENT) x1:
+      "Clear gifs are not tied to users' personally identifiable information."
+
+Saved audit to /Users/tbrack/Documents/Projects/Varitas/Varitas/varitas-foundation/research/privacy_washing/stability_contradiction_audit.json

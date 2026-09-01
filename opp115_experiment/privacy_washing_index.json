@@ -1,0 +1,1283 @@
+{
+  "generated_at": "2026-01-26T21:27:50.903733+00:00",
+  "config": {
+    "contradiction_detection": "NLI-primary: is_contradiction = (nli_contradiction >= 0.5)",
+    "pwi_formula": "0.5 * contradiction_density + 0.5 * avg_severity",
+    "severity_formula": "nli_contradiction * (1 + 0.3 * tone_gap_normalized)",
+    "normalization": "min-max to [0, 1]",
+    "enforcement_companies_total": 31
+  },
+  "summary": {
+    "companies_scored": 43,
+    "mean_pwi": 0.2561,
+    "median_pwi": 0.0,
+    "std_pwi": 0.2877
+  },
+  "company_rankings": [
+    {
+      "rank": 1,
+      "company": "sciencemag.org",
+      "raw_pwi": 0.9861,
+      "contradiction_density": 1.0,
+      "avg_severity": 0.9722,
+      "n_pairs": 1,
+      "n_contradictions": 1,
+      "mean_nli_contradiction": 0.9661,
+      "max_nli_contradiction": 0.9661,
+      "evidence_type_counts": {
+        "nli_plus_tone": 1,
+        "nli": 0,
+        "none": 0
+      },
+      "top_3_contradictions": [
+        {
+          "claim_id": "sciencemag.org_030",
+          "practice_id": "sciencemag.org_031",
+          "severity": 0.9722,
+          "nli_contradiction": 0.9661,
+          "tone_gap": 3.140704,
+          "evidence_type": "nli_plus_tone",
+          "claim_preview": "SECURITY We implement reasonable technical and organizational measures designed to secure your personal information from accidental loss and from unau",
+          "practice_preview": "The SSL encrypts, or translates, your order information into a highly indecipherable code, which is processed immediately. When you've finished your t"
+        }
+      ],
+      "pwi": 1.0
+    },
+    {
+      "rank": 2,
+      "company": "sheknows.com",
+      "raw_pwi": 0.62235,
+      "contradiction_density": 0.25,
+      "avg_severity": 0.9947,
+      "n_pairs": 4,
+      "n_contradictions": 1,
+      "mean_nli_contradiction": 0.2487,
+      "max_nli_contradiction": 0.9947,
+      "evidence_type_counts": {
+        "nli_plus_tone": 0,
+        "nli": 1,
+        "none": 0
+      },
+      "top_3_contradictions": [
+        {
+          "claim_id": "sheknows.com_032",
+          "practice_id": "sheknows.com_033",
+          "severity": 0.9947,
+          "nli_contradiction": 0.9947,
+          "tone_gap": 0.0,
+          "evidence_type": "nli",
+          "claim_preview": "To protect your privacy and security, we take reasonable steps (such as requesting a unique password) to verify your identity before granting you acce",
+          "practice_preview": "Compromise of Personal Information In the event that personal information is compromised as a result of a breach of security, Company will take commer"
+        }
+      ],
+      "pwi": 0.6311
+    },
+    {
+      "rank": 3,
+      "company": "latinpost.com",
+      "raw_pwi": 0.612362,
+      "contradiction_density": 0.2632,
+      "avg_severity": 0.9616,
+      "n_pairs": 57,
+      "n_contradictions": 15,
+      "mean_nli_contradiction": 0.2636,
+      "max_nli_contradiction": 0.9984,
+      "evidence_type_counts": {
+        "nli_plus_tone": 11,
+        "nli": 4,
+        "none": 0
+      },
+      "top_3_contradictions": [
+        {
+          "claim_id": "latinpost.com_057",
+          "practice_id": "latinpost.com_078",
+          "severity": 0.9984,
+          "nli_contradiction": 0.9984,
+          "tone_gap": 0.0,
+          "evidence_type": "nli",
+          "claim_preview": "d. Use of Information. Latin Post will not use a wireless telephone number, wireless or conventional Internet email address, or other Information subm",
+          "practice_preview": "Phishing. Phishing attacks attempt to steal consumers' personal identity data and financial account credentials. \"Phishers\" use 'spoofed' e-mails to l"
+        },
+        {
+          "claim_id": "latinpost.com_057",
+          "practice_id": "latinpost.com_018",
+          "severity": 0.9959,
+          "nli_contradiction": 0.9751,
+          "tone_gap": 10.660981,
+          "evidence_type": "nli_plus_tone",
+          "claim_preview": "d. Use of Information. Latin Post will not use a wireless telephone number, wireless or conventional Internet email address, or other Information subm",
+          "practice_preview": "Sending marketing and promotional e-mails or, subject to the \"Wireless Marketing Services and Associated Promotional Opportunities\" Section below, tex"
+        },
+        {
+          "claim_id": "latinpost.com_057",
+          "practice_id": "latinpost.com_029",
+          "severity": 0.9925,
+          "nli_contradiction": 0.9925,
+          "tone_gap": 0.0,
+          "evidence_type": "nli",
+          "claim_preview": "d. Use of Information. Latin Post will not use a wireless telephone number, wireless or conventional Internet email address, or other Information subm",
+          "practice_preview": "ii. Other Information Collected by Us. We, and/or our Parent Companies and Affiliates, use the Other Information we collect from you in a variety of w"
+        }
+      ],
+      "pwi": 0.621
+    },
+    {
+      "rank": 4,
+      "company": "taylorswift.com",
+      "raw_pwi": 0.6046,
+      "contradiction_density": 0.25,
+      "avg_severity": 0.9592,
+      "n_pairs": 12,
+      "n_contradictions": 3,
+      "mean_nli_contradiction": 0.2377,
+      "max_nli_contradiction": 0.9969,
+      "evidence_type_counts": {
+        "nli_plus_tone": 1,
+        "nli": 2,
+        "none": 0
+      },
+      "top_3_contradictions": [
+        {
+          "claim_id": "taylorswift.com_023",
+          "practice_id": "taylorswift.com_017",
+          "severity": 1.0253,
+          "nli_contradiction": 0.9969,
+          "tone_gap": 14.245014,
+          "evidence_type": "nli_plus_tone",
+          "claim_preview": "We will not share your information with third parties for the purposes of their direct marketing unless you affirmatively agree to such disclosure.",
+          "practice_preview": "We may disclose your personally-identifiable information with our employees, agents, contractors and sub-contractors, and our related and affiliated e"
+        },
+        {
+          "claim_id": "taylorswift.com_023",
+          "practice_id": "taylorswift.com_018",
+          "severity": 0.955,
+          "nli_contradiction": 0.955,
+          "tone_gap": 0.0,
+          "evidence_type": "nli",
+          "claim_preview": "We will not share your information with third parties for the purposes of their direct marketing unless you affirmatively agree to such disclosure.",
+          "practice_preview": "We will share your personally-identifiable information with other parties under the following circumstances:"
+        },
+        {
+          "claim_id": "taylorswift.com_023",
+          "practice_id": "taylorswift.com_006",
+          "severity": 0.8973,
+          "nli_contradiction": 0.8973,
+          "tone_gap": 0.0,
+          "evidence_type": "nli",
+          "claim_preview": "We will not share your information with third parties for the purposes of their direct marketing unless you affirmatively agree to such disclosure.",
+          "practice_preview": "Please also be mindful that when you communicate with other users by participating in message boards, forums and/or chat areas, the information that y"
+        }
+      ],
+      "pwi": 0.6131
+    },
+    {
+      "rank": 5,
+      "company": "meredith.com",
+      "raw_pwi": 0.579171,
+      "contradiction_density": 0.1667,
+      "avg_severity": 0.9917,
+      "n_pairs": 24,
+      "n_contradictions": 4,
+      "mean_nli_contradiction": 0.1773,
+      "max_nli_contradiction": 0.9987,
+      "evidence_type_counts": {
+        "nli_plus_tone": 2,
+        "nli": 2,
+        "none": 0
+      },
+      "top_3_contradictions": [
+        {
+          "claim_id": "meredith.com_054",
+          "practice_id": "meredith.com_046",
+          "severity": 1.0986,
+          "nli_contradiction": 0.9987,
+          "tone_gap": 50.0,
+          "evidence_type": "nli_plus_tone",
+          "claim_preview": "If you use our Services to sign up for special email offers from third-party advertisers, we will also share your email address and any other informat",
+          "practice_preview": "Control the display of advertising and develop and deliver advertising tailored to your interests, including advertising that you see on our Services,"
+        },
+        {
+          "claim_id": "meredith.com_054",
+          "practice_id": "meredith.com_053",
+          "severity": 1.0282,
+          "nli_contradiction": 0.995,
+          "tone_gap": 16.665,
+          "evidence_type": "nli_plus_tone",
+          "claim_preview": "If you use our Services to sign up for special email offers from third-party advertisers, we will also share your email address and any other informat",
+          "practice_preview": "Email. We share our users' email addresses with service providers that send email messages and deliver targeted advertising in our emails on our behal"
+        },
+        {
+          "claim_id": "meredith.com_054",
+          "practice_id": "meredith.com_040",
+          "severity": 0.9984,
+          "nli_contradiction": 0.9984,
+          "tone_gap": 0.0,
+          "evidence_type": "nli",
+          "claim_preview": "If you use our Services to sign up for special email offers from third-party advertisers, we will also share your email address and any other informat",
+          "practice_preview": "Analyze, operate and improve our Services, and fulfill your requests for products, services, and information, including to send you email and electron"
+        }
+      ],
+      "pwi": 0.5873
+    },
+    {
+      "rank": 6,
+      "company": "theatlantic.com",
+      "raw_pwi": 0.565124,
+      "contradiction_density": 0.1176,
+      "avg_severity": 1.0126,
+      "n_pairs": 17,
+      "n_contradictions": 2,
+      "mean_nli_contradiction": 0.117,
+      "max_nli_contradiction": 0.9985,
+      "evidence_type_counts": {
+        "nli_plus_tone": 1,
+        "nli": 1,
+        "none": 0
+      },
+      "top_3_contradictions": [
+        {
+          "claim_id": "theatlantic.com_016",
+          "practice_id": "theatlantic.com_021",
+          "severity": 1.054,
+          "nli_contradiction": 0.9985,
+          "tone_gap": 27.779167,
+          "evidence_type": "nli_plus_tone",
+          "claim_preview": "Who Can See Your Information? We will not disclose your personally identifiable information collected from the Sites to any organizations not part of ",
+          "practice_preview": "Use of Non-Personally Identifiable Information We may disclose or share individual, non-personally identifiable information and aggregate information "
+        },
+        {
+          "claim_id": "theatlantic.com_016",
+          "practice_id": "theatlantic.com_031",
+          "severity": 0.9712,
+          "nli_contradiction": 0.9712,
+          "tone_gap": 0.0,
+          "evidence_type": "nli",
+          "claim_preview": "Who Can See Your Information? We will not disclose your personally identifiable information collected from the Sites to any organizations not part of ",
+          "practice_preview": "Contests, Sweepstakes or Games When we run a contest or sweepstakes or game relating to our Sites, it will be accompanied by a set of rules. The rules"
+        }
+      ],
+      "pwi": 0.5731
+    },
+    {
+      "rank": 7,
+      "company": "adweek.com",
+      "raw_pwi": 0.5602,
+      "contradiction_density": 0.1,
+      "avg_severity": 1.0204,
+      "n_pairs": 10,
+      "n_contradictions": 1,
+      "mean_nli_contradiction": 0.1063,
+      "max_nli_contradiction": 0.9855,
+      "evidence_type_counts": {
+        "nli_plus_tone": 1,
+        "nli": 0,
+        "none": 0
+      },
+      "top_3_contradictions": [
+        {
+          "claim_id": "adweek.com_008",
+          "practice_id": "adweek.com_005",
+          "severity": 1.0204,
+          "nli_contradiction": 0.9855,
+          "tone_gap": 17.731383,
+          "evidence_type": "nli_plus_tone",
+          "claim_preview": "We do not sell Personally Identifiable Information or other information you make available to the Websites, or share such information with third parti",
+          "practice_preview": "No Personally Identifiable Information (see below) is collected through our cookies or Web beacons nor do we allow third-party companies to collect su"
+        }
+      ],
+      "pwi": 0.5681
+    },
+    {
+      "rank": 8,
+      "company": "ocregister.com",
+      "raw_pwi": 0.555117,
+      "contradiction_density": 0.0833,
+      "avg_severity": 1.0269,
+      "n_pairs": 12,
+      "n_contradictions": 1,
+      "mean_nli_contradiction": 0.0837,
+      "max_nli_contradiction": 0.9996,
+      "evidence_type_counts": {
+        "nli_plus_tone": 1,
+        "nli": 0,
+        "none": 0
+      },
+      "top_3_contradictions": [
+        {
+          "claim_id": "ocregister.com_009",
+          "practice_id": "ocregister.com_014",
+          "severity": 1.0269,
+          "nli_contradiction": 0.9996,
+          "tone_gap": 13.661202,
+          "evidence_type": "nli_plus_tone",
+          "claim_preview": "How Do We Use The Information We Collect? We will not sell, share, or rent personal information to third parties, and we will not otherwise disclose p",
+          "practice_preview": "We may work with third-party advertising companies which may use information about your visit to the Site in order to provide advertisements about goo"
+        }
+      ],
+      "pwi": 0.5629
+    },
+    {
+      "rank": 9,
+      "company": "voxmedia.com",
+      "raw_pwi": 0.541858,
+      "contradiction_density": 0.0667,
+      "avg_severity": 1.0171,
+      "n_pairs": 30,
+      "n_contradictions": 2,
+      "mean_nli_contradiction": 0.0671,
+      "max_nli_contradiction": 0.9995,
+      "evidence_type_counts": {
+        "nli_plus_tone": 2,
+        "nli": 0,
+        "none": 0
+      },
+      "top_3_contradictions": [
+        {
+          "claim_id": "voxmedia.com_010",
+          "practice_id": "voxmedia.com_019",
+          "severity": 1.0175,
+          "nli_contradiction": 0.9995,
+          "tone_gap": 8.984426,
+          "evidence_type": "nli_plus_tone",
+          "claim_preview": "(c) Aggregated Data. From time to time, we may share aggregated User Information with third parties. We will not share any aggregated data, however, i",
+          "practice_preview": "Advertising. We may use other companies under agreements with us to serve advertisements when you visit and use the Services. These companies may coll"
+        },
+        {
+          "claim_id": "voxmedia.com_009",
+          "practice_id": "voxmedia.com_019",
+          "severity": 1.0166,
+          "nli_contradiction": 0.9987,
+          "tone_gap": 8.984426,
+          "evidence_type": "nli_plus_tone",
+          "claim_preview": "(b) Advertisers. From time to time, we may share your Usage Data and Non-Personal Information to enable third parties who serve advertisements on the ",
+          "practice_preview": "Advertising. We may use other companies under agreements with us to serve advertisements when you visit and use the Services. These companies may coll"
+        }
+      ],
+      "pwi": 0.5495
+    },
+    {
+      "rank": 10,
+      "company": "barnesandnoble.com",
+      "raw_pwi": 0.541745,
+      "contradiction_density": 0.0244,
+      "avg_severity": 1.0591,
+      "n_pairs": 41,
+      "n_contradictions": 1,
+      "mean_nli_contradiction": 0.0413,
+      "max_nli_contradiction": 0.9628,
+      "evidence_type_counts": {
+        "nli_plus_tone": 1,
+        "nli": 0,
+        "none": 0
+      },
+      "top_3_contradictions": [
+        {
+          "claim_id": "barnesandnoble.com_010",
+          "practice_id": "barnesandnoble.com_018",
+          "severity": 1.0591,
+          "nli_contradiction": 0.9628,
+          "tone_gap": 50.0,
+          "evidence_type": "nli_plus_tone",
+          "claim_preview": "Integrity: We do not sell or rent your personal information and respect your preferences with respect to your personal information.",
+          "practice_preview": "Making a purchase or placing an order When you make a purchase, rent or place an order in our stores, place an order online or purchase, download, ren"
+        }
+      ],
+      "pwi": 0.5494
+    },
+    {
+      "rank": 11,
+      "company": "abcnews.com",
+      "raw_pwi": 0.53455,
+      "contradiction_density": 0.0625,
+      "avg_severity": 1.0066,
+      "n_pairs": 16,
+      "n_contradictions": 1,
+      "mean_nli_contradiction": 0.0619,
+      "max_nli_contradiction": 0.9869,
+      "evidence_type_counts": {
+        "nli_plus_tone": 1,
+        "nli": 0,
+        "none": 0
+      },
+      "top_3_contradictions": [
+        {
+          "claim_id": "abcnews.com_017",
+          "practice_id": "abcnews.com_013",
+          "severity": 1.0066,
+          "nli_contradiction": 0.9869,
+          "tone_gap": 10.0,
+          "evidence_type": "nli_plus_tone",
+          "claim_preview": "4. Sharing Your Information with Other Companies We will not share your personal informationoutside The Walt Disney Family of Companiesexcept in limit",
+          "practice_preview": "2. How We Collect Your Information We collect information you provide to us when you request products, services or information from us, register with "
+        }
+      ],
+      "pwi": 0.5421
+    },
+    {
+      "rank": 12,
+      "company": "nytimes.com",
+      "raw_pwi": 0.529023,
+      "contradiction_density": 0.0755,
+      "avg_severity": 0.9826,
+      "n_pairs": 53,
+      "n_contradictions": 4,
+      "mean_nli_contradiction": 0.0759,
+      "max_nli_contradiction": 0.9984,
+      "evidence_type_counts": {
+        "nli_plus_tone": 4,
+        "nli": 0,
+        "none": 0
+      },
+      "top_3_contradictions": [
+        {
+          "claim_id": "nytimes.com_044",
+          "practice_id": "nytimes.com_042",
+          "severity": 1.0237,
+          "nli_contradiction": 0.9984,
+          "tone_gap": 12.673004,
+          "evidence_type": "nli_plus_tone",
+          "claim_preview": "WITH WHOM DO WE SHARE THE INFORMATION THAT WE GATHER- Within The New York Times If you have registered to use the NYT Services, we will not sell, rent",
+          "practice_preview": "Relevant Advertising We may use demographic and preference information to allow advertising on the NYT Service to be targeted to the users for whom th"
+        },
+        {
+          "claim_id": "nytimes.com_044",
+          "practice_id": "nytimes.com_046",
+          "severity": 1.0141,
+          "nli_contradiction": 0.9976,
+          "tone_gap": 8.250825,
+          "evidence_type": "nli_plus_tone",
+          "claim_preview": "WITH WHOM DO WE SHARE THE INFORMATION THAT WE GATHER- Within The New York Times If you have registered to use the NYT Services, we will not sell, rent",
+          "practice_preview": "Third Parties We also share information about our audience in aggregate or de-identified form. Nothing in this Privacy Policy is intended to restrict "
+        },
+        {
+          "claim_id": "nytimes.com_044",
+          "practice_id": "nytimes.com_026",
+          "severity": 0.9472,
+          "nli_contradiction": 0.9359,
+          "tone_gap": 6.06,
+          "evidence_type": "nli_plus_tone",
+          "claim_preview": "WITH WHOM DO WE SHARE THE INFORMATION THAT WE GATHER- Within The New York Times If you have registered to use the NYT Services, we will not sell, rent",
+          "practice_preview": "Cookies, Beacons, Local Storage and Other Similar Technologies. We use \"cookies,\" Web beacons, HTML5 local storage and other similar technologies. The"
+        }
+      ],
+      "pwi": 0.5365
+    },
+    {
+      "rank": 13,
+      "company": "allstate.com",
+      "raw_pwi": 0.528678,
+      "contradiction_density": 0.0556,
+      "avg_severity": 1.0018,
+      "n_pairs": 18,
+      "n_contradictions": 1,
+      "mean_nli_contradiction": 0.055,
+      "max_nli_contradiction": 0.9854,
+      "evidence_type_counts": {
+        "nli_plus_tone": 1,
+        "nli": 0,
+        "none": 0
+      },
+      "top_3_contradictions": [
+        {
+          "claim_id": "allstate.com_004",
+          "practice_id": "allstate.com_028",
+          "severity": 1.0018,
+          "nli_contradiction": 0.9854,
+          "tone_gap": 8.3325,
+          "evidence_type": "nli_plus_tone",
+          "claim_preview": "Our Privacy Assurance We do not sell your personal or medical information to anyone. We do not share your information with non-affiliate companies tha",
+          "practice_preview": "You should exercise discretion with respect to the submission of any personal or financial information via e-mail. If you are concerned about the secu"
+        }
+      ],
+      "pwi": 0.5361
+    },
+    {
+      "rank": 14,
+      "company": "pbs.org",
+      "raw_pwi": 0.516366,
+      "contradiction_density": 0.0526,
+      "avg_severity": 0.9801,
+      "n_pairs": 19,
+      "n_contradictions": 1,
+      "mean_nli_contradiction": 0.0821,
+      "max_nli_contradiction": 0.9738,
+      "evidence_type_counts": {
+        "nli_plus_tone": 1,
+        "nli": 0,
+        "none": 0
+      },
+      "top_3_contradictions": [
+        {
+          "claim_id": "pbs.org_017",
+          "practice_id": "pbs.org_026",
+          "severity": 0.9801,
+          "nli_contradiction": 0.9738,
+          "tone_gap": 3.254883,
+          "evidence_type": "nli_plus_tone",
+          "claim_preview": "III. HOW DO WE USE INFORMATION GATHERED ON THE SITE- Except as expressly set forth in our policies, we will not willfully disclose your personally ide",
+          "practice_preview": "On certain pages, we offer visitors the opportunity to provide comments or other user-generated content on blogs and articles. Any information that yo"
+        }
+      ],
+      "pwi": 0.5236
+    },
+    {
+      "rank": 15,
+      "company": "lynda.com",
+      "raw_pwi": 0.490146,
+      "contradiction_density": 0.0822,
+      "avg_severity": 0.8981,
+      "n_pairs": 73,
+      "n_contradictions": 6,
+      "mean_nli_contradiction": 0.085,
+      "max_nli_contradiction": 0.9997,
+      "evidence_type_counts": {
+        "nli_plus_tone": 2,
+        "nli": 4,
+        "none": 0
+      },
+      "top_3_contradictions": [
+        {
+          "claim_id": "lynda.com_067",
+          "practice_id": "lynda.com_017",
+          "severity": 0.9997,
+          "nli_contradiction": 0.9997,
+          "tone_gap": 0.0,
+          "evidence_type": "nli",
+          "claim_preview": "Note, that we will not share your Personally Identifiable Information with third parties for their marketing purposes without obtaining your prior con",
+          "practice_preview": "(c) Device Information. When you download our App and use our Services, we automatically collect information on the type of device you use and the ope"
+        },
+        {
+          "claim_id": "lynda.com_067",
+          "practice_id": "lynda.com_059",
+          "severity": 0.9973,
+          "nli_contradiction": 0.9973,
+          "tone_gap": 0.0,
+          "evidence_type": "nli",
+          "claim_preview": "Note, that we will not share your Personally Identifiable Information with third parties for their marketing purposes without obtaining your prior con",
+          "practice_preview": "The use of cookies by our partners, affiliates, tracking utility company and service providers, is not covered by our Privacy Policy. We do not have a"
+        },
+        {
+          "claim_id": "lynda.com_029",
+          "practice_id": "lynda.com_059",
+          "severity": 0.9827,
+          "nli_contradiction": 0.9827,
+          "tone_gap": 0.0,
+          "evidence_type": "nli",
+          "claim_preview": "DISCLOSURE OF YOUR INFORMATION We will share your Personally Identifiable Information with third parties only in the ways that are described in this P",
+          "practice_preview": "The use of cookies by our partners, affiliates, tracking utility company and service providers, is not covered by our Privacy Policy. We do not have a"
+        }
+      ],
+      "pwi": 0.4971
+    },
+    {
+      "rank": 16,
+      "company": "reddit.com",
+      "raw_pwi": 0.475242,
+      "contradiction_density": 0.0333,
+      "avg_severity": 0.9172,
+      "n_pairs": 60,
+      "n_contradictions": 2,
+      "mean_nli_contradiction": 0.0315,
+      "max_nli_contradiction": 0.9832,
+      "evidence_type_counts": {
+        "nli_plus_tone": 2,
+        "nli": 0,
+        "none": 0
+      },
+      "top_3_contradictions": [
+        {
+          "claim_id": "reddit.com_015",
+          "practice_id": "reddit.com_010",
+          "severity": 0.9889,
+          "nli_contradiction": 0.9832,
+          "tone_gap": 2.906977,
+          "evidence_type": "nli_plus_tone",
+          "claim_preview": "your private information is never for sale This means that we will only share your personal data with your consent, and after letting you know what in",
+          "practice_preview": "reddit gold If you choose to upgrade to reddit gold, this status will be stored on your profile, along with the transaction number associated with the"
+        },
+        {
+          "claim_id": "reddit.com_004",
+          "practice_id": "reddit.com_010",
+          "severity": 0.8454,
+          "nli_contradiction": 0.8421,
+          "tone_gap": 1.937791,
+          "evidence_type": "nli_plus_tone",
+          "claim_preview": "about this policy reddit is an open platform that allows you to communicate about anything you want on any topic you want. We collect some information",
+          "practice_preview": "reddit gold If you choose to upgrade to reddit gold, this status will be stored on your profile, along with the transaction number associated with the"
+        }
+      ],
+      "pwi": 0.4819
+    },
+    {
+      "rank": 17,
+      "company": "kraftrecipes.com",
+      "raw_pwi": 0.474802,
+      "contradiction_density": 0.0303,
+      "avg_severity": 0.9193,
+      "n_pairs": 33,
+      "n_contradictions": 1,
+      "mean_nli_contradiction": 0.0283,
+      "max_nli_contradiction": 0.9193,
+      "evidence_type_counts": {
+        "nli_plus_tone": 0,
+        "nli": 1,
+        "none": 0
+      },
+      "top_3_contradictions": [
+        {
+          "claim_id": "kraftrecipes.com_019",
+          "practice_id": "kraftrecipes.com_029",
+          "severity": 0.9193,
+          "nli_contradiction": 0.9193,
+          "tone_gap": 0.0,
+          "evidence_type": "nli",
+          "claim_preview": "How We Share Your Information We do not sell or otherwise disclose personally identifiable information about our website visitors, except as described",
+          "practice_preview": "How We Protect Your Information The security of personally-identifiable information is important to us. We maintain administrative, technical and phys"
+        }
+      ],
+      "pwi": 0.4815
+    },
+    {
+      "rank": 18,
+      "company": "sidearmsports.com",
+      "raw_pwi": 0.407661,
+      "contradiction_density": 0.0556,
+      "avg_severity": 0.7598,
+      "n_pairs": 54,
+      "n_contradictions": 3,
+      "mean_nli_contradiction": 0.0547,
+      "max_nli_contradiction": 0.9685,
+      "evidence_type_counts": {
+        "nli_plus_tone": 2,
+        "nli": 1,
+        "none": 0
+      },
+      "top_3_contradictions": [
+        {
+          "claim_id": "sidearmsports.com_030",
+          "practice_id": "sidearmsports.com_015",
+          "severity": 0.9685,
+          "nli_contradiction": 0.9685,
+          "tone_gap": 0.0,
+          "evidence_type": "nli",
+          "claim_preview": "WITH WHOM WE SHARE INFORMATION ABOUT YOU Within SIDEARM Sports If you have registered to use the SIDEARM Services, we will not sell, rent, swap or aut",
+          "practice_preview": "Cookies, Beacons, Local Storage and Other Similar Technologies. We use \"cookies,\" Web beacons, HTML5 local storage and other similar technologies. The"
+        },
+        {
+          "claim_id": "sidearmsports.com_030",
+          "practice_id": "sidearmsports.com_028",
+          "severity": 0.747,
+          "nli_contradiction": 0.7285,
+          "tone_gap": 12.673004,
+          "evidence_type": "nli_plus_tone",
+          "claim_preview": "WITH WHOM WE SHARE INFORMATION ABOUT YOU Within SIDEARM Sports If you have registered to use the SIDEARM Services, we will not sell, rent, swap or aut",
+          "practice_preview": "Relevant Advertising We may use demographic and preference information to allow advertising on the SIDEARM Services to be targeted to the users for wh"
+        },
+        {
+          "claim_id": "sidearmsports.com_036",
+          "practice_id": "sidearmsports.com_016",
+          "severity": 0.5638,
+          "nli_contradiction": 0.5541,
+          "tone_gap": 8.756567,
+          "evidence_type": "nli_plus_tone",
+          "claim_preview": "OUR EMAIL POLICY SIDEARM Sports complies with the federal CAN-SPAM Act of 2003. We will not send you marketing messages if you have opted out. We will",
+          "practice_preview": "The SIDEARM Services may transmit non-personally identifiable website usage information about our visitors to a reputable third party in order to show"
+        }
+      ],
+      "pwi": 0.4134
+    },
+    {
+      "rank": 19,
+      "company": "lids.com",
+      "raw_pwi": 0.37995,
+      "contradiction_density": 0.1,
+      "avg_severity": 0.6599,
+      "n_pairs": 10,
+      "n_contradictions": 1,
+      "mean_nli_contradiction": 0.1147,
+      "max_nli_contradiction": 0.6599,
+      "evidence_type_counts": {
+        "nli_plus_tone": 0,
+        "nli": 1,
+        "none": 0
+      },
+      "top_3_contradictions": [
+        {
+          "claim_id": "lids.com_004",
+          "practice_id": "lids.com_009",
+          "severity": 0.6599,
+          "nli_contradiction": 0.6599,
+          "tone_gap": 0.0,
+          "evidence_type": "nli",
+          "claim_preview": "We collect information about you in our stores and through the Sites ( lids.com, lids.ca and hatworld.com) in an effort to improve your shopping exper",
+          "practice_preview": "How does Hat World collect this information- We receive and store any information from your visits to our Sites or that you give us in any other way."
+        }
+      ],
+      "pwi": 0.3853
+    },
+    {
+      "rank": 20,
+      "company": "mlb.mlb.com",
+      "raw_pwi": 0.35361,
+      "contradiction_density": 0.0476,
+      "avg_severity": 0.6596,
+      "n_pairs": 21,
+      "n_contradictions": 1,
+      "mean_nli_contradiction": 0.0337,
+      "max_nli_contradiction": 0.6555,
+      "evidence_type_counts": {
+        "nli_plus_tone": 1,
+        "nli": 0,
+        "none": 0
+      },
+      "top_3_contradictions": [
+        {
+          "claim_id": "mlb.mlb.com_005",
+          "practice_id": "mlb.mlb.com_015",
+          "severity": 0.6596,
+          "nli_contradiction": 0.6555,
+          "tone_gap": 3.1122,
+          "evidence_type": "nli_plus_tone",
+          "claim_preview": "How We Use and Share Your Personal Information If you submit personal information to us, or to any third party acting on our behalf, we may use and sh",
+          "practice_preview": "Additional Information About Our Access to Your Contacts Our Access to Your Contacts. When you use our Mobile Games, we may solicit your permission to"
+        }
+      ],
+      "pwi": 0.3586
+    },
+    {
+      "rank": 21,
+      "company": "austincc.edu",
+      "raw_pwi": 0.0,
+      "contradiction_density": 0.0,
+      "avg_severity": 0.0,
+      "n_pairs": 7,
+      "n_contradictions": 0,
+      "mean_nli_contradiction": 0.0003,
+      "max_nli_contradiction": 0.0006,
+      "evidence_type_counts": {
+        "nli_plus_tone": 0,
+        "nli": 0,
+        "none": 0
+      },
+      "top_3_contradictions": [],
+      "pwi": 0.0
+    },
+    {
+      "rank": 22,
+      "company": "fool.com",
+      "raw_pwi": 0.0,
+      "contradiction_density": 0.0,
+      "avg_severity": 0.0,
+      "n_pairs": 3,
+      "n_contradictions": 0,
+      "mean_nli_contradiction": 0.0001,
+      "max_nli_contradiction": 0.0001,
+      "evidence_type_counts": {
+        "nli_plus_tone": 0,
+        "nli": 0,
+        "none": 0
+      },
+      "top_3_contradictions": [],
+      "pwi": 0.0
+    },
+    {
+      "rank": 23,
+      "company": "citizen.org",
+      "raw_pwi": 0.0,
+      "contradiction_density": 0.0,
+      "avg_severity": 0.0,
+      "n_pairs": 10,
+      "n_contradictions": 0,
+      "mean_nli_contradiction": 0.0052,
+      "max_nli_contradiction": 0.0474,
+      "evidence_type_counts": {
+        "nli_plus_tone": 0,
+        "nli": 0,
+        "none": 0
+      },
+      "top_3_contradictions": [],
+      "pwi": 0.0
+    },
+    {
+      "rank": 24,
+      "company": "fortune.com",
+      "raw_pwi": 0.0,
+      "contradiction_density": 0.0,
+      "avg_severity": 0.0,
+      "n_pairs": 2,
+      "n_contradictions": 0,
+      "mean_nli_contradiction": 0.0062,
+      "max_nli_contradiction": 0.0123,
+      "evidence_type_counts": {
+        "nli_plus_tone": 0,
+        "nli": 0,
+        "none": 0
+      },
+      "top_3_contradictions": [],
+      "pwi": 0.0
+    },
+    {
+      "rank": 25,
+      "company": "thehill.com",
+      "raw_pwi": 0.0,
+      "contradiction_density": 0.0,
+      "avg_severity": 0.0,
+      "n_pairs": 1,
+      "n_contradictions": 0,
+      "mean_nli_contradiction": 0.0004,
+      "max_nli_contradiction": 0.0004,
+      "evidence_type_counts": {
+        "nli_plus_tone": 0,
+        "nli": 0,
+        "none": 0
+      },
+      "top_3_contradictions": [],
+      "pwi": 0.0
+    },
+    {
+      "rank": 26,
+      "company": "post-gazette.com",
+      "raw_pwi": 0.0,
+      "contradiction_density": 0.0,
+      "avg_severity": 0.0,
+      "n_pairs": 10,
+      "n_contradictions": 0,
+      "mean_nli_contradiction": 0.0006,
+      "max_nli_contradiction": 0.0023,
+      "evidence_type_counts": {
+        "nli_plus_tone": 0,
+        "nli": 0,
+        "none": 0
+      },
+      "top_3_contradictions": [],
+      "pwi": 0.0
+    },
+    {
+      "rank": 27,
+      "company": "timeinc.com",
+      "raw_pwi": 0.0,
+      "contradiction_density": 0.0,
+      "avg_severity": 0.0,
+      "n_pairs": 1,
+      "n_contradictions": 0,
+      "mean_nli_contradiction": 0.0001,
+      "max_nli_contradiction": 0.0001,
+      "evidence_type_counts": {
+        "nli_plus_tone": 0,
+        "nli": 0,
+        "none": 0
+      },
+      "top_3_contradictions": [],
+      "pwi": 0.0
+    },
+    {
+      "rank": 28,
+      "company": "tgifridays.com",
+      "raw_pwi": 0.0,
+      "contradiction_density": 0.0,
+      "avg_severity": 0.0,
+      "n_pairs": 16,
+      "n_contradictions": 0,
+      "mean_nli_contradiction": 0.0002,
+      "max_nli_contradiction": 0.0012,
+      "evidence_type_counts": {
+        "nli_plus_tone": 0,
+        "nli": 0,
+        "none": 0
+      },
+      "top_3_contradictions": [],
+      "pwi": 0.0
+    },
+    {
+      "rank": 29,
+      "company": "walmart.com",
+      "raw_pwi": 0.0,
+      "contradiction_density": 0.0,
+      "avg_severity": 0.0,
+      "n_pairs": 55,
+      "n_contradictions": 0,
+      "mean_nli_contradiction": 0.0019,
+      "max_nli_contradiction": 0.0623,
+      "evidence_type_counts": {
+        "nli_plus_tone": 0,
+        "nli": 0,
+        "none": 0
+      },
+      "top_3_contradictions": [],
+      "pwi": 0.0
+    },
+    {
+      "rank": 30,
+      "company": "washingtonian.com",
+      "raw_pwi": 0.0,
+      "contradiction_density": 0.0,
+      "avg_severity": 0.0,
+      "n_pairs": 10,
+      "n_contradictions": 0,
+      "mean_nli_contradiction": 0.0018,
+      "max_nli_contradiction": 0.0059,
+      "evidence_type_counts": {
+        "nli_plus_tone": 0,
+        "nli": 0,
+        "none": 0
+      },
+      "top_3_contradictions": [],
+      "pwi": 0.0
+    },
+    {
+      "rank": 31,
+      "company": "buffalowildwings.com",
+      "raw_pwi": 0.0,
+      "contradiction_density": 0.0,
+      "avg_severity": 0.0,
+      "n_pairs": 6,
+      "n_contradictions": 0,
+      "mean_nli_contradiction": 0.0004,
+      "max_nli_contradiction": 0.0006,
+      "evidence_type_counts": {
+        "nli_plus_tone": 0,
+        "nli": 0,
+        "none": 0
+      },
+      "top_3_contradictions": [],
+      "pwi": 0.0
+    },
+    {
+      "rank": 32,
+      "company": "kaleidahealth.org",
+      "raw_pwi": 0.0,
+      "contradiction_density": 0.0,
+      "avg_severity": 0.0,
+      "n_pairs": 42,
+      "n_contradictions": 0,
+      "mean_nli_contradiction": 0.0017,
+      "max_nli_contradiction": 0.0294,
+      "evidence_type_counts": {
+        "nli_plus_tone": 0,
+        "nli": 0,
+        "none": 0
+      },
+      "top_3_contradictions": [],
+      "pwi": 0.0
+    },
+    {
+      "rank": 33,
+      "company": "archives.gov",
+      "raw_pwi": 0.0,
+      "contradiction_density": 0.0,
+      "avg_severity": 0.0,
+      "n_pairs": 35,
+      "n_contradictions": 0,
+      "mean_nli_contradiction": 0.0005,
+      "max_nli_contradiction": 0.003,
+      "evidence_type_counts": {
+        "nli_plus_tone": 0,
+        "nli": 0,
+        "none": 0
+      },
+      "top_3_contradictions": [],
+      "pwi": 0.0
+    },
+    {
+      "rank": 34,
+      "company": "www.loc.gov",
+      "raw_pwi": 0.0,
+      "contradiction_density": 0.0,
+      "avg_severity": 0.0,
+      "n_pairs": 10,
+      "n_contradictions": 0,
+      "mean_nli_contradiction": 0.0002,
+      "max_nli_contradiction": 0.0009,
+      "evidence_type_counts": {
+        "nli_plus_tone": 0,
+        "nli": 0,
+        "none": 0
+      },
+      "top_3_contradictions": [],
+      "pwi": 0.0
+    },
+    {
+      "rank": 35,
+      "company": "coffeereview.com",
+      "raw_pwi": 0.0,
+      "contradiction_density": 0.0,
+      "avg_severity": 0.0,
+      "n_pairs": 8,
+      "n_contradictions": 0,
+      "mean_nli_contradiction": 0.0164,
+      "max_nli_contradiction": 0.1243,
+      "evidence_type_counts": {
+        "nli_plus_tone": 0,
+        "nli": 0,
+        "none": 0
+      },
+      "top_3_contradictions": [],
+      "pwi": 0.0
+    },
+    {
+      "rank": 36,
+      "company": "communitycoffee.com",
+      "raw_pwi": 0.0,
+      "contradiction_density": 0.0,
+      "avg_severity": 0.0,
+      "n_pairs": 1,
+      "n_contradictions": 0,
+      "mean_nli_contradiction": 0.0001,
+      "max_nli_contradiction": 0.0001,
+      "evidence_type_counts": {
+        "nli_plus_tone": 0,
+        "nli": 0,
+        "none": 0
+      },
+      "top_3_contradictions": [],
+      "pwi": 0.0
+    },
+    {
+      "rank": 37,
+      "company": "cariboucoffee.com",
+      "raw_pwi": 0.0,
+      "contradiction_density": 0.0,
+      "avg_severity": 0.0,
+      "n_pairs": 8,
+      "n_contradictions": 0,
+      "mean_nli_contradiction": 0.0005,
+      "max_nli_contradiction": 0.003,
+      "evidence_type_counts": {
+        "nli_plus_tone": 0,
+        "nli": 0,
+        "none": 0
+      },
+      "top_3_contradictions": [],
+      "pwi": 0.0
+    },
+    {
+      "rank": 38,
+      "company": "playstation.com",
+      "raw_pwi": 0.0,
+      "contradiction_density": 0.0,
+      "avg_severity": 0.0,
+      "n_pairs": 1,
+      "n_contradictions": 0,
+      "mean_nli_contradiction": 0.0011,
+      "max_nli_contradiction": 0.0011,
+      "evidence_type_counts": {
+        "nli_plus_tone": 0,
+        "nli": 0,
+        "none": 0
+      },
+      "top_3_contradictions": [],
+      "pwi": 0.0
+    },
+    {
+      "rank": 39,
+      "company": "military.com",
+      "raw_pwi": 0.0,
+      "contradiction_density": 0.0,
+      "avg_severity": 0.0,
+      "n_pairs": 1,
+      "n_contradictions": 0,
+      "mean_nli_contradiction": 0.0009,
+      "max_nli_contradiction": 0.0009,
+      "evidence_type_counts": {
+        "nli_plus_tone": 0,
+        "nli": 0,
+        "none": 0
+      },
+      "top_3_contradictions": [],
+      "pwi": 0.0
+    },
+    {
+      "rank": 40,
+      "company": "minecraft.gamepedia.com",
+      "raw_pwi": 0.0,
+      "contradiction_density": 0.0,
+      "avg_severity": 0.0,
+      "n_pairs": 13,
+      "n_contradictions": 0,
+      "mean_nli_contradiction": 0.0022,
+      "max_nli_contradiction": 0.004,
+      "evidence_type_counts": {
+        "nli_plus_tone": 0,
+        "nli": 0,
+        "none": 0
+      },
+      "top_3_contradictions": [],
+      "pwi": 0.0
+    },
+    {
+      "rank": 41,
+      "company": "si.edu",
+      "raw_pwi": 0.0,
+      "contradiction_density": 0.0,
+      "avg_severity": 0.0,
+      "n_pairs": 8,
+      "n_contradictions": 0,
+      "mean_nli_contradiction": 0.0005,
+      "max_nli_contradiction": 0.002,
+      "evidence_type_counts": {
+        "nli_plus_tone": 0,
+        "nli": 0,
+        "none": 0
+      },
+      "top_3_contradictions": [],
+      "pwi": 0.0
+    },
+    {
+      "rank": 42,
+      "company": "lodgemfg.com",
+      "raw_pwi": 0.0,
+      "contradiction_density": 0.0,
+      "avg_severity": 0.0,
+      "n_pairs": 6,
+      "n_contradictions": 0,
+      "mean_nli_contradiction": 0.001,
+      "max_nli_contradiction": 0.0029,
+      "evidence_type_counts": {
+        "nli_plus_tone": 0,
+        "nli": 0,
+        "none": 0
+      },
+      "top_3_contradictions": [],
+      "pwi": 0.0
+    },
+    {
+      "rank": 43,
+      "company": "neworleansonline.com",
+      "raw_pwi": 0.0,
+      "contradiction_density": 0.0,
+      "avg_severity": 0.0,
+      "n_pairs": 1,
+      "n_contradictions": 0,
+      "mean_nli_contradiction": 0.0017,
+      "max_nli_contradiction": 0.0017,
+      "evidence_type_counts": {
+        "nli_plus_tone": 0,
+        "nli": 0,
+        "none": 0
+      },
+      "top_3_contradictions": [],
+      "pwi": 0.0
+    }
+  ],
+  "category_analysis": {
+    "FIRST_PARTY": {
+      "n_pairs": 392,
+      "n_practice_segments": 282,
+      "mean_severity": 0.0575,
+      "mean_tone_gap": 8.854,
+      "median_tone_gap": 3.7112,
+      "mean_nli_contradiction": 0.0654,
+      "nli_contradiction_rate": 0.0612,
+      "mean_hedging": 0.4626,
+      "mean_specificity": 0.0453,
+      "mean_vagueness": 0.0246
+    },
+    "RETENTION": {
+      "n_pairs": 18,
+      "n_practice_segments": 11,
+      "mean_severity": 0.0,
+      "mean_tone_gap": 8.6026,
+      "median_tone_gap": 2.2766,
+      "mean_nli_contradiction": 0.002,
+      "nli_contradiction_rate": 0.0,
+      "mean_hedging": 0.3439,
+      "mean_specificity": 0.0444,
+      "mean_vagueness": 0.017
+    },
+    "SECURITY": {
+      "n_pairs": 112,
+      "n_practice_segments": 75,
+      "mean_severity": 0.0436,
+      "mean_tone_gap": 6.6773,
+      "median_tone_gap": 0.0,
+      "mean_nli_contradiction": 0.0506,
+      "nli_contradiction_rate": 0.0446,
+      "mean_hedging": 0.1604,
+      "mean_specificity": 0.0527,
+      "mean_vagueness": 0.0102
+    },
+    "THIRD_PARTY": {
+      "n_pairs": 297,
+      "n_practice_segments": 227,
+      "mean_severity": 0.0728,
+      "mean_tone_gap": 12.5209,
+      "median_tone_gap": 5.8942,
+      "mean_nli_contradiction": 0.0753,
+      "nli_contradiction_rate": 0.0774,
+      "mean_hedging": 0.542,
+      "mean_specificity": 0.0402,
+      "mean_vagueness": 0.0334
+    },
+    "TRACKING": {
+      "n_pairs": 1,
+      "n_practice_segments": 1,
+      "mean_severity": 0.0,
+      "mean_tone_gap": 3.5613,
+      "median_tone_gap": 3.5613,
+      "mean_nli_contradiction": 0.007,
+      "nli_contradiction_rate": 0.0,
+      "mean_hedging": 0.5,
+      "mean_specificity": 0.0702,
+      "mean_vagueness": 0.0175
+    }
+  },
+  "enforcement_validation": {
+    "n_enforced": 0,
+    "n_non_enforced": 43,
+    "enforcement_companies_missing_from_analysis": [
+      "adobe",
+      "amazon",
+      "att",
+      "avast",
+      "babel-street",
+      "betterhelp",
+      "bumble",
+      "cerebral",
+      "clearview-ai",
+      "draftkings",
+      "epic-games",
+      "fanduel",
+      "google",
+      "gravy-analytics",
+      "grindr",
+      "kochava",
+      "lexisnexis",
+      "linkedin",
+      "meta",
+      "monument",
+      "ngl",
+      "premom",
+      "roblox",
+      "safegraph",
+      "t-mobile",
+      "tiktok",
+      "tinder",
+      "uber",
+      "verizon",
+      "vonage",
+      "x-mode-social"
+    ],
+    "enforced_pwi_mean": NaN,
+    "enforced_pwi_ci_95": [
+      NaN,
+      NaN
+    ],
+    "non_enforced_pwi_mean": 0.2561,
+    "non_enforced_pwi_ci_95": [
+      0.1728,
+      0.3425
+    ],
+    "mean_difference": NaN,
+    "mann_whitney_u": NaN,
+    "mann_whitney_p": NaN,
+    "cohens_d": 0.0,
+    "cohens_d_ci_95": [
+      0.0,
+      0.0
+    ],
+    "cohens_d_interpretation": "negligible",
+    "roc_auc": null,
+    "roc_auc_ci_95": null,
+    "note": "Results are exploratory/hypothesis-generating given modest sample size (N=43 companies, 0 enforced). Bootstrap N=10,000."
+  }
+}
